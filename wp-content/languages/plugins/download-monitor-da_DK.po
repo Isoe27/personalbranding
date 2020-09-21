@@ -1,0 +1,3233 @@
+# Translation of Plugins - Download Monitor - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Download Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-05 11:15:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Download Monitor - Stable (latest release)\n"
+
+#: src/Shop/Util/PostType.php:33
+msgid "This is where you can create and manage download products for your site."
+msgstr "Dette er her, hvor du kan oprette og administrer downloadbare varer på dit websted."
+
+#: src/Shop/Util/PostType.php:30
+msgid "Parent Product"
+msgstr "Overordnet vare"
+
+#: src/Shop/Util/PostType.php:29
+msgid "No Products found in trash"
+msgstr "Der blev ikke fundet nogle varer i papirkurven"
+
+#: src/Shop/Util/PostType.php:28
+msgid "No Products found"
+msgstr "Der blev ikke fundet nogle varer"
+
+#: src/Shop/Util/PostType.php:27
+msgid "Search Products"
+msgstr "Søg efter varer"
+
+#: src/Shop/Util/PostType.php:25 src/Shop/Util/PostType.php:26
+msgid "View Product"
+msgstr "Vis vare"
+
+#: src/Shop/Util/PostType.php:24
+msgid "New Product"
+msgstr "Ny vare"
+
+#: src/Shop/Util/PostType.php:23
+msgid "Edit Product"
+msgstr "Rediger vare"
+
+#: src/Shop/Util/PostType.php:21
+msgid "Add Product"
+msgstr "Tilføj vare"
+
+#: src/Shop/Util/PostType.php:20
+msgid "Add New Product"
+msgstr "Tilføj ny vare"
+
+#: src/Shop/Util/PostType.php:17
+msgid "All Products"
+msgstr "Alle varer"
+
+#: src/Shop/Admin/DownloadOption.php:30
+msgid "Only users who purchased a product that contains this download will be able to access the file."
+msgstr "Kun brugere, som har betalt for en vare som indeholder denne download vil kunne få adgang til filen."
+
+#: src/Shop/Admin/DownloadOption.php:29
+msgid "Paid Only"
+msgstr "Kun betaling"
+
+#: src/Shop/Admin/WritePanels.php:24
+msgid "Product Information"
+msgstr "Vare information"
+
+#: src/Shop/Shortcode/Buy.php:71
+msgid "Product not found"
+msgstr "Det blev ikke fundet nogen vare"
+
+#: src/Admin/Settings/Settings.php:89
+msgid "If enabled, allows you to sell your downloads via Download Monitor."
+msgstr "Hvis det er aktiveret, vil det tillader dig at sælge downloads via Download Monitor."
+
+#: src/Admin/Settings/Settings.php:88
+msgid "Enable Shop"
+msgstr "Aktiver webshop"
+
+#: src/Admin/Settings/Settings.php:87
+msgid "Shop Enabled"
+msgstr "Webshop er aktiveret"
+
+#: assets/views/meta-box/product-information.php:18
+msgid "Select Downloads&hellip;"
+msgstr "Vælg downloads&hellip;"
+
+#: includes/php-too-low.php:32
+msgid "After you've upgraded your PHP version, Download Monitor will automatically load and work."
+msgstr "Efter du har opgraderet din PHP version, vil Download Monitor automatisk indlæses og fungerer."
+
+#: includes/php-too-low.php:29
+msgid "clicking this link"
+msgstr "klikke på dette link"
+
+#: includes/php-too-low.php:28
+msgid "You can learn more about why it's important that you update and get tips on how to update by %s"
+msgstr "Du kan læse mere om hvorfor det er vigtig at du opgrader og få tips til hvordan du opgrader med %s"
+
+#: includes/php-too-low.php:24 includes/php-too-low.php:25
+msgid "PHP Version %s"
+msgstr "PHP version %s"
+
+#: includes/php-too-low.php:23
+msgid "Download Monitor can't be loaded because it needs at least %s but the server that is hosting your WordPress website is running %s"
+msgstr "Download Monitor kan ikke indlæses fordi den behøver mindst %s men serveren som kører din WordPress installation, kører kun %s"
+
+#: includes/php-too-low.php:20
+msgid "PHP Version too low!"
+msgstr "PHP versionen er for gammel!"
+
+#: templates/shop/button/add-to-cart-box.php:25
+#: templates/shop/button/add-to-cart-box.php:27
+msgid "Purchase Now"
+msgstr "Køb nu"
+
+#: templates/shop/button/add-to-cart.php:14
+msgid "Purchase &ldquo;%s&rdquo;"
+msgstr "Køb &ldquo;%s&rdquo;"
+
+#: templates/shop/checkout/error.php:11
+msgid "Checkout error"
+msgstr "Fejl ved betaling"
+
+#: templates/shop/checkout/submit-button.php:6
+msgid "Complete order"
+msgstr "Godkend ordre"
+
+#: templates/shop/checkout/order-complete.php:75
+msgid "Download version"
+msgstr "Download version"
+
+#: templates/shop/checkout/order-complete.php:74
+#: templates/shop/email/elements/downloads-table.php:15
+msgid "Download name"
+msgstr "Download navn"
+
+#: templates/shop/checkout/order-complete.php:9
+msgid "Thank you for your order. Please find your order details below."
+msgstr "Tak for din ordre. Oplysninger om din ordre, kan du se nedenfor."
+
+#: templates/shop/checkout/no-access.php:6
+msgid "You have no access to this order."
+msgstr "Du har ikke adgang til denne ordre."
+
+#: templates/shop/checkout.php:40
+msgid "Your order"
+msgstr "Din ordre"
+
+#: templates/shop/checkout.php:36
+msgid "Billing details"
+msgstr "Faktura oplysninger"
+
+#: templates/shop/checkout.php:22
+msgid "Your browser does not support JavaScript which our checkout page requires to function properly."
+msgstr "Din browser understøtter ikke JavaScript som er påkrævet for kassesidens funktioner skal fungerer."
+
+#: templates/shop/cart.php:56
+msgid "Proceed to checkout"
+msgstr "Fortsæt til betaling"
+
+#: templates/shop/cart.php:47
+msgid "Cart Totals"
+msgstr "Samlet beløb af varekurv"
+
+#: templates/shop/cart.php:21
+msgid "Quantity"
+msgstr "Antal"
+
+#: templates/shop/cart.php:19
+msgid "Name"
+msgstr "Navn"
+
+#: templates/shop/cart/item.php:11
+msgid "Remove this item from your cart"
+msgstr "Fjern varen fra varekurven"
+
+#: templates/shop/cart/totals.php:11
+#: templates/shop/checkout/order-review.php:34
+msgid "Subtotal"
+msgstr "Sum"
+
+#: templates/shop/cart/empty.php:6 templates/shop/checkout/empty.php:6
+msgid "Your cart is empty."
+msgstr "Din varekurv er tom."
+
+#: assets/views/order/page-order-details.php:170
+msgid "Payment Method"
+msgstr "Betalingsmåde"
+
+#: assets/views/order/page-order-details.php:161
+msgid "Date created"
+msgstr "Oprettelsesdato"
+
+#: assets/views/order/page-order-details.php:158
+msgid "Change"
+msgstr "Ændre"
+
+#: assets/views/order/page-order-details.php:146
+#: templates/shop/checkout/order-complete.php:29
+msgid "Order Status"
+msgstr "Ordre status"
+
+#: assets/views/order/page-order-details.php:141
+#: templates/shop/checkout/order-complete.php:21
+msgid "Order Details"
+msgstr "Ordre oplysninger"
+
+#: assets/views/order/page-order-details.php:115
+msgid "Customer"
+msgstr "Kunde"
+
+#: assets/views/order/page-order-details.php:105
+msgid "No transactions found"
+msgstr "Der blev ikke fundet nogle transaktioner"
+
+#: assets/views/order/page-order-details.php:72
+msgid "Processor ID"
+msgstr "Processor-id"
+
+#: assets/views/order/page-order-details.php:71
+msgid "Processor"
+msgstr "Processor"
+
+#: assets/views/order/page-order-details.php:70
+msgid "Amount"
+msgstr "Beløb"
+
+#: assets/views/order/page-order-details.php:57
+msgid "Transactions"
+msgstr "Transaktioner"
+
+#: assets/views/order/page-order-details.php:27
+msgid "QTY"
+msgstr "Stk"
+
+#: src/Shop/Admin/ProductTableColumns.php:34
+#: assets/views/order/page-order-details.php:26 templates/shop/cart.php:20
+msgid "Price"
+msgstr "Pris"
+
+#: src/Shop/Util/PostType.php:19 assets/views/order/page-order-details.php:25
+#: templates/shop/checkout/order-review.php:16
+msgid "Product"
+msgstr "Vare"
+
+#: assets/views/order/page-order-details.php:19
+msgid "Order Items"
+msgstr "Ordre enheder"
+
+#: assets/views/order/page-order-details.php:14
+msgid "Order Details #%s"
+msgstr "Ordre oplysninger #%s"
+
+#: assets/views/meta-box/product-information.php:6
+msgid "Price (%s)"
+msgstr "Pris (%s)"
+
+#: src/Util/Onboarding.php:258
+msgid "Create Your First Download"
+msgstr "Opret din første download"
+
+#: src/Util/Onboarding.php:251
+msgid "Click here to visit our Support Forum."
+msgstr "Klik her for, at besøge vores support forum."
+
+#: src/Util/Onboarding.php:249
+msgid "If you need any help in setting up your downloads or having any other question about Download Monitor, we'd be happy to help you via our support forums."
+msgstr "Hvis du behøver hjælp til at opsætte dine downloads eller har spørgsmål om Download Monitor, vil vi gerne hjælpe dig via vores support forum."
+
+#: src/Util/Onboarding.php:248
+msgid "Now that your Download Monitor installation is done, it's time to setup your downloads. You can %sread more about creating your first Download here%s."
+msgstr "Nu hvor din Download Monitor installation er færdig, kan du opsætte dine downloads. Du kan %slæse mere om oprettelsen af din første downloads her%s."
+
+#: src/Util/Onboarding.php:245
+msgid "What's Next?"
+msgstr "Hvad er næste?"
+
+#: src/Util/Onboarding.php:240
+msgid "View More Extensions"
+msgstr "Se flere udvidelser"
+
+#: src/Util/Onboarding.php:208
+msgid "Here's a quick sample of what we offer."
+msgstr "Her er en hurtig prøve på hvad vi tilbyder."
+
+#: src/Util/Onboarding.php:207
+msgid "Power up your Download Monitor website with our official extensions. Our extensions allow you to add specific functionality to your Download Monitor powered website and come with our premium support and updates."
+msgstr "Fyr op under dit Download Monitor websted med vores officielle udvidelser. Vores udvidelser tillader dig at tilføje specifikke funktioner til dit Download Monitor websted og alle har vores premium support og opdateringer."
+
+#: src/Util/Onboarding.php:177
+msgid "Your shop checkout page if you decide to sell downloads."
+msgstr "Din webshops kasseside, hvis du vil sælge downloads."
+
+#: src/Util/Onboarding.php:176 src/Util/PageCreator.php:40
+msgid "Checkout"
+msgstr "Gå til betaling"
+
+#: src/Util/Onboarding.php:152
+msgid "Your shop cart page if you decide to sell downloads."
+msgstr "Din webshops varekurv side, hvis du vil sælge downloads."
+
+#: src/Util/Onboarding.php:151 src/Util/PageCreator.php:27
+msgid "Cart"
+msgstr "Varekurv"
+
+#: src/Util/Onboarding.php:126
+msgid "The page your visitors see when they are not allowed to download a file."
+msgstr "Siden som dine besøgende ser når de ikke har tilladelse til, at downloade en fil."
+
+#: src/Util/Onboarding.php:121
+msgid "If you don't plan on selling downloads, you do not have to create the cart and checkout page. We recommend always creating the No Access page."
+msgstr "Hvis du ikke vil sælge downloads, behøver du ikke at oprette varekurven og kassesiden. Vi anbefaler altid, at du opretter en Ingen Adgang side."
+
+#: src/Util/Onboarding.php:118
+msgid "We can create these pages for you here. If you click the 'Create Page' button we will create that page and add the required shortcode to it. We'll also make sure the newly created page is set in your settings page."
+msgstr "Vi kan oprette siderne for dig. Hvis du klikker på 'Opret side' knappen, vil vi oprette siden og tilføje den nødvendige kort-kode til den. Vi sikre også, at nye oprettet side bliver angivet i din indstillingers side."
+
+#: src/Util/Onboarding.php:117
+msgid "In order to function properly, Download Monitor needs to create some pages in your WordPress website."
+msgstr "For at fungerer korrekt, skal Download Monitor oprette nogle sider på dit WordPress websted."
+
+#: src/Util/Onboarding.php:115
+msgid "Let's Create Your Pages"
+msgstr "Lad os oprette dine sider"
+
+#: src/Util/Onboarding.php:110
+msgid "You decide if you want to offer you downloads for free or want to start selling them (or both!). Whatever you decide, you chose the right plugin for the job!"
+msgstr "Du bestemmer om du vil tilbyde dine downloads gratis eller vil sælge dem (eller begge dele!). Hvad du vælger, er plugin'et det rigtige til jobbet!"
+
+#: src/Util/Onboarding.php:107
+msgid "On top of that, Download Monitor allows you to sell your downloads, turning your WordPress website into fully featured e-commerce website out of the box."
+msgstr "Oven i dette, tillader Download Monitor dig at sælge dine downloads og gøre din WordPress til en fuldt udstyret e-handel websted lige ud af boksen."
+
+#: src/Util/Onboarding.php:106
+msgid "With Download Monitor you can manage, track and offer downloads to your users using your WordPress website."
+msgstr "Med Download Monitor kan du administrer, spore og tilbyde downloads til dine brugere på dit WordPress websted."
+
+#: src/Util/Onboarding.php:105
+msgid "Thank you for installing Download Monitor! We'd like to help you setup the plugin correctly so you can start sharing your files as quickly as possible."
+msgstr "Tak fordi du installerede Download Monitor! Vi vil gerne hjælpe dig med at opsætte plugin'et korrekt så du kan begynde at dele dine filer så hurtig som muligt."
+
+#: src/Util/Onboarding.php:103
+msgid "Welcome to "
+msgstr "Velkommen til "
+
+#: src/Util/Onboarding.php:82
+msgid "Download Monitor is almost ready for use, %sclick here%s to finish the installation process."
+msgstr "Download Monitor er næsten klar til brug, %sklik her%s for at afslutte installationsprocessen."
+
+#: src/Util/Onboarding.php:71 src/Util/Onboarding.php:143
+#: src/Util/Onboarding.php:169 src/Util/Onboarding.php:194
+msgid "Create Page"
+msgstr "Opret side"
+
+#: src/Util/Onboarding.php:70 src/Util/Onboarding.php:137
+#: src/Util/Onboarding.php:163 src/Util/Onboarding.php:188
+msgid "Page Created"
+msgstr "Side er oprettet"
+
+#: src/Util/Onboarding.php:69
+msgid "Creating"
+msgstr "Opretter"
+
+#: src/Ajax/CreatePage.php:56
+msgid "No page set"
+msgstr "Der er ikke angivet nogen side"
+
+#: src/Ajax/CreatePage.php:51
+msgid "Couldn't create page"
+msgstr "Kunne ikke oprette side"
+
+#: src/Admin/Settings/Settings.php:577
+msgid "Check this to allow your customers to use this payment method to pay at your checkout page."
+msgstr "Markering af dette vil tillade dine kunder at anvende denne betalingsmåde på kassesiden."
+
+#: src/Admin/Settings/Settings.php:576
+msgid "Enable Gateway"
+msgstr "Aktiver betalingsløsning"
+
+#: src/Admin/Settings/Settings.php:575
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: src/Admin/Settings/Settings.php:557
+msgid "This payment method will be pre-selected on your checkout page."
+msgstr "Denne betalingsmåde vil blive valgt på forhånd på din kasseside."
+
+#: src/Admin/Settings/Settings.php:556
+msgid "Default Gateway"
+msgstr "Standard betalingsløsning"
+
+#: src/Admin/Settings/Settings.php:549
+msgid "Check all payment methods you want to enable on your webshop."
+msgstr "Marker alle de betalingsløsninger, som du vil aktivere på din webshop."
+
+#: src/Admin/Settings/Settings.php:548
+msgid "Enabled Gateways"
+msgstr "Aktiveret betalingsløsninger"
+
+#: src/Admin/Settings/Settings.php:543
+msgid "Overview"
+msgstr "Oversigt"
+
+#: src/Admin/Settings/Settings.php:383
+msgid "Payment Methods"
+msgstr "Betalingsmåder"
+
+#: src/Admin/Settings/Settings.php:374
+msgid "If checked, your customers will be send to your checkout page directly."
+msgstr "Hvis dette er markeret, vil kunderne blive sendt direkte til din kasseside."
+
+#: src/Admin/Settings/Settings.php:373
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: src/Admin/Settings/Settings.php:372
+msgid "Disable Cart"
+msgstr "Deaktiver varekurv"
+
+#: src/Admin/Settings/Settings.php:367
+msgid "The thousand separator of displayed prices."
+msgstr "Tusindtals separatoren for viste priser."
+
+#: src/Admin/Settings/Settings.php:366
+msgid "Thousand Separator"
+msgstr "Tusindtals separator"
+
+#: src/Admin/Settings/Settings.php:360
+msgid "The decimal separator of displayed prices."
+msgstr "Decimal separatoren for viste priser."
+
+#: src/Admin/Settings/Settings.php:359
+msgid "Decimal Separator"
+msgstr "Decimal separator"
+
+#: src/Admin/Settings/Settings.php:352
+msgid "Right with space (%s)"
+msgstr "Højre med mellemrum (%s)"
+
+#: src/Admin/Settings/Settings.php:351
+msgid "Left with space (%s)"
+msgstr "Venstre med mellemrum (%s)"
+
+#: src/Admin/Settings/Settings.php:350
+msgid "Right (%s)"
+msgstr "Højre (%s)"
+
+#: src/Admin/Settings/Settings.php:349
+msgid "Left (%s)"
+msgstr "Venstre (%s)"
+
+#: src/Admin/Settings/Settings.php:346
+msgid "The position of the currency symbol."
+msgstr "Valuta symbolets placering."
+
+#: src/Admin/Settings/Settings.php:345
+msgid "Currency Position"
+msgstr "Valuta position"
+
+#: src/Admin/Settings/Settings.php:338
+msgid "In what currency are you selling?"
+msgstr "I hvilken valuta modtager du betaling?"
+
+#: src/Admin/Settings/Settings.php:337
+msgid "Currency"
+msgstr "Valuta"
+
+#: src/Admin/Settings/Settings.php:330
+msgid "Where is your store located?"
+msgstr "Hvor er din webshop placeret?"
+
+#: src/Admin/Settings/Settings.php:329
+msgid "Base Country"
+msgstr "Hjemland"
+
+#: src/Admin/Settings/Settings.php:315
+msgid "Your checkout page, make sure it has the <code>[dlm_checkout]</code> shortcode."
+msgstr "Din kasseside, vær sikker på den indeholder <code>[dlm_checkout]</code> kort-koden."
+
+#: src/Admin/Settings/Settings.php:314
+msgid "Checkout page"
+msgstr "Kasseside"
+
+#: src/Admin/Settings/Settings.php:306
+msgid "Your cart page, make sure it has the <code>[dlm_cart]</code> shortcode."
+msgstr "Din varekurv side, vær sikker på den indeholder <code>[dlm_cart]</code> kort-koden."
+
+#: src/Admin/Settings/Settings.php:305
+msgid "Cart page"
+msgstr "Varekurv side"
+
+#: src/Admin/Settings/Settings.php:281
+msgid "Pages"
+msgstr "Sider"
+
+#: src/Shop/Helper/Currency.php:74
+msgid "Vietnamese Dong"
+msgstr "Vietnamesiske dong"
+
+#: src/Shop/Helper/Currency.php:73
+msgid "US Dollars"
+msgstr "Amerikanske dollar"
+
+#: src/Shop/Helper/Currency.php:72
+msgid "United Arab Emirates Dirham"
+msgstr "De Forenede Arabiske Emirater dirham"
+
+#: src/Shop/Helper/Currency.php:71
+msgid "Ugandan Shilling"
+msgstr "Ugandiske shilling"
+
+#: src/Shop/Helper/Currency.php:70
+msgid "Ukrainian Hryvnia"
+msgstr "Ukrainske hryvnia"
+
+#: src/Shop/Helper/Currency.php:69
+msgid "Tanzanian Shilling"
+msgstr "Tanzaniske shilling"
+
+#: src/Shop/Helper/Currency.php:68
+msgid "Taiwan New Dollars"
+msgstr "Ny Taiwan dollars"
+
+#: src/Shop/Helper/Currency.php:67
+msgid "Turkish Lira"
+msgstr "Tyrkiske lira"
+
+#: src/Shop/Helper/Currency.php:66
+msgid "Tunisian Dinar"
+msgstr "Tunesiske dinar"
+
+#: src/Shop/Helper/Currency.php:65
+msgid "Thai Baht"
+msgstr "Thailandske baht"
+
+#: src/Shop/Helper/Currency.php:64
+msgid "Swiss Franc"
+msgstr "Schweiziske franc"
+
+#: src/Shop/Helper/Currency.php:63
+msgid "Swedish Krona"
+msgstr "Svenske kroner"
+
+#: src/Shop/Helper/Currency.php:62
+msgid "South African rand"
+msgstr "Sydafrikanske rand"
+
+#: src/Shop/Helper/Currency.php:61
+msgid "Singapore Dollar"
+msgstr "Singapore dollar"
+
+#: src/Shop/Helper/Currency.php:60
+msgid "Rwandan Franc"
+msgstr "Rwandiske franc"
+
+#: src/Shop/Helper/Currency.php:59
+msgid "Russian Ruble"
+msgstr "Russiske rubler"
+
+#: src/Shop/Helper/Currency.php:58
+msgid "Romanian Leu"
+msgstr "Rumænske Leu"
+
+#: src/Shop/Helper/Currency.php:57
+msgid "Pounds Sterling"
+msgstr "Engelske pund sterling"
+
+#: src/Shop/Helper/Currency.php:56
+msgid "Paraguayan Guaraní"
+msgstr "Paraguayanske guarani"
+
+#: src/Shop/Helper/Currency.php:55
+msgid "Polish Zloty"
+msgstr "Polske Zloty"
+
+#: src/Shop/Helper/Currency.php:54
+msgid "Pakistani Rupee"
+msgstr "Pakistanske rupee"
+
+#: src/Shop/Helper/Currency.php:53
+msgid "Philippine Pesos"
+msgstr "Filippinske peso"
+
+#: src/Shop/Helper/Currency.php:52
+msgid "New Zealand Dollar"
+msgstr "New Zealandske Dollar"
+
+#: src/Shop/Helper/Currency.php:51
+msgid "Nepali Rupee"
+msgstr "Nepalesiske rupi"
+
+#: src/Shop/Helper/Currency.php:50
+msgid "Norwegian Krone"
+msgstr "Norske kroner"
+
+#: src/Shop/Helper/Currency.php:49
+msgid "Nigerian Naira"
+msgstr "Nigerianske Naira"
+
+#: src/Shop/Helper/Currency.php:48
+msgid "Mexican Peso"
+msgstr "Mexicanske Peso"
+
+#: src/Shop/Helper/Currency.php:47
+msgid "Malaysian Ringgits"
+msgstr "Malaysiske ringgits"
+
+#: src/Shop/Helper/Currency.php:46
+msgid "South Korean Won"
+msgstr "Sydkoreanske Won"
+
+#: src/Shop/Helper/Currency.php:45
+msgid "Lao Kip"
+msgstr "Laotiske kip"
+
+#: src/Shop/Helper/Currency.php:44
+msgid "Kenyan Shilling"
+msgstr "Kenyanske shilling"
+
+#: src/Shop/Helper/Currency.php:43
+msgid "Japanese Yen"
+msgstr "Japanske Yen"
+
+#: src/Shop/Helper/Currency.php:42
+msgid "Iranian rial"
+msgstr "Iranske rial"
+
+#: src/Shop/Helper/Currency.php:41
+msgid "Israeli Shekel"
+msgstr "Israelsk shekel"
+
+#: src/Shop/Helper/Currency.php:40
+msgid "Indian Rupee"
+msgstr "Indiske rupee"
+
+#: src/Shop/Helper/Currency.php:39
+msgid "Indonesia Rupiah"
+msgstr "Indonesiske rupiah"
+
+#: src/Shop/Helper/Currency.php:38
+msgid "Icelandic krona"
+msgstr "Islandske kroner"
+
+#: src/Shop/Helper/Currency.php:37
+msgid "Hungarian Forint"
+msgstr "Ungarske forint"
+
+#: src/Shop/Helper/Currency.php:36
+msgid "Croatia kuna"
+msgstr "Kroatiske kuna"
+
+#: src/Shop/Helper/Currency.php:35
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong dollar"
+
+#: src/Shop/Helper/Currency.php:34
+msgid "Ghanaian Cedi"
+msgstr "Ghanesiske Cedi"
+
+#: src/Shop/Helper/Currency.php:33
+msgid "Euros"
+msgstr "Euro"
+
+#: src/Shop/Helper/Currency.php:32
+msgid "Egyptian Pound"
+msgstr "Ægyptiske pund"
+
+#: src/Shop/Helper/Currency.php:31
+msgid "Ethiopian Birr"
+msgstr "Etiopiske Birr"
+
+#: src/Shop/Helper/Currency.php:30
+msgid "Dominican Peso"
+msgstr "Dominikansk peso"
+
+#: src/Shop/Helper/Currency.php:29
+msgid "Danish Krone"
+msgstr "Danske kroner"
+
+#: src/Shop/Helper/Currency.php:28
+msgid "Djiboutian Franc"
+msgstr "Djiboutiske franc"
+
+#: src/Shop/Helper/Currency.php:27
+msgid "Czech Koruna"
+msgstr "Tjekkiske koruna"
+
+#: src/Shop/Helper/Currency.php:26
+msgid "Colombian Peso"
+msgstr "Colombianske peso"
+
+#: src/Shop/Helper/Currency.php:25
+msgid "Chinese Yuan"
+msgstr "Kinesiske Yuan"
+
+#: src/Shop/Helper/Currency.php:24
+msgid "Chilean Peso"
+msgstr "Chilenske peso"
+
+#: src/Shop/Helper/Currency.php:23
+msgid "CFA Franc"
+msgstr "Centralafrikanske CFA-franc"
+
+#: src/Shop/Helper/Currency.php:22
+msgid "Canadian Dollars"
+msgstr "Canadiske dollar"
+
+#: src/Shop/Helper/Currency.php:21
+msgid "Burundian Franc"
+msgstr "Burundianske franc"
+
+#: src/Shop/Helper/Currency.php:20
+msgid "Bulgarian Lev"
+msgstr "Bulgarske lev"
+
+#: src/Shop/Helper/Currency.php:19
+msgid "Brazilian Real"
+msgstr "Brasilianske Real"
+
+#: src/Shop/Helper/Currency.php:18
+msgid "Bangladeshi Taka"
+msgstr "Bangladeshiske taka"
+
+#: src/Shop/Helper/Currency.php:17
+msgid "Australian Dollars"
+msgstr "Australsk dollar"
+
+#: src/Shop/Helper/Currency.php:16
+msgid "Argentine Peso"
+msgstr "Argentinske Pesos"
+
+#: src/Shop/Helper/Country.php:257
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: src/Shop/Helper/Country.php:256
+msgid "Zambia"
+msgstr "Zambia"
+
+#: src/Shop/Helper/Country.php:255
+msgid "Yemen"
+msgstr "Yemen"
+
+#: src/Shop/Helper/Country.php:254
+msgid "Samoa"
+msgstr "Samoa"
+
+#: src/Shop/Helper/Country.php:253
+msgid "Western Sahara"
+msgstr "Vest Sahara"
+
+#: src/Shop/Helper/Country.php:252
+msgid "Wallis and Futuna"
+msgstr "Wallis og Futuna"
+
+#: src/Shop/Helper/Country.php:251
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: src/Shop/Helper/Country.php:250
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: src/Shop/Helper/Country.php:249
+msgid "Vatican"
+msgstr "Vatikanstaten"
+
+#: src/Shop/Helper/Country.php:248
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: src/Shop/Helper/Country.php:247
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#: src/Shop/Helper/Country.php:246
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: src/Shop/Helper/Country.php:245
+msgid "United States (US) Virgin Islands"
+msgstr "De Amerikanske (US) Jomfruøer"
+
+#: src/Shop/Helper/Country.php:244
+msgid "United States (US) Minor Outlying Islands"
+msgstr "De Forenede Amerikanske Stater (USA) Fjerntliggende Småøer"
+
+#: src/Shop/Helper/Country.php:243
+msgid "United States (US)"
+msgstr "De Forenede Amerikanske Stater (USA)"
+
+#: src/Shop/Helper/Country.php:242
+msgid "United Kingdom (UK)"
+msgstr "Storbritannien (UK)"
+
+#: src/Shop/Helper/Country.php:241
+msgid "United Arab Emirates"
+msgstr "De Forenede Arabiske Emiraters"
+
+#: src/Shop/Helper/Country.php:240
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: src/Shop/Helper/Country.php:239
+msgid "Uganda"
+msgstr "Uganda"
+
+#: src/Shop/Helper/Country.php:238
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: src/Shop/Helper/Country.php:237
+msgid "Turks and Caicos Islands"
+msgstr "Turks- og Caicos Øerne"
+
+#: src/Shop/Helper/Country.php:236
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: src/Shop/Helper/Country.php:235
+msgid "Turkey"
+msgstr "Tyrkiet"
+
+#: src/Shop/Helper/Country.php:234
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#: src/Shop/Helper/Country.php:233
+msgid "Trinidad and Tobago"
+msgstr "Trinidad og Tobago"
+
+#: src/Shop/Helper/Country.php:232
+msgid "Tonga"
+msgstr "Tonga"
+
+#: src/Shop/Helper/Country.php:231
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: src/Shop/Helper/Country.php:230
+msgid "Togo"
+msgstr "Togo"
+
+#: src/Shop/Helper/Country.php:229
+msgid "Timor-Leste"
+msgstr "Øst Timor"
+
+#: src/Shop/Helper/Country.php:228
+msgid "Thailand"
+msgstr "Thailand"
+
+#: src/Shop/Helper/Country.php:227
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: src/Shop/Helper/Country.php:226
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: src/Shop/Helper/Country.php:225
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: src/Shop/Helper/Country.php:224
+msgid "Syria"
+msgstr "Syrien"
+
+#: src/Shop/Helper/Country.php:223
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: src/Shop/Helper/Country.php:222
+msgid "Sweden"
+msgstr "Sverige"
+
+#: src/Shop/Helper/Country.php:221
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: src/Shop/Helper/Country.php:220
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard og Jan Mayen"
+
+#: src/Shop/Helper/Country.php:219
+msgid "Suriname"
+msgstr "Surinam"
+
+#: src/Shop/Helper/Country.php:218
+msgid "Sudan"
+msgstr "Sudan"
+
+#: src/Shop/Helper/Country.php:217
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: src/Shop/Helper/Country.php:216
+msgid "Spain"
+msgstr "Spanien"
+
+#: src/Shop/Helper/Country.php:215
+msgid "South Sudan"
+msgstr "Syd Sudan"
+
+#: src/Shop/Helper/Country.php:214
+msgid "South Korea"
+msgstr "Syd Korea"
+
+#: src/Shop/Helper/Country.php:213
+msgid "South Georgia/Sandwich Islands"
+msgstr "Syd Georgien/Sandwich Øerne"
+
+#: src/Shop/Helper/Country.php:212
+msgid "South Africa"
+msgstr "Sydafrika"
+
+#: src/Shop/Helper/Country.php:211
+msgid "Somalia"
+msgstr "Somalia"
+
+#: src/Shop/Helper/Country.php:210
+msgid "Solomon Islands"
+msgstr "Salomon Øerne"
+
+#: src/Shop/Helper/Country.php:209
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#: src/Shop/Helper/Country.php:208
+msgid "Slovakia"
+msgstr "Slovakiet"
+
+#: src/Shop/Helper/Country.php:207
+msgid "Singapore"
+msgstr "Singapore"
+
+#: src/Shop/Helper/Country.php:206
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: src/Shop/Helper/Country.php:205
+msgid "Seychelles"
+msgstr "Seychellerne"
+
+#: src/Shop/Helper/Country.php:204
+msgid "Serbia"
+msgstr "Serbien"
+
+#: src/Shop/Helper/Country.php:203
+msgid "Senegal"
+msgstr "Senegal"
+
+#: src/Shop/Helper/Country.php:202
+msgid "Saudi Arabia"
+msgstr "Saudi Arabien"
+
+#: src/Shop/Helper/Country.php:201
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; og Pr&iacute;ncipe"
+
+#: src/Shop/Helper/Country.php:200
+msgid "San Marino"
+msgstr "San Marino"
+
+#: src/Shop/Helper/Country.php:199
+msgid "Saint Vincent and the Grenadines"
+msgstr "Sankt Vincent og Grenadinerne"
+
+#: src/Shop/Helper/Country.php:198
+msgid "Saint Pierre and Miquelon"
+msgstr "Sankt Pierre og Miquelon"
+
+#: src/Shop/Helper/Country.php:197
+msgid "Saint Martin (Dutch part)"
+msgstr "Sankt Martin (Hollandsk)"
+
+#: src/Shop/Helper/Country.php:196
+msgid "Saint Martin (French part)"
+msgstr "Sankt Martin (Fransk)"
+
+#: src/Shop/Helper/Country.php:195
+msgid "Saint Lucia"
+msgstr "Sankt Lucia"
+
+#: src/Shop/Helper/Country.php:194
+msgid "Saint Kitts and Nevis"
+msgstr "Sankt Kitts og Nevis"
+
+#: src/Shop/Helper/Country.php:193
+msgid "Saint Helena"
+msgstr "Sankt Helena"
+
+#: src/Shop/Helper/Country.php:192
+msgid "Saint Barth&eacute;lemy"
+msgstr "Sankt Barth&eacute;lemy"
+
+#: src/Shop/Helper/Country.php:191
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: src/Shop/Helper/Country.php:190
+msgid "Russia"
+msgstr "Rusland"
+
+#: src/Shop/Helper/Country.php:189
+msgid "Romania"
+msgstr "Rumænien"
+
+#: src/Shop/Helper/Country.php:188
+msgid "Reunion"
+msgstr "Reunion"
+
+#: src/Shop/Helper/Country.php:187
+msgid "Qatar"
+msgstr "Qatar"
+
+#: src/Shop/Helper/Country.php:186
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: src/Shop/Helper/Country.php:185
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Shop/Helper/Country.php:184
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Shop/Helper/Country.php:183
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: src/Shop/Helper/Country.php:182
+msgid "Philippines"
+msgstr "Filippinerne"
+
+#: src/Shop/Helper/Country.php:181
+msgid "Peru"
+msgstr "Peru"
+
+#: src/Shop/Helper/Country.php:180
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: src/Shop/Helper/Country.php:179
+msgid "Papua New Guinea"
+msgstr "Papua Ny Guinea"
+
+#: src/Shop/Helper/Country.php:178
+msgid "Panama"
+msgstr "Panama"
+
+#: src/Shop/Helper/Country.php:177
+msgid "Palestinian Territory"
+msgstr "Det Palæstinensiske Selvstyre område"
+
+#: src/Shop/Helper/Country.php:176
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: src/Shop/Helper/Country.php:175
+msgid "Oman"
+msgstr "Oman"
+
+#: src/Shop/Helper/Country.php:174
+msgid "Norway"
+msgstr "Norge"
+
+#: src/Shop/Helper/Country.php:173
+msgid "North Korea"
+msgstr "Nord Korea"
+
+#: src/Shop/Helper/Country.php:172
+msgid "Northern Mariana Islands"
+msgstr "Nordlige Mariana Øerne"
+
+#: src/Shop/Helper/Country.php:171
+msgid "Norfolk Island"
+msgstr "Norfolk Øen"
+
+#: src/Shop/Helper/Country.php:170
+msgid "Niue"
+msgstr "Niue"
+
+#: src/Shop/Helper/Country.php:169
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: src/Shop/Helper/Country.php:168
+msgid "Niger"
+msgstr "Niger"
+
+#: src/Shop/Helper/Country.php:167
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: src/Shop/Helper/Country.php:166
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: src/Shop/Helper/Country.php:165
+msgid "New Caledonia"
+msgstr "Ny Kaledonien"
+
+#: src/Shop/Helper/Country.php:164
+msgid "Netherlands"
+msgstr "Holland"
+
+#: src/Shop/Helper/Country.php:163
+msgid "Nepal"
+msgstr "Nepal"
+
+#: src/Shop/Helper/Country.php:162
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/Shop/Helper/Country.php:161
+msgid "Namibia"
+msgstr "Namibia"
+
+#: src/Shop/Helper/Country.php:160
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: src/Shop/Helper/Country.php:159
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: src/Shop/Helper/Country.php:158
+msgid "Morocco"
+msgstr "Marokko"
+
+#: src/Shop/Helper/Country.php:157
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: src/Shop/Helper/Country.php:156
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: src/Shop/Helper/Country.php:155
+msgid "Mongolia"
+msgstr "Mongoliet"
+
+#: src/Shop/Helper/Country.php:154
+msgid "Monaco"
+msgstr "Monaco"
+
+#: src/Shop/Helper/Country.php:153
+msgid "Moldova"
+msgstr "Moldavien"
+
+#: src/Shop/Helper/Country.php:152
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: src/Shop/Helper/Country.php:151
+msgid "Mexico"
+msgstr "Mexico"
+
+#: src/Shop/Helper/Country.php:150
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: src/Shop/Helper/Country.php:149
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: src/Shop/Helper/Country.php:148
+msgid "Mauritania"
+msgstr "Mauritanien"
+
+#: src/Shop/Helper/Country.php:147
+msgid "Martinique"
+msgstr "Martinique"
+
+#: src/Shop/Helper/Country.php:146
+msgid "Marshall Islands"
+msgstr "Marshall Øerne"
+
+#: src/Shop/Helper/Country.php:145
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Shop/Helper/Country.php:144
+msgid "Mali"
+msgstr "Mali"
+
+#: src/Shop/Helper/Country.php:143
+msgid "Maldives"
+msgstr "Maldiverne"
+
+#: src/Shop/Helper/Country.php:142
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: src/Shop/Helper/Country.php:141
+msgid "Malawi"
+msgstr "Malawi"
+
+#: src/Shop/Helper/Country.php:140
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: src/Shop/Helper/Country.php:139
+msgid "Macedonia"
+msgstr "Makedonien"
+
+#: src/Shop/Helper/Country.php:138
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., Kina"
+
+#: src/Shop/Helper/Country.php:137
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: src/Shop/Helper/Country.php:136
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: src/Shop/Helper/Country.php:135
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Shop/Helper/Country.php:134
+msgid "Libya"
+msgstr "Libyen"
+
+#: src/Shop/Helper/Country.php:133
+msgid "Liberia"
+msgstr "Liberia"
+
+#: src/Shop/Helper/Country.php:132
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: src/Shop/Helper/Country.php:131
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: src/Shop/Helper/Country.php:130
+msgid "Latvia"
+msgstr "Letland"
+
+#: src/Shop/Helper/Country.php:129
+msgid "Laos"
+msgstr "Laos"
+
+#: src/Shop/Helper/Country.php:128
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+#: src/Shop/Helper/Country.php:127
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: src/Shop/Helper/Country.php:126
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: src/Shop/Helper/Country.php:125
+msgid "Kenya"
+msgstr "Kenya"
+
+#: src/Shop/Helper/Country.php:124
+msgid "Kazakhstan"
+msgstr "Kasakhstan"
+
+#: src/Shop/Helper/Country.php:123
+msgid "Jordan"
+msgstr "Jordan"
+
+#: src/Shop/Helper/Country.php:122
+msgid "Jersey"
+msgstr "Jersey"
+
+#: src/Shop/Helper/Country.php:121
+msgid "Japan"
+msgstr "Japan"
+
+#: src/Shop/Helper/Country.php:120
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: src/Shop/Helper/Country.php:119
+msgid "Ivory Coast"
+msgstr "Elfenbenskysten"
+
+#: src/Shop/Helper/Country.php:118
+msgid "Italy"
+msgstr "Italien"
+
+#: src/Shop/Helper/Country.php:117
+msgid "Israel"
+msgstr "Israel"
+
+#: src/Shop/Helper/Country.php:116
+msgid "Isle of Man"
+msgstr "Øen Man"
+
+#: src/Shop/Helper/Country.php:115
+msgid "Ireland"
+msgstr "Irland"
+
+#: src/Shop/Helper/Country.php:114
+msgid "Iraq"
+msgstr "Irak"
+
+#: src/Shop/Helper/Country.php:113
+msgid "Iran"
+msgstr "Iran"
+
+#: src/Shop/Helper/Country.php:112
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: src/Shop/Helper/Country.php:111
+msgid "India"
+msgstr "Indien"
+
+#: src/Shop/Helper/Country.php:110
+msgid "Iceland"
+msgstr "Island"
+
+#: src/Shop/Helper/Country.php:109
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: src/Shop/Helper/Country.php:108
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#: src/Shop/Helper/Country.php:107
+msgid "Honduras"
+msgstr "Honduras"
+
+#: src/Shop/Helper/Country.php:106
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island og McDonald Islands"
+
+#: src/Shop/Helper/Country.php:105
+msgid "Haiti"
+msgstr "Haiti"
+
+#: src/Shop/Helper/Country.php:104
+msgid "Guyana"
+msgstr "Guyana"
+
+#: src/Shop/Helper/Country.php:103
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: src/Shop/Helper/Country.php:102
+msgid "Guinea"
+msgstr "Guinea"
+
+#: src/Shop/Helper/Country.php:101
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/Shop/Helper/Country.php:100
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/Shop/Helper/Country.php:99
+msgid "Guam"
+msgstr "Guam"
+
+#: src/Shop/Helper/Country.php:98
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: src/Shop/Helper/Country.php:97
+msgid "Grenada"
+msgstr "Grenada"
+
+#: src/Shop/Helper/Country.php:96
+msgid "Greenland"
+msgstr "Grønland"
+
+#: src/Shop/Helper/Country.php:95
+msgid "Greece"
+msgstr "Grækenland"
+
+#: src/Shop/Helper/Country.php:94
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/Shop/Helper/Country.php:93
+msgid "Ghana"
+msgstr "Ghana"
+
+#: src/Shop/Helper/Country.php:92
+msgid "Germany"
+msgstr "Tyskland"
+
+#: src/Shop/Helper/Country.php:91
+msgid "Georgia"
+msgstr "Georgien"
+
+#: src/Shop/Helper/Country.php:90
+msgid "Gambia"
+msgstr "Gambia"
+
+#: src/Shop/Helper/Country.php:89
+msgid "Gabon"
+msgstr "Gabon"
+
+#: src/Shop/Helper/Country.php:88
+msgid "French Southern Territories"
+msgstr "Franske Sydlige Territorier"
+
+#: src/Shop/Helper/Country.php:87
+msgid "French Polynesia"
+msgstr "Fransk Polynesien"
+
+#: src/Shop/Helper/Country.php:86
+msgid "French Guiana"
+msgstr "Fransk Guyana"
+
+#: src/Shop/Helper/Country.php:85
+msgid "France"
+msgstr "Frankrig"
+
+#: src/Shop/Helper/Country.php:84
+msgid "Finland"
+msgstr "Finland"
+
+#: src/Shop/Helper/Country.php:83
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/Shop/Helper/Country.php:82
+msgid "Faroe Islands"
+msgstr "Færøerne"
+
+#: src/Shop/Helper/Country.php:81
+msgid "Falkland Islands"
+msgstr "Falklands Øerne"
+
+#: src/Shop/Helper/Country.php:80
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+#: src/Shop/Helper/Country.php:79
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Shop/Helper/Country.php:78
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: src/Shop/Helper/Country.php:77
+msgid "Equatorial Guinea"
+msgstr "Ækvatorial Guinea"
+
+#: src/Shop/Helper/Country.php:76
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/Shop/Helper/Country.php:75
+msgid "Egypt"
+msgstr "Ægypten"
+
+#: src/Shop/Helper/Country.php:74
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: src/Shop/Helper/Country.php:73
+msgid "Dominican Republic"
+msgstr "Den Dominikanske Republik"
+
+#: src/Shop/Helper/Country.php:72
+msgid "Dominica"
+msgstr "Dominikansk"
+
+#: src/Shop/Helper/Country.php:71
+msgid "Djibouti"
+msgstr "Djiboutisk"
+
+#: src/Shop/Helper/Country.php:70
+msgid "Denmark"
+msgstr "Danmark"
+
+#: src/Shop/Helper/Country.php:69
+msgid "Czech Republic"
+msgstr "Tjekkiet"
+
+#: src/Shop/Helper/Country.php:68
+msgid "Cyprus"
+msgstr "Cypern"
+
+#: src/Shop/Helper/Country.php:67
+msgid "Cura&ccedil;ao"
+msgstr "Cura&ccedil;ao"
+
+#: src/Shop/Helper/Country.php:66
+msgid "Cuba"
+msgstr "Cuba"
+
+#: src/Shop/Helper/Country.php:65
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: src/Shop/Helper/Country.php:64
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/Shop/Helper/Country.php:63
+msgid "Cook Islands"
+msgstr "Cook Øerne"
+
+#: src/Shop/Helper/Country.php:62
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: src/Shop/Helper/Country.php:61
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: src/Shop/Helper/Country.php:60
+msgid "Comoros"
+msgstr "Comoros"
+
+#: src/Shop/Helper/Country.php:59
+msgid "Colombia"
+msgstr "Columbia"
+
+#: src/Shop/Helper/Country.php:58
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocosøerne (Keelingøerne)"
+
+#: src/Shop/Helper/Country.php:57
+msgid "Christmas Island"
+msgstr "Juleøen"
+
+#: src/Shop/Helper/Country.php:56
+msgid "China"
+msgstr "Kina"
+
+#: src/Shop/Helper/Country.php:55
+msgid "Chile"
+msgstr "Chile"
+
+#: src/Shop/Helper/Country.php:54
+msgid "Chad"
+msgstr "Chad"
+
+#: src/Shop/Helper/Country.php:53
+msgid "Central African Republic"
+msgstr "Centralafrikanske Republik"
+
+#: src/Shop/Helper/Country.php:52
+msgid "Cayman Islands"
+msgstr "Caymanøerne"
+
+#: src/Shop/Helper/Country.php:51
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: src/Shop/Helper/Country.php:50
+msgid "Canada"
+msgstr "Canada"
+
+#: src/Shop/Helper/Country.php:49
+msgid "Cameroon"
+msgstr "Cameroun"
+
+#: src/Shop/Helper/Country.php:48
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: src/Shop/Helper/Country.php:47
+msgid "Burundi"
+msgstr "Burundi"
+
+#: src/Shop/Helper/Country.php:46
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: src/Shop/Helper/Country.php:45
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: src/Shop/Helper/Country.php:44
+msgid "Brunei"
+msgstr "Brunei"
+
+#: src/Shop/Helper/Country.php:43
+msgid "British Virgin Islands"
+msgstr "De Britiske Jomfruøer"
+
+#: src/Shop/Helper/Country.php:42
+msgid "British Indian Ocean Territory"
+msgstr "Det britiske territorium i Det Indiske Ocean"
+
+#: src/Shop/Helper/Country.php:41
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: src/Shop/Helper/Country.php:40
+msgid "Bouvet Island"
+msgstr "Bouvetøen"
+
+#: src/Shop/Helper/Country.php:39
+msgid "Botswana"
+msgstr "Botswana"
+
+#: src/Shop/Helper/Country.php:38
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien og Herzegovina"
+
+#: src/Shop/Helper/Country.php:37
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius og Saba"
+
+#: src/Shop/Helper/Country.php:36
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: src/Shop/Helper/Country.php:35
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: src/Shop/Helper/Country.php:34
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: src/Shop/Helper/Country.php:33
+msgid "Benin"
+msgstr "Benin"
+
+#: src/Shop/Helper/Country.php:32
+msgid "Belize"
+msgstr "Belize"
+
+#: src/Shop/Helper/Country.php:31
+msgid "Belau"
+msgstr "Belau"
+
+#: src/Shop/Helper/Country.php:30
+msgid "Belgium"
+msgstr "Belgien"
+
+#: src/Shop/Helper/Country.php:29
+msgid "Belarus"
+msgstr "Hvide Rusland"
+
+#: src/Shop/Helper/Country.php:28
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/Shop/Helper/Country.php:27
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: src/Shop/Helper/Country.php:26
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: src/Shop/Helper/Country.php:25
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: src/Shop/Helper/Country.php:24
+msgid "Azerbaijan"
+msgstr "Aserbajdsjan"
+
+#: src/Shop/Helper/Country.php:23
+msgid "Austria"
+msgstr "Østrig"
+
+#: src/Shop/Helper/Country.php:22
+msgid "Australia"
+msgstr "Australien"
+
+#: src/Shop/Helper/Country.php:21
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/Shop/Helper/Country.php:20
+msgid "Armenia"
+msgstr "Armenien"
+
+#: src/Shop/Helper/Country.php:19
+msgid "Argentina"
+msgstr "Argentina"
+
+#: src/Shop/Helper/Country.php:18
+msgid "Antigua and Barbuda"
+msgstr "Antigua og Barbuda"
+
+#: src/Shop/Helper/Country.php:17
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: src/Shop/Helper/Country.php:16
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: src/Shop/Helper/Country.php:15
+msgid "Angola"
+msgstr "Angola"
+
+#: src/Shop/Helper/Country.php:14
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Shop/Helper/Country.php:13
+msgid "American Samoa"
+msgstr "Amerikansk Samoa"
+
+#: src/Shop/Helper/Country.php:12
+msgid "Algeria"
+msgstr "Algeriet"
+
+#: src/Shop/Helper/Country.php:11
+msgid "Albania"
+msgstr "Albanien"
+
+#: src/Shop/Helper/Country.php:10
+msgid "&#197;land Islands"
+msgstr "&#197;lands Øerne"
+
+#: src/Shop/Helper/Country.php:9
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: src/Shop/Checkout/Field.php:87
+msgid "Country"
+msgstr "Land"
+
+#: src/Shop/Checkout/Field.php:77
+msgid "City"
+msgstr "By"
+
+#: src/Shop/Checkout/Field.php:68
+msgid "Postcode / ZIP"
+msgstr "Postnummer"
+
+#: src/Shop/Checkout/Field.php:59
+msgid "Address"
+msgstr "Adresse"
+
+#: src/Shop/Checkout/Field.php:50
+msgid "Email address"
+msgstr "E-mail adresse"
+
+#: src/Shop/Checkout/Field.php:41
+msgid "Company name"
+msgstr "Firma navn"
+
+#: src/Shop/Checkout/Field.php:32
+msgid "Last name"
+msgstr "Efternavn"
+
+#: src/Shop/Checkout/Field.php:22
+msgid "First name"
+msgstr "Fornavn"
+
+#: src/Shop/Checkout/PaymentGateway/Test/TestGateway.php:17
+msgid "Test payments are not real payments, used for testing your website."
+msgstr "Test betalinger er ikke rigtige betalinger, men bruges for at teste dit websted."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:163
+msgid "Your application sandbox client secret."
+msgstr "Din konto test tilstand klient-hemmelig."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:162
+msgid "Sandbox Client Secret"
+msgstr "Test tilstand klient-hemmelig"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:156
+msgid "Your application sandbox client ID."
+msgstr "Din konto test tilstand klient-id."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:155
+msgid "Sandbox Client ID"
+msgstr "Test tilstand klient-id"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:148
+msgid "Enable Sandbox"
+msgstr "Aktiver test tilstand"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:147
+msgid "Check to enable PayPal sandbox mode. This allows you to test your PayPal integration."
+msgstr "Klik her for, at aktiver PayPal test tilstand. Dette tillader dig at teste din PayPal integration."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:146
+msgid "Sandbox"
+msgstr "Test tilstand"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:136
+msgid "Test Settings"
+msgstr "Test indstillingerne"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:131
+msgid "Your application client secret."
+msgstr "Din konto klient-hemmelig."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:130
+msgid "Application Client Secret"
+msgstr "Din konto klient-hemmelig"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:124
+msgid "Your application client ID."
+msgstr "Din konto klient-id."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:123
+msgid "Application Client ID"
+msgstr "Konto klient-id"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:112
+msgid "Application Details"
+msgstr "Konto oplysninger"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:107
+msgid "This prefix is added to the paypal invoice ID. If you run multiple stores with the same PayPal account, enter an unique prefix per store here."
+msgstr "Dette præfiks bliver tilføjet PayPal faktura-id. Hvis du kører flere webshops med den samme PayPal konto, skal du indtaste et unikt præfisk pr. webshop her."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:106
+msgid "Invoice Prefix"
+msgstr "Faktura præfiks"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:99
+msgid "Click here to read more on how to set this up"
+msgstr "Klik her for, at læse mere om hvordan du opsætter dette"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:98
+msgid "The same fields from your PayPal application but from the \"sandbox\" mode."
+msgstr "Det samme felt fra din PayPal konto, men fra \"test\" tilstand."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:96
+msgid "Click here to read the full documentation page"
+msgstr "Klik her for, at læse den fulde dokumentation"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:94
+msgid "Click here to create a new PayPal application"
+msgstr "Klik her for, at oprette en ny PayPal konto"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:92
+msgid "In order to allow users to pay via PayPal on your website, you need to create an application in PayPal's developer portal. After you've done so, please copy the Client ID and Secret and set them here."
+msgstr "For at brugere kan betale via PayPal på dit websted, skal du oprette en konto på PayPal's udvikler portal. Efter du har gjort dette, skal du kopier klient (Client)-id og hemmeligt (Secret) og indsætte dem her."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:21
+msgid "Pay with PayPal"
+msgstr "Betal med PayPal"
+
+#: src/Shop/Shortcode/Checkout.php:71
+msgid "Your payment failed, please try again."
+msgstr "Din betaling mislykkedes. Prøv igen."
+
+#: src/Shop/Util/Assets.php:42
+msgid "Please complete the fields highlighted in red"
+msgstr "Udfyld felterne som er markeret med rødt"
+
+#: src/Shop/Util/Assets.php:41
+msgid "Please wait while we process your order"
+msgstr "Vent mens vi behandler din ordre"
+
+#: src/Shop/Util/Assets.php:40
+msgid "Placing your order"
+msgstr "Afgiv din ordre"
+
+#: src/Shop/Util/Page.php:110
+msgid "no page"
+msgstr "ingen side"
+
+#: src/Shop/Ajax/AdminChangeOrderStatus.php:28
+msgid "You are not allowed to do this."
+msgstr "Du har ikke tilladelse til, at gøre dette."
+
+#: src/Shop/Ajax/PlaceOrder.php:163
+msgid "Payment gateway error: %s"
+msgstr "Betalingsløsnings fejl %s"
+
+#: src/Shop/Ajax/PlaceOrder.php:90
+msgid "Invalid Payment Gateway"
+msgstr "Ugyldig betalingsløsning"
+
+#: src/Shop/Ajax/PlaceOrder.php:84
+msgid "Not all required fields are set"
+msgstr "Ikke alle påkrævet felter er udfyldte"
+
+#: src/Shop/Email/VarParser.php:133
+msgid "Payment Gateway"
+msgstr "Betalingsløsning"
+
+#: src/Shop/Email/VarParser.php:126
+msgid "Order Total"
+msgstr "Samlet ordre total"
+
+#: src/Shop/Email/VarParser.php:122
+#: templates/shop/checkout/order-complete.php:33
+msgid "Order Date"
+msgstr "Ordre dato"
+
+#: src/Shop/Email/VarParser.php:118
+#: templates/shop/checkout/order-complete.php:25
+msgid "Order ID"
+msgstr "Ordre-id"
+
+#: src/Shop/Email/VarParser.php:65
+#: templates/shop/checkout/order-complete.php:84
+msgid "Download is no longer available"
+msgstr "Download er ikke længere tilgængelig"
+
+#: src/Shop/Email/Handler.php:25
+msgid "%s: New order"
+msgstr "%s: Ny ordre"
+
+#: src/Shop/Email/Handler.php:14
+msgid "Your %s order"
+msgstr "Din %s ordre"
+
+#: src/Shop/Order/Transaction/Factory.php:42
+msgid "Success"
+msgstr "Korrekt"
+
+#: src/Shop/Order/Transaction/Factory.php:39
+msgid "Pending"
+msgstr "Afventer"
+
+#: src/Shop/Order/Status/Factory.php:33
+msgid "Trash"
+msgstr "Papirkurv"
+
+#: src/Shop/Order/Status/Factory.php:30
+msgid "Refunded"
+msgstr "Tilbagebetalt"
+
+#: src/Shop/Order/Status/Factory.php:21
+msgid "Pending Payment"
+msgstr "Afventer betaling"
+
+#: src/Shop/Util/PostType.php:18 src/Admin/Settings/Settings.php:321
+msgid "Shop"
+msgstr "Webshop"
+
+#: src/Shop/Admin/OrderTable.php:291
+msgid "Empty Trash"
+msgstr "Tøm papirkurv"
+
+#: src/Shop/Admin/OrderTable.php:200
+msgid "All"
+msgstr "Alle"
+
+#: src/Shop/Admin/OrderTable.php:190
+msgid "Orders deleted"
+msgstr "Ordrer er slettet"
+
+#: src/Shop/Admin/OrderTable.php:155
+#: assets/views/order/page-order-details.php:28
+#: assets/views/order/page-order-details.php:47
+#: templates/shop/cart/totals.php:25 templates/shop/cart.php:22
+#: templates/shop/checkout/order-review.php:17
+#: templates/shop/checkout/order-review.php:38
+msgid "Total"
+msgstr "I alt"
+
+#: src/Shop/Admin/OrderTable.php:62
+msgid "Trashed orders have been permanently deleted."
+msgstr "Ordre i papirkurven vil blive slettet permanent."
+
+#: src/Shop/Admin/Pages/Orders.php:65
+msgid "Order with that ID could not be found"
+msgstr "Ordren med id'et blev ikke fundet"
+
+#: src/Shop/Admin/Pages/Orders.php:22
+#: assets/views/order/page-order-overview.php:15
+msgid "Orders"
+msgstr "Ordrer"
+
+#: assets/blocks/src/blocks.js:80
+msgid "Wrap in paragraph tag (<p>)?"
+msgstr "Ombryd i et afsnitskode tag (<p>)?"
+
+#: assets/blocks/src/blocks.js:22
+msgid "file"
+msgstr "fil"
+
+#: assets/blocks/src/blocks.js:20
+msgid "Download Button"
+msgstr "Download knap"
+
+#: assets/blocks/src/components/VersionInput/index.js:26
+msgid "Latest version"
+msgstr "Seneste version"
+
+#: src/DownloadPreview/Preview.php:84
+msgid "Select a download first"
+msgstr "Vælg først en download"
+
+#: src/Gutenberg.php:50
+msgid "Default from settings"
+msgstr "Standard fra indstillinger"
+
+#: src/Admin/Settings/Settings.php:218 src/Admin/Settings/Settings.php:240
+msgid "IP Address Logging"
+msgstr "Logfør IP adresser"
+
+#: src/Admin/Settings/Settings.php:219
+msgid "Define if and how you like to store IP addresses of users that download your files in your logs."
+msgstr "Definer om og hvordan du vil gemme IP adresser i dine logfiler på brugere som downloader dine filer."
+
+#: src/Admin/Settings/Settings.php:222 src/Admin/Settings/Settings.php:240
+msgid "Store full IP address"
+msgstr "Gem den fulde IP adresse"
+
+#: src/Admin/Settings/Settings.php:223
+msgid "Store anonymized IP address (remove last 3 digits)"
+msgstr "Gem anonymiseret IP adresser (de sidste 3 tal fjernes)"
+
+#: src/Admin/Settings/Settings.php:224
+msgid "Store no IP address"
+msgstr "Gem ingen IP adresser"
+
+#: src/Admin/Settings/Settings.php:230
+msgid "User Agent Logging"
+msgstr "Logfør browser agent"
+
+#: src/Admin/Settings/Settings.php:232
+msgid "If enabled, the user agent (browser) the user uses to download the file will be stored in your logs."
+msgstr "Hvis det er aktiveret, vil browseren, som brugeren anvender til at downloade med, blive gemt i dine logfiler."
+
+#: src/Admin/Settings/Settings.php:240
+msgid "If enabled, the counter for each download will only increment and create a log entry once per IP address. Note that this option only works if %s is set to %s."
+msgstr "Hvis det er aktiveret, vil tælleren for hver download kun øges og oprette en logfil post pr. IP adresse. Bemærk, at denne indstilling kun fungerer hvis %s er angivet til %s."
+
+#: src/LegacyUpgrader/Page.php:48
+msgid "I'm sure I want to run the upgrader anyway"
+msgstr "Jeg vil gerne kører opgraderingen alligevel"
+
+#: src/LegacyUpgrader/Page.php:46
+msgid "WARNING: We don't think your database needs upgrading. Only continue if you're 100% sure what you're doing!"
+msgstr "Advarsel: Vi tror ikke din database behøver at blive opdateret. Fortsæt kun hvis du er 100% sikker på hvad du laver!"
+
+#: templates/content-download-no-version.php:13
+msgid "has no version set!"
+msgstr "har ingen version angivet!"
+
+#: templates/content-download-no-version.php:12
+msgid "Please set a version in your WordPress admin"
+msgstr "Angiv en version i din WordPress admin"
+
+#: src/TaxonomyManager.php:61
+msgid "Download Tags"
+msgstr "Download tags"
+
+#: src/TaxonomyManager.php:29
+msgid "Download Categories"
+msgstr "Download kategorier"
+
+#: src/PostTypeManager.php:86
+msgid "Parent Download Version"
+msgstr "Overordnet download version"
+
+#: src/PostTypeManager.php:85
+msgid "No Download Versions found in trash"
+msgstr "Der blev ikke fundet nogen download versioner i papirkurven"
+
+#: src/PostTypeManager.php:84
+msgid "No Download Versions found"
+msgstr "Der blev ikke fundet nogen download versioner"
+
+#: src/PostTypeManager.php:83
+msgid "Search Download Versions"
+msgstr "Søg efter download versioner"
+
+#: src/PostTypeManager.php:81 src/PostTypeManager.php:82
+msgid "View Download Version"
+msgstr "Vis download version"
+
+#: src/PostTypeManager.php:80
+msgid "New Download Version"
+msgstr "Ny download version"
+
+#: src/PostTypeManager.php:79
+msgid "Edit Download Version"
+msgstr "Rediger download version"
+
+#: src/PostTypeManager.php:77
+msgid "Add Download Version"
+msgstr "Tilføj download version"
+
+#: src/PostTypeManager.php:75
+msgid "Download Version"
+msgstr "Download version"
+
+#: src/PostTypeManager.php:74
+msgid "Download Versions"
+msgstr "Download versioner"
+
+#: src/PostTypeManager.php:73
+msgid "All Download Versions"
+msgstr "Alle download versioner"
+
+#: src/Logs/LoggingListTable.php:298
+msgid "Select a User"
+msgstr "Vælg en bruger"
+
+#: src/Logs/LogPage.php:83
+msgid "Are you sure you want to delete ALL log items?"
+msgstr "Er du sikker på du vil slette ALLE log-elementer?"
+
+#: src/Logs/LogExportCSV.php:78
+msgid "Meta Data"
+msgstr "Meta data"
+
+#: src/LegacyUpgrader/Page.php:42
+msgid "Welcome to the Download Monitor Legacy Upgrader. On this page we will upgrade your old Download Monitor (legacy) data so it will work with the latest version. If you're on this page, it should mean that you updated to this version from Download Monitor %s. If you're unsure if this is correct, or you want to read more about the legacy upgrade, we've setup a page that will explain this process in a lot more detail. %sClick here%s if to view that page."
+msgstr "Velkommen til Download Monitor opgraderingen. På denne side vil vi opgrader din ældre version af Download Monitor's data så den vil fungerer med den seneste version. Hvis du er på denne side, betyder dette, at du opgraderede til denne version fra Download Monitor %s. Hvis du er usikker på om dette er rigtigt, eller du hellere vil læse mere om opgraderingen, har vi opsat en side som vil forklare processen i detaljer. %sKlik her%s for at læse siden."
+
+#: src/LegacyUpgrader/Page.php:41
+msgid "Download Monitor - Legacy Upgrade"
+msgstr "Download Monitor - Opgrader ældre"
+
+#: src/LegacyUpgrader/Page.php:17
+msgid "Legacy Upgrader"
+msgstr "Opgrader ældre"
+
+#: src/DLM.php:260
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: src/Admin/WritePanels.php:99
+msgid "No download information for new downloads."
+msgstr "Ingen download information til nye downloads."
+
+#: src/Admin/Settings/Settings.php:406
+msgid "Remove all Download Monitor transients, this can solve version caching issues."
+msgstr "Fjern alle Download Monitor transienter, dette kan løse problemer med caching."
+
+#: src/Admin/Settings/Settings.php:405
+msgid "Clear all transients"
+msgstr "Ryd alle transienter"
+
+#: src/Admin/Settings/Settings.php:399
+msgid "Check this box if you would like to completely remove all Download Monitor data when the plugin is deleted."
+msgstr "Afkryds boksen, hvis du vil fjerne alle Download Monitor data når plugin'et bliver slettet."
+
+#: src/Admin/Settings/Settings.php:397
+msgid "Remove Data on Uninstall?"
+msgstr "Fjern data ved afinstallering?"
+
+#: src/Admin/Settings/Settings.php:390
+msgid "Misc"
+msgstr "Diverse"
+
+#: src/Admin/Settings/Settings.php:272
+msgid "List browser user agents to blacklist, 1 per line.  Partial matches are sufficient. Regex matching is allowed by surrounding the pattern with forward slashes, e.g. <code>/^Mozilla.+Googlebot/</code>"
+msgstr "Indtast browsere til sortliste, 1 pr. linje.  Delvis match er tilstrækkelig. Regulær match er tilladt med at omslutte dem med fremadrettet skråstreg, f.eks. <code>/^Mozilla.+Googlebot/</code>"
+
+#: src/Admin/Settings/Settings.php:186
+msgid "Generate SHA256 hash for uploaded files"
+msgstr "Opret SHA256 hashtags for uploadet filer"
+
+#: src/Admin/Settings/Settings.php:185
+msgid "SHA256 hashes"
+msgstr "SHA256 hashes"
+
+#: src/Admin/Settings/Settings.php:163
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files. %sYou can read more about hashes here%s"
+msgstr "Kontroltal kan evt. medtages via kort-koder, men kan forårsage ydelsesproblemer med store filer. %sDu kan læse mere om kontroltal her%s"
+
+#: src/Admin/Settings/Settings.php:121
+msgid "If enabled, downloads will be included in the site's internal search results."
+msgstr "Hvis det er aktiveret, vil downloads blive inkluderet i webstedets interne søgeresultater."
+
+#: src/Admin/Settings/Settings.php:119
+msgid "Include in Search"
+msgstr "Medtag i søgningen"
+
+#: src/Admin/Settings/Page.php:67
+msgid "Download Monitor Transients successfully cleared!"
+msgstr "Download Monitor transientes blev ryddet!"
+
+#: src/Admin/Reports/Page.php:180
+msgid "Download Reports"
+msgstr "Download rapporter"
+
+#: src/Admin/Reports/Page.php:141
+msgid "Month"
+msgstr "Måned"
+
+#: src/Admin/Reports/Page.php:140
+msgid "Per Day"
+msgstr "Pr. dag"
+
+#: src/Admin/Reports/Page.php:115
+msgid "Switch to %s"
+msgstr "Skift til %s"
+
+#: src/Admin/Reports/Page.php:23
+msgid "Reports"
+msgstr "Rapporter"
+
+#: src/Admin/MediaInsert.php:161
+msgid "Search download"
+msgstr "Søg efter download"
+
+#: assets/views/notice-lu-upgrade.php:11
+msgid "hide notice"
+msgstr "skjul besked"
+
+#: assets/views/notice-lu-upgrade.php:10
+msgid "Take me to the Upgrade Tool"
+msgstr "Tag mig til opgraderingsværktøjet"
+
+#: assets/views/notice-lu-upgrade.php:9
+msgid "We've created an upgrading tool that will do all the work for you. You can read more about this tool on %sour website (click here)%s or start the upgrade now."
+msgstr "Vi har oprettet et opdateringsværktøj, som vil gøre alt arbejdet for dig. Du kan læse mere om dette værktøj på %svores websted (klik her)%s eller begynde opgraderingen nu."
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "upgrade your downloads"
+msgstr "opgrader dine downloads"
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "Currently your downloads don't work like they should, we need to %s before they'll work again."
+msgstr "I øjeblikket fungerer dine downloads ikke som de skulle, så vi skal %s før de virker igen."
+
+#: assets/views/notice-lu-upgrade.php:7
+msgid "It looks like you upgraded to the latest version of Download Monitor from a legacy version (3.x)"
+msgstr "Det ser ud til, at du har opgraderet til den nyeste version af Download Monitor fra en ældre version (3.x)"
+
+#: src/Admin/Settings/Fields/LazySelect.php:41
+msgid "Loading"
+msgstr "Indlæser"
+
+#: src/Admin/Settings/Settings.php:113
+msgid "If enabled, Download Monitor will use the X_FORWARDED_FOR HTTP header set by proxies as the IP address. Note that anyone can set this header, making it less secure."
+msgstr "Hvis det er aktiveret, vil Download Monitor anvende X_FORWARDED_FOR_HTTP header som er angivet af proxies som IP adresse. Bemærk, at alle kan angive dette header, så det er mindre sikker."
+
+#: src/Admin/Settings/Settings.php:111
+msgid "Allow Proxy IP Override"
+msgstr "Tillad at Proxy IP tilsidesættes"
+
+#: src/Product/Product.php:430
+msgid "<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension to receive access to automatic upgrades and support. Need a license key? <a href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr "<a href=\"%s\">Registrer din kopi</a> af<strong> %s</strong> udvidelsen for, at modtage automatisk adgang til opgraderinger og support. Mangler du en licensnøgle? <a href=\"%s\" target=\"_blank\">så køb en nu</a>."
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr " (v%s eksisterer ikke længere)"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr " (v%s)"
+
+#. Author URI of the plugin
+msgid "https://www.never5.com"
+msgstr "https://www.never5.com"
+
+#. Author of the plugin
+msgid "Never5"
+msgstr "Never5"
+
+#. Description of the plugin
+msgid "A full solution for managing and selling downloadable files, monitoring downloads and outputting download links and file information on your WordPress powered site."
+msgstr "En komplet løsning til administration og salg af downloadbare filer, overvågning af downloads og visning af download links og fil informationer på dit WordPress websted."
+
+#. Plugin URI of the plugin
+msgid "https://www.download-monitor.com"
+msgstr "https://www.download-monitor.com"
+
+#. Plugin Name of the plugin
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#: templates/content-download-version-list.php:24
+#: templates/content-download-button.php:14
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "Downloadet 1 gang"
+msgstr[1] "Downloadet %d gange"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "Download &ldquo;%s&rdquo;"
+
+#: src/Shop/Email/VarParser.php:70 templates/content-download-box.php:29
+#: templates/shop/checkout/order-complete.php:89
+msgid "Download File"
+msgstr "Download fil"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "Version %s"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17 templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "1 download"
+msgstr[1] "%d downloads"
+
+#: src/Widgets/Downloads.php:239
+msgid "Show only members only downloads"
+msgstr "Vis kun downloads som er forbeholdt medlemmere"
+
+#: src/Widgets/Downloads.php:232
+msgid "Show only featured downloads"
+msgstr "Vis kun fremhævede downloads"
+
+#: src/Widgets/Downloads.php:224
+msgid "DESC"
+msgstr "Faldende"
+
+#: src/Widgets/Downloads.php:222
+msgid "ASC"
+msgstr "Stigende"
+
+#: src/Shop/Admin/OrderTable.php:152 src/Widgets/Downloads.php:217
+msgid "Order"
+msgstr "Rækkefølge"
+
+#: src/Widgets/Downloads.php:210
+msgid "Date modified"
+msgstr "Ændringsdato"
+
+#: src/Widgets/Downloads.php:208
+msgid "Date added"
+msgstr "Tilføjelsesdato"
+
+#: src/Widgets/Downloads.php:204
+msgid "Random"
+msgstr "Tilfældig"
+
+#: src/Widgets/Downloads.php:197
+msgid "Order by"
+msgstr "Sorterer efter"
+
+#: src/Widgets/Downloads.php:193
+msgid "Default template"
+msgstr "Standard skabelon"
+
+#: src/Widgets/Downloads.php:188
+msgid "Output template"
+msgstr "Output skabelon"
+
+#: src/Widgets/Downloads.php:180
+msgid "Limit"
+msgstr "Begrænsning"
+
+#: src/Widgets/Downloads.php:55 src/Widgets/Downloads.php:162
+msgid "Featured Downloads"
+msgstr "Fremhævet downloads"
+
+#: src/Widgets/Downloads.php:30
+msgid "Downloads List"
+msgstr "Downloads liste"
+
+#: src/Widgets/Downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "Vis en liste med dine downloads."
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr "Licens aktiveret korrekt."
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "Navn på download tag"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "Tilføj nyt download tag"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "Opdater download tag"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "Rediger download tag"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "Overordnet download tag"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "Alle download tags"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "Søg efter download tags"
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "Download tag"
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "Navn på ny download kategori"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "Tilføj ny download kategori"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "Opdater download kategori"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "Rediger download kategori"
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "Overordnet download kategori"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "Alle download kategorier"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "Søg efter download kategorier"
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "Download kategori"
+
+#: src/Shortcodes.php:142 src/Shortcodes.php:261
+msgid "Download not found"
+msgstr "Download blev ikke fundet"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "Her kan du oprette og administrere downloads for dit site."
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "Overordnet download"
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "Der blev ikke fundet nogle downloads i papirkurven"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "Der blev ikke fundet nogle downloads"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "Søg efter downloads"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "Se download"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "Ny download"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "Rediger download"
+
+#: src/Shop/Util/PostType.php:22 src/PostTypeManager.php:26
+#: src/PostTypeManager.php:78
+msgid "Edit"
+msgstr "Rediger"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "Tilføj download"
+
+#: src/PostTypeManager.php:24 src/PostTypeManager.php:76
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: src/PostTypeManager.php:22 assets/views/meta-box/product-information.php:13
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "Alle downloads"
+
+#: src/Util/Onboarding.php:125 src/Util/PageCreator.php:14
+msgid "No Access"
+msgstr "Ingen adgang"
+
+#: src/DownloadHandler.php:557 src/DownloadHandler.php:559
+msgid "File not found."
+msgstr "Fil blev ikke fundet."
+
+#: src/DownloadHandler.php:552
+msgid "Redirected to remote file."
+msgstr "Omdirigeret til fjernfil."
+
+#: src/DownloadHandler.php:481 src/DownloadHandler.php:499
+#: src/DownloadHandler.php:506 src/DownloadHandler.php:513
+msgid "Redirected to file"
+msgstr "Omdirigeret til fil"
+
+#: src/DownloadHandler.php:397 src/DownloadHandler.php:405
+msgid "No file paths defined."
+msgstr "Der er ikke defineret nogen filsti."
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:445
+#: src/DownloadHandler.php:559
+msgid "Download Error"
+msgstr "Download fejl"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:559
+msgid "Go to homepage &rarr;"
+msgstr "Gå til forside &rarr;"
+
+#: src/DownloadHandler.php:320
+msgid "Download does not exist."
+msgstr "Download eksisterer ikke."
+
+#: src/DownloadHandler.php:314
+msgid "Password Required"
+msgstr "Adgangskode er påkrævet"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "m"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "h"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "Fil dato"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "Gennemse for fil"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "Indsæt fil-url"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "Vælg en fil"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "Upload fil"
+
+#: assets/views/meta-box/version.php:31
+msgid "Enter one file path/URL per line - multiple files will be used as mirrors (chosen at random)."
+msgstr "Indtast en filsti/url pr. linje ‒ flere filer vil blive brugt som spejl (vælges tilfældigt)."
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "Fil-url(er)"
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "Downloadet %s gang"
+msgstr[1] "Downloadet %s gange"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "ikke tilgængelig"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "Version <span class=\"version\">%s</span> (%s)"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "Klik for at vise/skjule"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "Fjern"
+
+#: src/Shop/Admin/OrderTable.php:285 src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "Sorterer"
+
+#: src/Shop/Admin/OrderTable.php:280 src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "Vis alle"
+
+#: src/Shop/Admin/OrderTable.php:278 src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "200 pr. side"
+
+#: src/Shop/Admin/OrderTable.php:276 src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "100 pr. side"
+
+#: src/Shop/Admin/OrderTable.php:274 src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "50 pr. side"
+
+#: src/Shop/Admin/OrderTable.php:272 src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "25 pr. side"
+
+#: src/Shop/Admin/OrderTable.php:264 src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Shop/Admin/OrderTable.php:250 src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "Vis alle datoer"
+
+#: src/Shop/Order/Status/Factory.php:24 src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "Fuldført"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "Omdirigeret"
+
+#: src/Shop/Order/Status/Factory.php:27
+#: src/Shop/Order/Transaction/Factory.php:45 src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "Mislykkede"
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "Enhver status"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr "Logførte data er slettet"
+
+#: src/Logs/LoggingListTable.php:198
+#: assets/views/order/page-order-details.php:165
+msgid "IP Address"
+msgstr "IP adresse"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "Bruger"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "Ikke-medlem"
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "Download #%d (eksisterer ikke længere)"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "%s siden"
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "Download er gennemført"
+
+#: src/Shop/Admin/OrderTable.php:99 src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr "Slet"
+
+#: src/Admin/Admin.php:290
+msgid "If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge thank you from us in advance!"
+msgstr "Hvis du kan lide %sDownload Monitor%s, så giv os en %s★★★★★%s-bedømmelse. En kæmpetak fra os på forhånd!"
+
+#: src/Shop/Admin/OrderTable.php:154 src/Logs/LogExportCSV.php:77
+#: assets/views/order/page-order-details.php:69
+msgid "Status"
+msgstr "Status"
+
+#: src/Shop/Admin/OrderTable.php:153 src/Shop/Admin/ProductTableColumns.php:35
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+#: assets/views/order/page-order-details.php:68
+msgid "Date"
+msgstr "Dato"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "Browser agent"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "Bruger-ip"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "Bruger e-mail"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "Bruger log ind"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "Bruger-id"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "Filnavn"
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "Version-id"
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "Slet logfiler"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "Eksporter CSV"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "Download logfiler"
+
+#: src/Admin/Settings/Page.php:178
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: src/Admin/Settings/Page.php:101
+msgid "Settings successfully saved"
+msgstr "Indstillingerne blev korrekt gemt"
+
+#: src/Admin/Settings/Page.php:204
+msgid "Please add the following rules to your nginx config to disable direct file access: %s"
+msgstr "Tilføj følgende regler til din nginx-konfiguration for at deaktivere direkte filadgang: %s"
+
+#: src/Admin/Settings/Page.php:203
+msgid "Because your server is running on nginx, our .htaccess file can't protect your downloads."
+msgstr "Fordi din server kører på nginx, kan .htaccess filen ikke beskytte dine downloads."
+
+#: src/Admin/Admin.php:240 src/DLM.php:259 src/Util/Onboarding.php:205
+msgid "Extensions"
+msgstr "Udvidelser"
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:258
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "Logfiler"
+
+#: src/Admin/Settings/Settings.php:271
+msgid "Blacklist user agents"
+msgstr "Sortlist browser agenter"
+
+#: src/Admin/Settings/Settings.php:264
+msgid "List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for ranges. IPv4 examples: <code>198.51.100.1</code> or <code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or <code>2001:db8::/32</code>."
+msgstr "Angiv de IP-adresser, der skal sortlistes, 1 pr. linje. Brug IP/CIDR-netmaskeformat for interval. IPv4 eksempler: <code>198.51.100.1</code> eller <code>198.51.100.0/24</code>. IPv6 eksempler: <code>2001:db8::1</code> eller <code>2001:db8::/32</code>."
+
+#: src/Admin/Settings/Settings.php:263
+msgid "Blacklist IPs"
+msgstr "Sortlistede IP'er"
+
+#: src/Admin/Settings/Settings.php:257
+msgid "The message that will be displayed to visitors when they don't have access to a file."
+msgstr "Den besked, der vil blive vist til besøgende, når de ikke har adgang til en fil."
+
+#: src/Admin/Settings/Settings.php:256
+msgid "No access message"
+msgstr "Ingen adgang besked"
+
+#: src/Installer.php:38 src/Admin/Settings/Settings.php:254
+#: src/UpgradeManager.php:56
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr "Du har ikke adgang til denne download. %sGå til hjemmeside%s"
+
+#: src/Admin/Settings/Settings.php:289
+msgid "Choose what page is displayed when the user has no access to a file. Don't forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr "Vælg, hvilken side der vises, når brugeren ikke har adgang til en fil. Husk at tilføje <code>[dlm_no_access]</code> kort-koden på siden."
+
+#: src/Admin/Settings/Settings.php:288
+msgid "No Access Page"
+msgstr "Ingen adgang side"
+
+#: src/Admin/Settings/Settings.php:248
+msgid "Access"
+msgstr "Adgang"
+
+#: src/Admin/Settings/Settings.php:238
+msgid "Count unique IPs only"
+msgstr "Optæl kun unikke IP'er"
+
+#: src/Admin/Settings/Settings.php:212
+msgid "Log download attempts, IP addresses and more."
+msgstr "Logfør download forsøg, IP adresser med flere."
+
+#: src/Admin/Settings/Settings.php:211
+msgid "Download Log"
+msgstr "Download logfil"
+
+#: src/Admin/Settings/Settings.php:203
+msgid "Logging"
+msgstr "Logfør"
+
+#: src/Admin/Settings/Settings.php:187 src/Admin/Settings/Settings.php:195
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files."
+msgstr "Kontroltal kan medtages når du bruger kort-koder, men det kan medføre forsinkelser ved store filer."
+
+#: src/Admin/Settings/Settings.php:194
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "Generer CRC32B-hash for uploadede filer"
+
+#: src/Admin/Settings/Settings.php:193
+msgid "CRC32B hashes"
+msgstr "CRC32B-hashes"
+
+#: src/Admin/Settings/Settings.php:178
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "Generer SHA1-hash for uploadede filer"
+
+#: src/Admin/Settings/Settings.php:177
+msgid "SHA1 hashes"
+msgstr "SHA1-hashes"
+
+#: src/Admin/Settings/Settings.php:170
+msgid "Generate MD5 hash for uploaded files"
+msgstr "Generer MD5-hash for uploadede filer"
+
+#: src/Admin/Settings/Settings.php:169
+msgid "MD5 hashes"
+msgstr "MD5-hashes"
+
+#: src/Admin/Settings/Settings.php:157
+msgid "Hashes"
+msgstr "Kontroltal"
+
+#: src/Admin/Settings/Settings.php:149
+msgid "Download slug"
+msgstr "Download kort-titel"
+
+#: src/Admin/Settings/Settings.php:148 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "Download‑id"
+
+#: src/Admin/Settings/Settings.php:145
+msgid "Define what unique value should be used on the end of your endpoint to identify the downloadable file. e.g. ID would give a link like <code>%s</code>"
+msgstr "Definer, hvilken unik værdi der skal bruges i slutningen af dit slutpunkt for at identificere filen, der kan downloades. F.eks. vil id give et link som dette <code>%s</code>"
+
+#: src/Admin/Settings/Settings.php:144
+msgid "Endpoint Value"
+msgstr "Slutpunkts værdi"
+
+#: src/Admin/Settings/Settings.php:139
+msgid "Define what endpoint should be used for download links. By default this will be <code>%s</code>."
+msgstr "Definer hvilket slutpunkt skal bruges for download links. Som standard vil det være <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:138
+msgid "Download Endpoint"
+msgstr "Download slutpunkt"
+
+#: src/Admin/Settings/Settings.php:137 assets/blocks/src/blocks.js:22
+msgid "download"
+msgstr "download"
+
+#: src/Admin/Settings/Settings.php:129
+msgid "Endpoint"
+msgstr "Slutpunkt"
+
+#: src/Admin/Settings/Settings.php:105
+msgid "If enabled, the download handler will check the PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "Hvis det er aktiveret, vil download håndteringen tjekke PHP-referrer for at se, om den stammer fra dit site. Hvis ikke, viderestilles de til forsiden."
+
+#: src/Admin/Settings/Settings.php:103
+msgid "Prevent hotlinking"
+msgstr "Forhindre hotlinking"
+
+#: src/Admin/Settings/Settings.php:97
+msgid "If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be used to serve downloads instead of PHP (server requires <code>mod_xsendfile</code>)."
+msgstr "Hvis det er understøttet, kan <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> anvendes til, at håndterer downloads i stedet for PHP (serveren skal have <code>mod_xsendfile</code>)."
+
+#: src/Admin/Settings/Settings.php:96 src/Admin/Settings/Settings.php:104
+#: src/Admin/Settings/Settings.php:112 src/Admin/Settings/Settings.php:120
+#: src/Admin/Settings/Settings.php:209 src/Admin/Settings/Settings.php:231
+#: src/Admin/Settings/Settings.php:239 src/Admin/Settings/Settings.php:398
+msgid "Enable"
+msgstr "Aktiver"
+
+#: src/Admin/Settings/Settings.php:95
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:82
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>button</code>, the <code>content-download-button.php</code> template will be used instead. You can add custom templates inside your theme folder."
+msgstr "Efterlad feltet tomt for, at anvende standard <code>content-download.php</code> skabelon filen. Hvis du indtaster, f.eks. <code>button</code>, vil <code>content-download.php</code> skabelonen blive anvendt i stedet. Du kan tilføje en brugerdefineret skabelon til din tema mappe."
+
+#: src/Admin/Settings/Settings.php:81 assets/blocks/src/blocks.js:75
+msgid "Custom Template"
+msgstr "Brugerdefineret skabelon"
+
+#: src/TemplateHandler.php:22
+msgid "Custom template"
+msgstr "Brugerdefineret skabelon"
+
+#: src/TemplateHandler.php:21
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "Versions liste - Viser en liste med alle download versioner i usorteret rækkefølge"
+
+#: src/TemplateHandler.php:20
+msgid "Title - Shows download title only"
+msgstr "Titel ‒ Viser kun download titel"
+
+#: src/TemplateHandler.php:19
+msgid "Filename - Filename and download count"
+msgstr "Filnavn - Filnavn og antal downloads"
+
+#: src/TemplateHandler.php:18
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "Boks - Boks, der viser miniature, titel, antal, filnavn og fil størrelse."
+
+#: src/TemplateHandler.php:17
+msgid "Button - CSS styled button showing title and count"
+msgstr "Knap - CSS-stylet knap, der viser titel og antal"
+
+#: src/TemplateHandler.php:16
+msgid "Default - Title and count"
+msgstr "Standard - Titel og optælling"
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Choose which template is used for <code>[download]</code> shortcodes by default (this can be overridden by the <code>format</code> argument)."
+msgstr "Vælg hvilken skabelon der skal anvendes for <code>[download]</code> kort-koden som standard (dette kan tilsidesættes af <code>format</code> argumentet)."
+
+#: src/Admin/Settings/Settings.php:72
+msgid "Default Template"
+msgstr "Standard skabelon"
+
+#: src/Admin/Settings/Settings.php:65 src/Admin/Settings/Settings.php:324
+msgid "General"
+msgstr "Generelt"
+
+#: src/Admin/Settings/Settings.php:484
+msgid "Select Page"
+msgstr "Vælg side"
+
+#: src/Admin/WritePanels.php:188
+msgid "Expand all"
+msgstr "Udvid alle"
+
+#: src/Admin/WritePanels.php:187
+msgid "Close all"
+msgstr "Luk alle"
+
+#: src/Admin/WritePanels.php:186
+msgid "Add file"
+msgstr "Tilføj fil"
+
+#: src/Admin/WritePanels.php:142
+msgid "Don't force download. If the <code>dlm_uploads</code> folder is protected you may need to move your file."
+msgstr "Gennemtving ikke download. Hvis <code>dlm_uploads</code> mappen er beskyttet, kan du blive nødt til at flytte filen."
+
+#: src/Admin/WritePanels.php:136
+msgid "Only logged in users will be able to access the file via a download link if this is enabled."
+msgstr "Kun brugere, der er logget ind, vil få adgang til filen via et downloadlink, hvis dette aktiveres."
+
+#: src/Admin/WritePanels.php:130
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "Marker denne download som fremhævet. Anvendes af kort-koder og widgets."
+
+#: src/Admin/WritePanels.php:91
+msgid "Shortcode"
+msgstr "Kort-kode"
+
+#: src/Admin/WritePanels.php:85
+msgid "URL"
+msgstr "URL"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "Kort beskrivelse"
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "Downloadbare filer/versioner"
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "Download indstillinger"
+
+#: src/Admin/WritePanels.php:32 assets/blocks/src/blocks.js:56
+msgid "Download Information"
+msgstr "Download information"
+
+#: src/Admin/AdminScripts.php:206
+msgid "Are you sure you want to delete this file ? "
+msgstr "Er du sikker på, du vil slette denne fil? "
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "Vent..."
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "Tilladte filer"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "Gem download"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "Valgfrit version nummer"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "Påkrævet titel"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "Download titel"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "Påkrævet url"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "Download-url"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "Indtast manuelt url"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "Vælg fil"
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "eller"
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "Træk fil hertil"
+
+#: src/Admin/MediaInsert.php:198
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>image</code>, the <code>content-download-image.php</code> template will be used instead."
+msgstr "Hvis dette efterlades tomt, vil standard <code>content-download.php</code>skabelon filen blive anvendt. Hvis du f.eks. angiver <code>billede</code>, bruges skabelonen <code>content-download-image.php</code> i stedet for."
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "Skabelonnavn"
+
+#: src/Admin/MediaInsert.php:194 assets/blocks/src/blocks.js:68
+#: assets/blocks/src/blocks.js:70
+msgid "Template"
+msgstr "Skabelon"
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "Vælg en download"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "Fejl: Download blev ikke oprettet."
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "Download blev oprettet korrekt."
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "Fejl: Fil blev ikke oprettet."
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "Tilføj hurtig en download"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "Indsæt kort-kode"
+
+#: src/Admin/MediaInsert.php:36 src/Admin/MediaInsert.php:55
+#: src/Admin/AdminScripts.php:201
+msgid "Insert Download"
+msgstr "Indsæt download"
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "Der blev ikke fundet nogen filer"
+
+#: src/Admin/MediaBrowser.php:34 src/Admin/AdminScripts.php:207
+msgid "Browse for a file"
+msgstr "Gennemse for fil"
+
+#: src/Admin/Extensions.php:67
+msgid "Extend Download Monitor with its powerful free and paid extensions. %sClick here to browse all extensions%s"
+msgstr "Udvid Download Monitor ‒ gratis eller mod betaling. %sKlik for at gennemse alle udvidelserne%s"
+
+#: src/Admin/Admin.php:240 src/Admin/Extensions.php:34
+msgid "Download Monitor Extensions"
+msgstr "Download Monitor udvidelser"
+
+#: src/Admin/Dashboard.php:73 src/PostTypeManager.php:23
+#: src/Logs/LoggingListTable.php:195 assets/blocks/src/blocks.js:58
+msgid "Download"
+msgstr "Download"
+
+#: src/Admin/Dashboard.php:60
+msgid "There are no stats available yet!"
+msgstr "Der er endnu ikke nogen statistik!"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "Populære downloads"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:141
+msgid "Redirect to file"
+msgstr "Omdiriger til fil"
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:129
+msgid "Featured download"
+msgstr "Fremhævet download"
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr "Download Monitor data"
+
+#: src/Admin/CustomColumns.php:90 src/Admin/CustomColumns.php:97
+#: src/Admin/CustomColumns.php:104
+msgid "Yes"
+msgstr "Ja"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "Udgivelsesdato"
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "Kun omdirigering"
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:135
+msgid "Members only"
+msgstr "Kun medlemmer"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "Fremhævet"
+
+#: src/Admin/CustomColumns.php:31 src/Admin/Dashboard.php:74
+#: src/Widgets/Downloads.php:212 assets/views/meta-box/version.php:64
+msgid "Download count"
+msgstr "Antal download"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "Tags"
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "Kategorier"
+
+#: src/Admin/MediaInsert.php:241 src/Admin/CustomColumns.php:28
+#: assets/views/meta-box/version.php:22
+#: templates/shop/email/elements/downloads-table.php:16
+#: assets/blocks/src/blocks.js:63
+msgid "Version"
+msgstr "Version"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "Fil"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/Downloads.php:206 assets/views/order/page-order-details.php:67
+msgid "ID"
+msgstr "ID"
+
+#: src/Shop/Admin/ProductTableColumns.php:33 src/Admin/CustomColumns.php:25
+#: src/Widgets/Downloads.php:172 src/Widgets/Downloads.php:202
+msgid "Title"
+msgstr "Titel"
+
+#: src/Shop/Admin/ProductTableColumns.php:32 src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "Billede"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "Download kladde blev opdateret."
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "Download er planlagt til: <strong>%1$s</strong>."
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "Download blev sendt."
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "Download er gemt."
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "Download udgivet."
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr "Download blev gendannet til revision fra %s"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "Brugerdefineret felt er slettet."
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "Brugerdefineret felt er opdateret."
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "Download blev opdateret."
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "Download titel"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "Vælg en kategori"

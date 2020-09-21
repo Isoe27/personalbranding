@@ -1,0 +1,1249 @@
+# Translation of Plugins - Download Monitor - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Download Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-05 18:48:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Download Monitor - Stable (latest release)\n"
+
+#: src/Admin/Settings/Settings.php:222 src/Admin/Settings/Settings.php:240
+msgid "Store full IP address"
+msgstr "Записывать полный IP-адрес"
+
+#: src/Admin/Settings/Settings.php:224
+msgid "Store no IP address"
+msgstr "Не сохранять IP адрес"
+
+#: src/Admin/Settings/Settings.php:223
+msgid "Store anonymized IP address (remove last 3 digits)"
+msgstr "Сохранять анонимный IP адрес (последние 3 цифры)"
+
+#: src/Admin/Settings/Settings.php:218 src/Admin/Settings/Settings.php:240
+msgid "IP Address Logging"
+msgstr "Логирование IP адреса"
+
+#: src/Admin/Settings/Settings.php:219
+msgid "Define if and how you like to store IP addresses of users that download your files in your logs."
+msgstr "Определите если и как вы хотите сохранять IP адрес пользователей скачавших ваши файлы в журналах."
+
+#: src/Admin/Settings/Settings.php:232
+msgid "If enabled, the user agent (browser) the user uses to download the file will be stored in your logs."
+msgstr "Если включено, в ваших журналах будет сохранен браузер, который используется для загрузки файла."
+
+#: src/Admin/Settings/Settings.php:230
+msgid "User Agent Logging"
+msgstr "Логирование User Agent"
+
+#: src/Admin/Settings/Settings.php:240
+msgid "If enabled, the counter for each download will only increment and create a log entry once per IP address. Note that this option only works if %s is set to %s."
+msgstr "Если включено, счетчик для каждой загрузки будет только увеличиваться и создавать запись в журнале единоразово для каждого IP-адреса. Обратите внимание, что этот параметр работает только в том случае, если %s установлено как %s."
+
+#: src/LegacyUpgrader/Page.php:46
+msgid "WARNING: We don't think your database needs upgrading. Only continue if you're 100% sure what you're doing!"
+msgstr "ВНИМАНИЕ: Мы не думаем, что ваша база данных нуждается в обновлении. Только если вы уверены на 100%, что делаете!"
+
+#: src/LegacyUpgrader/Page.php:48
+msgid "I'm sure I want to run the upgrader anyway"
+msgstr "Я уверен, что хочу запустить обновление в любом случае"
+
+#: src/DLM.php:260
+msgid "Documentation"
+msgstr "Документация"
+
+#: src/Admin/Settings/Settings.php:390
+msgid "Misc"
+msgstr "Разное"
+
+#: src/Admin/Reports/Page.php:23
+msgid "Reports"
+msgstr "Отчеты"
+
+#: src/Logs/LoggingListTable.php:298
+msgid "Select a User"
+msgstr "Выберите пользователя"
+
+#: src/Admin/Settings/Settings.php:119
+msgid "Include in Search"
+msgstr "Включить в поиск"
+
+#: src/Logs/LogPage.php:83
+msgid "Are you sure you want to delete ALL log items?"
+msgstr "Вы уверены, что хотите удалить ВСЕ записи журнала?"
+
+#: src/Admin/Settings/Settings.php:186
+msgid "Generate SHA256 hash for uploaded files"
+msgstr "Сгенерировать хэш SHA256 для загруженных файлов"
+
+#: templates/content-download-no-version.php:12
+msgid "Please set a version in your WordPress admin"
+msgstr "Пожалуйста, установите версию в своей админ-панели WordPress"
+
+#: src/Admin/Settings/Settings.php:272
+msgid "List browser user agents to blacklist, 1 per line.  Partial matches are sufficient. Regex matching is allowed by surrounding the pattern with forward slashes, e.g. <code>/^Mozilla.+Googlebot/</code>"
+msgstr "Перечислите пользовательские агенты браузеров в черный список, по 1 агенту в строке. Частичных совпадений достаточно. Согласование регулярных выражений допускается путем обрамления шаблона косыми чертами, например <code>/^Mozilla.+Googlebot/</code>"
+
+#: src/Admin/Settings/Settings.php:397
+msgid "Remove Data on Uninstall?"
+msgstr "Очистить данные при удалении?"
+
+#: src/Admin/WritePanels.php:99
+msgid "No download information for new downloads."
+msgstr "Нет информации по новым загрузкам."
+
+#: src/Admin/Settings/Settings.php:406
+msgid "Remove all Download Monitor transients, this can solve version caching issues."
+msgstr "Удаление всех транзиентов Download Monitor поможет решить проблемы с кешированием версии."
+
+#: src/Admin/Settings/Settings.php:405
+msgid "Clear all transients"
+msgstr "Очистить все транзиенты"
+
+#: src/Admin/Settings/Settings.php:185
+msgid "SHA256 hashes"
+msgstr "Хэши SHA256"
+
+#: src/Logs/LogExportCSV.php:78
+msgid "Meta Data"
+msgstr "Мета-данные"
+
+#: src/Admin/Settings/Settings.php:163
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files. %sYou can read more about hashes here%s"
+msgstr "Хэши могут быть выведены через шорткоды, но могут вызывать проблемы с файлами больших размеров. %sВы можете узнать больше о хэшах здесь%s"
+
+#: src/Admin/Settings/Page.php:67
+msgid "Download Monitor Transients successfully cleared!"
+msgstr "Транзиенты Download Monitor успешно очищены!"
+
+#: src/Admin/Reports/Page.php:141
+msgid "Month"
+msgstr "Месяц"
+
+#: assets/views/notice-lu-upgrade.php:11
+msgid "hide notice"
+msgstr "скрыть уведомление"
+
+#: src/Admin/Reports/Page.php:140
+msgid "Per Day"
+msgstr "В день"
+
+#: src/Admin/Reports/Page.php:115
+msgid "Switch to %s"
+msgstr "Переключить на %s"
+
+#: src/Admin/Settings/Settings.php:399
+msgid "Check this box if you would like to completely remove all Download Monitor data when the plugin is deleted."
+msgstr "Отметьте этот флажок, если вы хотите полностью очистить все данные плагина при его удалении."
+
+#: assets/views/notice-lu-upgrade.php:10
+msgid "Take me to the Upgrade Tool"
+msgstr "Перейти в Инструмент обновления"
+
+#: assets/views/notice-lu-upgrade.php:9
+msgid "We've created an upgrading tool that will do all the work for you. You can read more about this tool on %sour website (click here)%s or start the upgrade now."
+msgstr "Мы создали инструмент обновления, который сделает всю работу за вас. Вы можете больше узнать об этом инструменте на %sнашем сайте (нажмите здесь)%s или начните обновление."
+
+#: src/LegacyUpgrader/Page.php:17
+msgid "Legacy Upgrader"
+msgstr "Устаревший инструмент обновления"
+
+#: templates/content-download-no-version.php:13
+msgid "has no version set!"
+msgstr "не имеет установленной версии!"
+
+#: src/TaxonomyManager.php:61
+msgid "Download Tags"
+msgstr "Метки загрузок"
+
+#: src/Admin/Settings/Settings.php:121
+msgid "If enabled, downloads will be included in the site's internal search results."
+msgstr "Если включить, то страницы Загрузок будут включены в результаты поиска на сайте."
+
+#: src/Admin/Reports/Page.php:180
+msgid "Download Reports"
+msgstr "Отчеты по загрузкам"
+
+#: src/Admin/MediaInsert.php:161
+msgid "Search download"
+msgstr "Поиск загрузок"
+
+#: src/TaxonomyManager.php:29
+msgid "Download Categories"
+msgstr "Рубрики загрузок"
+
+#: assets/views/notice-lu-upgrade.php:7
+msgid "It looks like you upgraded to the latest version of Download Monitor from a legacy version (3.x)"
+msgstr "Похоже, вы обновили Download Monitor до последней версии"
+
+#: src/LegacyUpgrader/Page.php:41
+msgid "Download Monitor - Legacy Upgrade"
+msgstr "Download Monitor - Обновление устаревших версий"
+
+#: src/PostTypeManager.php:86
+msgid "Parent Download Version"
+msgstr "Родительская версия"
+
+#: src/PostTypeManager.php:85
+msgid "No Download Versions found in trash"
+msgstr "Нет версий в корзине"
+
+#: src/PostTypeManager.php:84
+msgid "No Download Versions found"
+msgstr "Нет версий"
+
+#: src/PostTypeManager.php:73
+msgid "All Download Versions"
+msgstr "Все версии"
+
+#: src/PostTypeManager.php:74
+msgid "Download Versions"
+msgstr "Версии"
+
+#: src/PostTypeManager.php:75
+msgid "Download Version"
+msgstr "Версия"
+
+#: src/PostTypeManager.php:77
+msgid "Add Download Version"
+msgstr "Добавить версию"
+
+#: src/PostTypeManager.php:79
+msgid "Edit Download Version"
+msgstr "Редактировать версию"
+
+#: src/PostTypeManager.php:80
+msgid "New Download Version"
+msgstr "Новая версия"
+
+#: src/PostTypeManager.php:81 src/PostTypeManager.php:82
+msgid "View Download Version"
+msgstr "Посмотреть версию"
+
+#: src/PostTypeManager.php:83
+msgid "Search Download Versions"
+msgstr "Найти версии"
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "upgrade your downloads"
+msgstr "обновить ваши загрузки"
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "Currently your downloads don't work like they should, we need to %s before they'll work again."
+msgstr "В данный момент ваши загрузки не работают, как должны. Нам необходимо %s, прежде чем они снова заработают."
+
+#: src/LegacyUpgrader/Page.php:42
+msgid "Welcome to the Download Monitor Legacy Upgrader. On this page we will upgrade your old Download Monitor (legacy) data so it will work with the latest version. If you're on this page, it should mean that you updated to this version from Download Monitor %s. If you're unsure if this is correct, or you want to read more about the legacy upgrade, we've setup a page that will explain this process in a lot more detail. %sClick here%s if to view that page."
+msgstr "Добро пожаловать в обновление от старой версии Download Monitor. На этой странице мы обновим ваши данные от старой версии, чтобы они работали с новой. Если вы попали сюда, это значит что вы обновили Download Monitor с версии %s. Если вы не уверены, что так и должно быть или хотите узнать больше об обновлении со старой версии, мы создали страницу с очень детальным объяснением процедуры. %sНажмите сюда%s , чтобы посмотреть её."
+
+#: src/Admin/Settings/Fields/LazySelect.php:41
+msgid "Loading"
+msgstr "Загрузка"
+
+#: src/Admin/Settings/Settings.php:111
+msgid "Allow Proxy IP Override"
+msgstr "Разрешить перезаписывать IP прокси"
+
+#: src/Admin/Settings/Settings.php:113
+msgid "If enabled, Download Monitor will use the X_FORWARDED_FOR HTTP header set by proxies as the IP address. Note that anyone can set this header, making it less secure."
+msgstr "Если включено, Download Monitor будет использовать HTTP-заголовок X_FORWARDED_FOR, заданный прокси-серверами как IP-адреса. Обратите внимание, что любой пользователь может установить этот заголовок, делая его менее безопасным."
+
+#: src/Product/Product.php:430
+msgid "<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension to receive access to automatic upgrades and support. Need a license key? <a href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr "<a href=\"%s\">Зарегистрируйте свою копию</a> расширения <strong>%s</strong>, чтобы получить доступ к автоматическим обновлениям и поддержке. Нужен лицензионный ключ? <a href=\"%s\" target=\"_blank\">Купить сейчас</a>."
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr "(v%s больше не существует)"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr " (v%s)"
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:258
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Shop/Admin/OrderTable.php:154 src/Logs/LogExportCSV.php:77
+#: assets/views/order/page-order-details.php:69
+msgid "Status"
+msgstr "Статус"
+
+#: src/Shop/Admin/OrderTable.php:99 src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/Logs/LoggingListTable.php:198
+#: assets/views/order/page-order-details.php:165
+msgid "IP Address"
+msgstr "IP-адрес"
+
+#: src/Shop/Admin/OrderTable.php:153 src/Shop/Admin/ProductTableColumns.php:35
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+#: assets/views/order/page-order-details.php:68
+msgid "Date"
+msgstr "Дата"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "%s назад"
+
+#: src/Admin/Settings/Page.php:178
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: src/Shop/Util/PostType.php:22 src/PostTypeManager.php:26
+#: src/PostTypeManager.php:78
+msgid "Edit"
+msgstr "Изменить"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "Пользователь"
+
+#: src/Shop/Admin/OrderTable.php:285 src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "Фильтр"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/Admin/Admin.php:240 src/DLM.php:259 src/Util/Onboarding.php:205
+msgid "Extensions"
+msgstr "Расширения"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "Версия %s"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "﻿Нажмите, чтобы переключить"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "н/д"
+
+#: src/Shop/Email/VarParser.php:70 templates/content-download-box.php:29
+#: templates/shop/checkout/order-complete.php:89
+msgid "Download File"
+msgstr "Скачать файл"
+
+#: templates/content-download-version-list.php:24
+#: templates/content-download-button.php:14
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "Загружено 1 раз"
+msgstr[1] "Загружено %d раза"
+msgstr[2] "Загружено %d раз"
+
+#: src/Shop/Admin/OrderTable.php:274 src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "50 на странице"
+
+#. Author URI of the plugin
+msgid "https://www.never5.com"
+msgstr "https://www.never5.com"
+
+#. Author of the plugin
+msgid "Never5"
+msgstr "Never5"
+
+#. Plugin URI of the plugin
+msgid "https://www.download-monitor.com"
+msgstr "https://www.download-monitor.com"
+
+#. Plugin Name of the plugin
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "Скачать &ldquo;%s&rdquo;"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "Имя файла"
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "ID версии"
+
+#: src/Admin/Settings/Page.php:101
+msgid "Settings successfully saved"
+msgstr "Настройки успешно сохранены"
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "Журналы"
+
+#: src/Widgets/Downloads.php:193
+msgid "Default template"
+msgstr "Шаблон по умолчанию"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "Дата файла"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "Вставить URL файла"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "Загрузить файл"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "Версия <span class=\"version\">%s</span> (%s)"
+
+#: src/Shop/Admin/OrderTable.php:264 src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "User Agent"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "IP пользователя"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "Email пользователя"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "ID пользователя"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "Экспорт CSV"
+
+#: src/Widgets/Downloads.php:210
+msgid "Date modified"
+msgstr "Дата изменения"
+
+#: src/Widgets/Downloads.php:208
+msgid "Date added"
+msgstr "Дата добавления"
+
+#: src/Widgets/Downloads.php:197
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: src/Widgets/Downloads.php:204
+msgid "Random"
+msgstr "Случайно"
+
+#: src/Widgets/Downloads.php:55 src/Widgets/Downloads.php:162
+msgid "Featured Downloads"
+msgstr "Избранные загрузки"
+
+#: src/Admin/Settings/Settings.php:264
+msgid "List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for ranges. IPv4 examples: <code>198.51.100.1</code> or <code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or <code>2001:db8::/32</code>."
+msgstr ""
+"Перечень IP адресов для чёрного списка, по одному на строке. Используйте формат IP/CIDR для диапазона. \n"
+"Например IPv4: <code>198.51.100.1</code> или <code>198.51.100.0/24</code>. \n"
+"Наример IPv6: <code>2001:db8::1</code> или <code>2001:db8::/32</code>."
+
+#: src/Shop/Admin/OrderTable.php:152 src/Widgets/Downloads.php:217
+msgid "Order"
+msgstr "Сортировать"
+
+#: src/Shop/Admin/OrderTable.php:280 src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "Показать все"
+
+#: src/Shop/Admin/OrderTable.php:272 src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "25 на странице"
+
+#: src/Shop/Admin/OrderTable.php:276 src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "100 на странице"
+
+#: src/DownloadHandler.php:557 src/DownloadHandler.php:559
+msgid "File not found."
+msgstr "Файл не найден."
+
+#: src/Util/Onboarding.php:125 src/Util/PageCreator.php:14
+msgid "No Access"
+msgstr "Нет доступа"
+
+#: src/Admin/Settings/Settings.php:271
+msgid "Blacklist user agents"
+msgstr "Чёрный список User Agents"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "Все загрузки"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "Логин пользователя"
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "Удалить журналы"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "Скачать журналы"
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "Загрузка завершена"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "Здесь вы можете создавать и управлять загрузками для своего сайта."
+
+#: src/Shop/Admin/OrderTable.php:278 src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "200 на странице"
+
+#: src/DownloadHandler.php:314
+msgid "Password Required"
+msgstr "Требуется пароль"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "Редактировать загрузку"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "Новая загрузка"
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "Родительская загрузка"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "ч"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "Не член"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "Добавить загрузку"
+
+#: src/PostTypeManager.php:22 assets/views/meta-box/product-information.php:13
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr "Записи журнала удалены"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:445
+#: src/DownloadHandler.php:559
+msgid "Download Error"
+msgstr "Ошибка загрузки"
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "Любой статус"
+
+#: src/Shop/Order/Status/Factory.php:27
+#: src/Shop/Order/Transaction/Factory.php:45 src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "Неудачно"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:559
+msgid "Go to homepage &rarr;"
+msgstr "Перейти на главную &rarr;"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "Перенаправлено"
+
+#: src/Shop/Order/Status/Factory.php:24 src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "Завершено"
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "URL файла(-ов)"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "м"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "Обзор файлов"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "Выбрать файл"
+
+#: src/PostTypeManager.php:24 src/PostTypeManager.php:76
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: src/Widgets/Downloads.php:224
+msgid "DESC"
+msgstr "НИСХ"
+
+#: src/Widgets/Downloads.php:222
+msgid "ASC"
+msgstr "ВОСХ"
+
+#: src/Widgets/Downloads.php:188
+msgid "Output template"
+msgstr "Шаблон вывода"
+
+#: src/Widgets/Downloads.php:30
+msgid "Downloads List"
+msgstr "Список скачиваний"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "Добавить новую метку скачиваний"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "Обновить метку скачиваний"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "редактировать метку скачиваний"
+
+#: src/Shop/Admin/OrderTable.php:250 src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "Показать все даты"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17 templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "Одна Загрузка"
+msgstr[1] "%d Загрузки"
+msgstr[2] "%d Загрузок"
+
+#: src/Widgets/Downloads.php:180
+msgid "Limit"
+msgstr "Ограничение"
+
+#: src/Widgets/Downloads.php:232
+msgid "Show only featured downloads"
+msgstr "Показать только избранные загрузки"
+
+#: src/Widgets/Downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "Показать список Ваших загрузок."
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr "Лицензия успешно активирована."
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "Загрузка #%d (больше не существует)"
+
+#: src/Admin/Settings/Page.php:203
+msgid "Because your server is running on nginx, our .htaccess file can't protect your downloads."
+msgstr "Поскольку ваш сервер работает на nginx, наш .htaccess файл не может защитить ваши загрузки."
+
+#: src/Admin/Admin.php:290
+msgid "If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge thank you from us in advance!"
+msgstr "Если вам нравится %sDownload Monitor%s, пожалуйста, оставьте нам %s★★★★★%s рейтинг. Большое спасибо вам заранее!"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "Поиск загрузок"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "Посмотреть загрузку"
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "Нет загрузок в корзине"
+
+#: src/Shortcodes.php:142 src/Shortcodes.php:261
+msgid "Download not found"
+msgstr "Загрузка не найдена"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "Родительская метка"
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "Название новой метки"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "Все метки"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "Поиск меток"
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "Метка"
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "Название новой рубрики"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "Добавить новую рубрику"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "Нет загрузок"
+
+#: src/DownloadHandler.php:320
+msgid "Download does not exist."
+msgstr "Загрузки не существует."
+
+#: src/DownloadHandler.php:397 src/DownloadHandler.php:405
+msgid "No file paths defined."
+msgstr "Не определены пути к файлу."
+
+#: src/DownloadHandler.php:481 src/DownloadHandler.php:499
+#: src/DownloadHandler.php:506 src/DownloadHandler.php:513
+msgid "Redirected to file"
+msgstr "Перенаправлено на файл"
+
+#: src/DownloadHandler.php:552
+msgid "Redirected to remote file."
+msgstr "Перенаправлено на удаленный файл."
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "Родительская рубрика"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "Обновить рубрику"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "Редактировать рубрику"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "Все рубрики"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "Поиск рубрик"
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "Рубрика"
+
+#: assets/views/meta-box/version.php:31
+msgid "Enter one file path/URL per line - multiple files will be used as mirrors (chosen at random)."
+msgstr "Введите один путь/адрес к файлу в одной строке - несколько файлов будут использоваться в качестве зеркал (выбраны случайным образом)."
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "Загружено %s раз"
+msgstr[1] "Загружено %s раза"
+msgstr[2] "Загружено %s раз"
+
+#: src/Admin/Settings/Page.php:204
+msgid "Please add the following rules to your nginx config to disable direct file access: %s"
+msgstr "Пожалуйста, добавьте эти правила в ваш файл конфигурации nginx для отключения прямого доступа к файлам: %s"
+
+#: src/Widgets/Downloads.php:239
+msgid "Show only members only downloads"
+msgstr "Показывать загрузки только для зарегистрированных пользователей"
+
+#: src/Admin/Settings/Settings.php:65 src/Admin/Settings/Settings.php:324
+msgid "General"
+msgstr "Основные"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "Выберите рубрику"
+
+#: src/Shop/Admin/ProductTableColumns.php:33 src/Admin/CustomColumns.php:25
+#: src/Widgets/Downloads.php:172 src/Widgets/Downloads.php:202
+msgid "Title"
+msgstr "Название"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "Метки"
+
+#: src/Admin/CustomColumns.php:90 src/Admin/CustomColumns.php:97
+#: src/Admin/CustomColumns.php:104
+msgid "Yes"
+msgstr "Да"
+
+#: src/Admin/Settings/Settings.php:137 assets/blocks/src/blocks.js:22
+msgid "download"
+msgstr "Загрузить"
+
+#: src/Admin/Dashboard.php:73 src/PostTypeManager.php:23
+#: src/Logs/LoggingListTable.php:195 assets/blocks/src/blocks.js:58
+msgid "Download"
+msgstr "Скачать"
+
+#: src/Admin/MediaInsert.php:241 src/Admin/CustomColumns.php:28
+#: assets/views/meta-box/version.php:22
+#: templates/shop/email/elements/downloads-table.php:16
+#: assets/blocks/src/blocks.js:63
+msgid "Version"
+msgstr "Версия"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "Категории"
+
+#: src/Shop/Admin/ProductTableColumns.php:32 src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "Изображение"
+
+#: src/Admin/Settings/Settings.php:96 src/Admin/Settings/Settings.php:104
+#: src/Admin/Settings/Settings.php:112 src/Admin/Settings/Settings.php:120
+#: src/Admin/Settings/Settings.php:209 src/Admin/Settings/Settings.php:231
+#: src/Admin/Settings/Settings.php:239 src/Admin/Settings/Settings.php:398
+msgid "Enable"
+msgstr "Включено"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: src/Admin/Settings/Settings.php:484
+msgid "Select Page"
+msgstr "Выберите страницу"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "Выбрать файл"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "Популярные загрузки"
+
+#: src/Admin/Dashboard.php:60
+msgid "There are no stats available yet!"
+msgstr "Пока нет статистических данных!"
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:129
+msgid "Featured download"
+msgstr "Избранные загрузки"
+
+#: src/Admin/CustomColumns.php:31 src/Admin/Dashboard.php:74
+#: src/Widgets/Downloads.php:212 assets/views/meta-box/version.php:64
+msgid "Download count"
+msgstr "Счётчик скачиваний"
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "или"
+
+#: src/Admin/MediaInsert.php:194 assets/blocks/src/blocks.js:68
+#: assets/blocks/src/blocks.js:70
+msgid "Template"
+msgstr "Шаблон"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/Downloads.php:206 assets/views/order/page-order-details.php:67
+msgid "ID"
+msgstr "ID"
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "Имя шаблона"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "Файл"
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "Файлы не найдены"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "Вставить шорткод"
+
+#: src/Admin/Admin.php:240 src/Admin/Extensions.php:34
+msgid "Download Monitor Extensions"
+msgstr "Расширения для Download Monitor"
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "Разрешённые файлы"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "Ввести URL вручную"
+
+#: src/Admin/Settings/Settings.php:211
+msgid "Download Log"
+msgstr "Скачать журнал"
+
+#: src/Admin/Settings/Settings.php:72
+msgid "Default Template"
+msgstr "Шаблон по-умолчанию"
+
+#: src/Admin/WritePanels.php:188
+msgid "Expand all"
+msgstr "Развернуть все"
+
+#: src/Admin/WritePanels.php:187
+msgid "Close all"
+msgstr "Закрыть все"
+
+#: src/Admin/WritePanels.php:186
+msgid "Add file"
+msgstr "Добавить файл"
+
+#: src/TemplateHandler.php:16
+msgid "Default - Title and count"
+msgstr "По умолчанию - Заголовок и счётчик"
+
+#: src/TemplateHandler.php:17
+msgid "Button - CSS styled button showing title and count"
+msgstr "Кнопка - CSS стилизованная кнопка с заголовком и счётчиком"
+
+#: src/Admin/WritePanels.php:91
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: src/Admin/WritePanels.php:85
+msgid "URL"
+msgstr "URL"
+
+#: src/TemplateHandler.php:18
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "Карточка - Включает миниатюру, заголовок, счётчик, имя файла и размер."
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "Перетащите файл сюда"
+
+#: src/TemplateHandler.php:19
+msgid "Filename - Filename and download count"
+msgstr "Имя файла - имя файла и количество скачиваний"
+
+#: src/Admin/Settings/Settings.php:129
+msgid "Endpoint"
+msgstr "Эндпоинт"
+
+#: src/TemplateHandler.php:20
+msgid "Title - Shows download title only"
+msgstr "Название - Показывает только название"
+
+#: src/Admin/Settings/Settings.php:263
+msgid "Blacklist IPs"
+msgstr "Чёрный список IP адресов"
+
+#: src/Admin/Settings/Settings.php:248
+msgid "Access"
+msgstr "Доступ"
+
+#: src/Admin/Settings/Settings.php:193
+msgid "CRC32B hashes"
+msgstr "Хэши CRC32B"
+
+#: src/Admin/Settings/Settings.php:177
+msgid "SHA1 hashes"
+msgstr "Хэши SHA1"
+
+#: src/Admin/Settings/Settings.php:169
+msgid "MD5 hashes"
+msgstr "Хэши MD5"
+
+#: src/Admin/Settings/Settings.php:157
+msgid "Hashes"
+msgstr "Хэши"
+
+#: src/TemplateHandler.php:22
+msgid "Custom template"
+msgstr "Произвольный шаблон"
+
+#: src/Admin/Settings/Settings.php:95
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:103
+msgid "Prevent hotlinking"
+msgstr "Не допускать хотлинкинг"
+
+#: src/Admin/Settings/Settings.php:170
+msgid "Generate MD5 hash for uploaded files"
+msgstr "Генерировать хэш MD5 для загруженных файлов"
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "M d, Y @ H:i"
+
+#: src/Admin/Settings/Settings.php:178
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "Генерировать хэш SHA1 для загруженных файлов"
+
+#: src/Admin/Settings/Settings.php:194
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "Генерировать хэш CRC32B для загруженных файлов"
+
+#: src/Admin/Settings/Settings.php:256
+msgid "No access message"
+msgstr "Сообщение о запрете доступа"
+
+#: src/Admin/Settings/Settings.php:257
+msgid "The message that will be displayed to visitors when they don't have access to a file."
+msgstr "Это сообщение будет показано посетителям не имеющим доступа к файлу."
+
+#: src/Admin/Settings/Settings.php:288
+msgid "No Access Page"
+msgstr "Страница \"доступ запрещен\""
+
+#: src/Admin/Settings/Settings.php:238
+msgid "Count unique IPs only"
+msgstr "Считать только уникальные IP"
+
+#: src/Admin/Settings/Settings.php:203
+msgid "Logging"
+msgstr "Журналирование"
+
+#: src/Admin/WritePanels.php:136
+msgid "Only logged in users will be able to access the file via a download link if this is enabled."
+msgstr "Только зарегистрированные пользователи смогут получить доступ к файлу через ссылку, если это включено."
+
+#: src/Admin/Settings/Settings.php:187 src/Admin/Settings/Settings.php:195
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files."
+msgstr "Хэши могут быть выведены через шорткоды, но это может вызывать проблемы с большими файлами."
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "только перенаправление"
+
+#: src/Admin/Settings/Settings.php:81 assets/blocks/src/blocks.js:75
+msgid "Custom Template"
+msgstr "Произвольный шаблон"
+
+#: src/Admin/Settings/Settings.php:149
+msgid "Download slug"
+msgstr "Ярлык загрузки"
+
+#: src/Admin/Settings/Settings.php:148 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "ID загрузки"
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "Выберите загрузку"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "Ошибка: загрузка не создана."
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "Загрузка успешно создана."
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "Ошибка: файл не создан."
+
+#: src/Admin/MediaInsert.php:36 src/Admin/MediaInsert.php:55
+#: src/Admin/AdminScripts.php:201
+msgid "Insert Download"
+msgstr "Вставить загрузку"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "Дата публикации"
+
+#: src/Admin/MediaInsert.php:198
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>image</code>, the <code>content-download-image.php</code> template will be used instead."
+msgstr "Если оставить пустым, будет использоваться файл шаблона по умолчанию <code>content-download.php</code>. Если вы введёте, например, <code>image</code>, вместо него будет использоваться шаблон <code>content-download-image.php</code>."
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr "Данные Download Monitor"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "Черновик загрузки обновлен."
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "Загрузка сохранена."
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "Загрузка опубликована."
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr "Загрузка восстановлена до редакции %s"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "Произвольное поле удалено."
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "Произвольное поле обновлено."
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "Загрузка обновлена."
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "Заголовок загрузки"
+
+#: src/Admin/WritePanels.php:32 assets/blocks/src/blocks.js:56
+msgid "Download Information"
+msgstr "Информация о загрузки"
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "Настройки загрузки"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "Сохранить загрузку"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "Заголовок загрузки"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "URL загрузки"
+
+#: src/Admin/MediaBrowser.php:34 src/Admin/AdminScripts.php:207
+msgid "Browse for a file"
+msgstr "Просмотр файла"
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "Быстрая загрузка"
+
+#: src/Admin/AdminScripts.php:206
+msgid "Are you sure you want to delete this file ? "
+msgstr "Вы действительно хотите удалить этот файл?"
+
+#: src/Admin/WritePanels.php:130
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "Отметьте эту загрузку как избранную. Используется в шортодах и виджетах."
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "Загружаемые файлы / версии"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "Обязательный URL"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "Обязательный заголовок"
+
+#: src/Admin/Settings/Settings.php:105
+msgid "If enabled, the download handler will check the PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "Если этот параметр включен, обработчик загрузок проверит PHP-реферер, чтобы узнать, исходит ли он с вашего сайта, а если нет, перенаправит их на главную страницу."
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "Загрузка отправлена."
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "Загрузка запланирована на: <strong>%1$s</strong>."
+
+#: src/Admin/Settings/Settings.php:82
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>button</code>, the <code>content-download-button.php</code> template will be used instead. You can add custom templates inside your theme folder."
+msgstr "Если оставить пустым, будет использоваться файл шаблона по умолчанию <code>content-download.php</code>. Если вы введете, например, <code>button</code>, вместо этого будет использоваться шаблон <code>content-download-button.php</code>. Вы можете добавить пользовательские шаблоны в папку темы."
+
+#: src/Admin/Settings/Settings.php:289
+msgid "Choose what page is displayed when the user has no access to a file. Don't forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr "Выберите страницу, которая будет отображается, если у пользователя нет доступа к файлу. Не забудьте на страницу добавить шорткод <code>[dlm_no_access]</code>."
+
+#: src/Installer.php:38 src/Admin/Settings/Settings.php:254
+#: src/UpgradeManager.php:56
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr "У вас нет доступа к этой загрузке. %sПерейти на главную страницу%s"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "Версия (необязательно)"
+
+#: src/Admin/Settings/Settings.php:138
+msgid "Download Endpoint"
+msgstr "Постоянная ссылка для загрузок"
+
+#: src/Admin/Settings/Settings.php:144
+msgid "Endpoint Value"
+msgstr "Значение постоянной ссылки"
+
+#: src/Admin/Settings/Settings.php:212
+msgid "Log download attempts, IP addresses and more."
+msgstr "Записывать в журнал попытки скачиваний, IP адреса и так далее."
+
+#: src/Admin/Extensions.php:67
+msgid "Extend Download Monitor with its powerful free and paid extensions. %sClick here to browse all extensions%s"
+msgstr "Расширьте Download Monitor с помощью мощных бесплатных и платных расширений. %sНажмите здесь, чтобы просмотреть все расширения%s"
+
+#: src/Admin/Settings/Settings.php:139
+msgid "Define what endpoint should be used for download links. By default this will be <code>%s</code>."
+msgstr "Определите, какая база должна использоваться для ссылок на скачивание. По умолчанию это будет <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Choose which template is used for <code>[download]</code> shortcodes by default (this can be overridden by the <code>format</code> argument)."
+msgstr "Выберите шаблон, который будет использоваться для шорткода <code>[download]</code> по умолчанию (это может быть перезаписано аргументом <code>format</code>)."
+
+#: src/Admin/Settings/Settings.php:145
+msgid "Define what unique value should be used on the end of your endpoint to identify the downloadable file. e.g. ID would give a link like <code>%s</code>"
+msgstr "Определите уникальное значение постоянной ссылки, которое будет использоваться в конце ссылки для идентификации загружаемых файлов. ID даст ссылку <code>%s</code>"
+
+#: src/TemplateHandler.php:21
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "Список версий - Списки всех версий в неупорядоченном виде"
+
+#: src/Admin/Settings/Settings.php:97
+msgid "If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be used to serve downloads instead of PHP (server requires <code>mod_xsendfile</code>)."
+msgstr "Если поддерживается, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> может использоваться для загрузок вместо PHP (сервер требует <code>mod_xsendfile</code>)."
+
+#: src/Admin/WritePanels.php:142
+msgid "Don't force download. If the <code>dlm_uploads</code> folder is protected you may need to move your file."
+msgstr "Не пытайтесь скачать. Папка <code>dlm_uploads</code> защищена, вам может потребоваться переместить свой файл."
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:135
+msgid "Members only"
+msgstr "Только для участников"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:141
+msgid "Redirect to file"
+msgstr "Перенаправить на файл"

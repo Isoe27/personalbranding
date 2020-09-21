@@ -1,0 +1,3197 @@
+# Translation of Plugins - Download Monitor - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Download Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-26 09:23:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Download Monitor - Stable (latest release)\n"
+
+#: src/Shop/Util/PostType.php:33
+msgid "This is where you can create and manage download products for your site."
+msgstr "Hier kan je downloadproducten voor je site maken en beheren."
+
+#: src/Shop/Util/PostType.php:30
+msgid "Parent Product"
+msgstr "Bovenliggend product"
+
+#: src/Shop/Util/PostType.php:29
+msgid "No Products found in trash"
+msgstr "Geen producten gevonden in de prullenbak"
+
+#: src/Shop/Util/PostType.php:28
+msgid "No Products found"
+msgstr "Geen producten gevonden"
+
+#: src/Shop/Util/PostType.php:27
+msgid "Search Products"
+msgstr "Zoek producten"
+
+#: src/Shop/Util/PostType.php:25 src/Shop/Util/PostType.php:26
+msgid "View Product"
+msgstr "Product bekijken"
+
+#: src/Shop/Util/PostType.php:24
+msgid "New Product"
+msgstr "Nieuw product"
+
+#: src/Shop/Util/PostType.php:23
+msgid "Edit Product"
+msgstr "Product bewerken"
+
+#: src/Shop/Util/PostType.php:21
+msgid "Add Product"
+msgstr "Product toevoegen"
+
+#: src/Shop/Util/PostType.php:20
+msgid "Add New Product"
+msgstr "Nieuw product toevoegen"
+
+#: src/Shop/Util/PostType.php:17
+msgid "All Products"
+msgstr "Alle producten"
+
+#: src/Shop/Admin/DownloadOption.php:30
+msgid "Only users who purchased a product that contains this download will be able to access the file."
+msgstr "Alleen gebruikers die een product hebben gekocht dat deze download bevat, hebben toegang tot het bestand."
+
+#: src/Shop/Admin/DownloadOption.php:29
+msgid "Paid Only"
+msgstr "Alleen betaald"
+
+#: src/Shop/Admin/WritePanels.php:24
+msgid "Product Information"
+msgstr "Productinformatie"
+
+#: src/Shop/Shortcode/Buy.php:71
+msgid "Product not found"
+msgstr "Product niet gevonden"
+
+#: src/Admin/Settings/Settings.php:89
+msgid "If enabled, allows you to sell your downloads via Download Monitor."
+msgstr "Indien ingeschakeld, kan je je downloads verkopen via Download Monitor."
+
+#: src/Admin/Settings/Settings.php:88
+msgid "Enable Shop"
+msgstr "Shop inschakelen"
+
+#: src/Admin/Settings/Settings.php:87
+msgid "Shop Enabled"
+msgstr "Shop ingeschakeld"
+
+#: assets/views/meta-box/product-information.php:18
+msgid "Select Downloads&hellip;"
+msgstr "Selecteer downloads&hellip;"
+
+#: includes/php-too-low.php:32
+msgid "After you've upgraded your PHP version, Download Monitor will automatically load and work."
+msgstr "Nadat je je PHP-versie hebt bijgewerkt, wordt Download Monitor automatisch geladen en werkt het."
+
+#: includes/php-too-low.php:29
+msgid "clicking this link"
+msgstr "door op deze link te klikken"
+
+#: includes/php-too-low.php:28
+msgid "You can learn more about why it's important that you update and get tips on how to update by %s"
+msgstr "Je kunt meer te weten komen over waarom het belangrijk is dat je update en krijgt tips over hoe je kunt updaten met %s"
+
+#: includes/php-too-low.php:24 includes/php-too-low.php:25
+msgid "PHP Version %s"
+msgstr "PHP versie %s"
+
+#: includes/php-too-low.php:23
+msgid "Download Monitor can't be loaded because it needs at least %s but the server that is hosting your WordPress website is running %s"
+msgstr "Download Monitor kan niet worden geladen omdat het minstens %s nodig heeft, maar de server die als host fungeert voor je WordPress-website draait %s"
+
+#: includes/php-too-low.php:20
+msgid "PHP Version too low!"
+msgstr "PHP versie te laag!"
+
+#: templates/shop/button/add-to-cart-box.php:25
+#: templates/shop/button/add-to-cart-box.php:27
+msgid "Purchase Now"
+msgstr "Nu kopen"
+
+#: templates/shop/button/add-to-cart.php:14
+msgid "Purchase &ldquo;%s&rdquo;"
+msgstr "Koop &ldquo;%s&rdquo;"
+
+#: templates/shop/checkout/error.php:11
+msgid "Checkout error"
+msgstr "Bestelfout"
+
+#: templates/shop/checkout/submit-button.php:6
+msgid "Complete order"
+msgstr "Voltooi bestelling"
+
+#: templates/shop/checkout/order-complete.php:75
+msgid "Download version"
+msgstr "Download versie"
+
+#: templates/shop/checkout/order-complete.php:74
+#: templates/shop/email/elements/downloads-table.php:15
+msgid "Download name"
+msgstr "Download naam"
+
+#: templates/shop/checkout/order-complete.php:9
+msgid "Thank you for your order. Please find your order details below."
+msgstr "Bedankt voor je bestelling. Hieronder vind je jouw bestelgegevens."
+
+#: templates/shop/checkout/no-access.php:6
+msgid "You have no access to this order."
+msgstr "Je hebt geen toegang tot deze bestelling."
+
+#: templates/shop/checkout.php:40
+msgid "Your order"
+msgstr "Je bestelling"
+
+#: templates/shop/checkout.php:36
+msgid "Billing details"
+msgstr "Factuurgegevens"
+
+#: templates/shop/checkout.php:22
+msgid "Your browser does not support JavaScript which our checkout page requires to function properly."
+msgstr "Je browser ondersteunt geen JavaScript die vereist is voor correcte werking van onze bestel pagina."
+
+#: templates/shop/cart.php:56
+msgid "Proceed to checkout"
+msgstr "Ga naar afrekenen"
+
+#: templates/shop/cart.php:47
+msgid "Cart Totals"
+msgstr "Winkelwagentje totaal"
+
+#: templates/shop/cart.php:21
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: templates/shop/cart.php:19
+msgid "Name"
+msgstr "Naam"
+
+#: templates/shop/cart/item.php:11
+msgid "Remove this item from your cart"
+msgstr "Verwijder dit item uit je winkelmandje"
+
+#: templates/shop/cart/totals.php:11
+#: templates/shop/checkout/order-review.php:34
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: templates/shop/cart/empty.php:6 templates/shop/checkout/empty.php:6
+msgid "Your cart is empty."
+msgstr "Je winkelwagentje is leeg."
+
+#: assets/views/order/page-order-details.php:170
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: assets/views/order/page-order-details.php:161
+msgid "Date created"
+msgstr "Datum aangemaakt"
+
+#: assets/views/order/page-order-details.php:158
+msgid "Change"
+msgstr "Bijwerken"
+
+#: assets/views/order/page-order-details.php:146
+#: templates/shop/checkout/order-complete.php:29
+msgid "Order Status"
+msgstr "Bestelstatus"
+
+#: assets/views/order/page-order-details.php:141
+#: templates/shop/checkout/order-complete.php:21
+msgid "Order Details"
+msgstr "Bestellingsdetails"
+
+#: assets/views/order/page-order-details.php:115
+msgid "Customer"
+msgstr "Klant"
+
+#: assets/views/order/page-order-details.php:105
+msgid "No transactions found"
+msgstr "Geen transacties gevonden"
+
+#: assets/views/order/page-order-details.php:72
+msgid "Processor ID"
+msgstr "Bewerker ID"
+
+#: assets/views/order/page-order-details.php:71
+msgid "Processor"
+msgstr "Bewerker"
+
+#: assets/views/order/page-order-details.php:70
+msgid "Amount"
+msgstr "Bedrag"
+
+#: assets/views/order/page-order-details.php:57
+msgid "Transactions"
+msgstr "Transacties"
+
+#: assets/views/order/page-order-details.php:27
+msgid "QTY"
+msgstr "Aantal"
+
+#: src/Shop/Admin/ProductTableColumns.php:34
+#: assets/views/order/page-order-details.php:26 templates/shop/cart.php:20
+msgid "Price"
+msgstr "Prijs"
+
+#: src/Shop/Util/PostType.php:19 assets/views/order/page-order-details.php:25
+#: templates/shop/checkout/order-review.php:16
+msgid "Product"
+msgstr "Product"
+
+#: assets/views/order/page-order-details.php:19
+msgid "Order Items"
+msgstr "Je bestelling"
+
+#: assets/views/order/page-order-details.php:14
+msgid "Order Details #%s"
+msgstr "Bestellingsdetails #%s"
+
+#: assets/views/meta-box/product-information.php:6
+msgid "Price (%s)"
+msgstr "Prijs (%s)"
+
+#: src/Util/Onboarding.php:258
+msgid "Create Your First Download"
+msgstr "Maak je eerste download"
+
+#: src/Util/Onboarding.php:251
+msgid "Click here to visit our Support Forum."
+msgstr "Klik hier om ons ondersteuningsforum te bezoeken."
+
+#: src/Util/Onboarding.php:249
+msgid "If you need any help in setting up your downloads or having any other question about Download Monitor, we'd be happy to help you via our support forums."
+msgstr "Als je hulp nodig hebt bij het instellen van je downloads of als je andere vragen heeft over Download Monitor, helpen we je graag verder via onze ondersteuningsforums."
+
+#: src/Util/Onboarding.php:248
+msgid "Now that your Download Monitor installation is done, it's time to setup your downloads. You can %sread more about creating your first Download here%s."
+msgstr "Nu de installatie van je Download Monitor is voltooid, is het tijd om je downloads in te stellen. Je kunt %smeer lezen over het maken van je eerste download hier %s."
+
+#: src/Util/Onboarding.php:245
+msgid "What's Next?"
+msgstr "Wat is de volgende stap?"
+
+#: src/Util/Onboarding.php:240
+msgid "View More Extensions"
+msgstr "Bekijk meer extensies"
+
+#: src/Util/Onboarding.php:208
+msgid "Here's a quick sample of what we offer."
+msgstr "Hier volgt een kort voorbeeld van wat we bieden."
+
+#: src/Util/Onboarding.php:207
+msgid "Power up your Download Monitor website with our official extensions. Our extensions allow you to add specific functionality to your Download Monitor powered website and come with our premium support and updates."
+msgstr "Haal meer uit je Download Monitor-website met onze officiële extensies. Met onze extensies kan je specifieke functionaliteit toevoegen aan je website van Download Monitor en worden onze premium-ondersteuning en updates geleverd."
+
+#: src/Util/Onboarding.php:177
+msgid "Your shop checkout page if you decide to sell downloads."
+msgstr "De afrekenpagina van je winkel als je besluit om downloads te verkopen."
+
+#: src/Util/Onboarding.php:176 src/Util/PageCreator.php:40
+msgid "Checkout"
+msgstr "Afrekenen"
+
+#: src/Util/Onboarding.php:152
+msgid "Your shop cart page if you decide to sell downloads."
+msgstr "Je winkelmandpagina als je besluit om downloads te verkopen."
+
+#: src/Util/Onboarding.php:151 src/Util/PageCreator.php:27
+msgid "Cart"
+msgstr "Winkelwagentje"
+
+#: src/Util/Onboarding.php:126
+msgid "The page your visitors see when they are not allowed to download a file."
+msgstr "De pagina die je bezoekers te zien krijgen als ze geen toestemming hebben om een bestand te downloaden."
+
+#: src/Util/Onboarding.php:121
+msgid "If you don't plan on selling downloads, you do not have to create the cart and checkout page. We recommend always creating the No Access page."
+msgstr "Als je niet van plan bent om downloads te verkopen, hoef je niet de winkelwagen en de betalingspagina te maken. We raden je aan altijd de pagina Geen toegang te maken."
+
+#: src/Util/Onboarding.php:118
+msgid "We can create these pages for you here. If you click the 'Create Page' button we will create that page and add the required shortcode to it. We'll also make sure the newly created page is set in your settings page."
+msgstr "We kunnen deze pagina's hier voor je maken. Als je op de knop 'Pagina maken' klikt, maken we die pagina en voegen we de vereiste shortcode toe. We zorgen er ook voor dat de nieuw gemaakte pagina wordt ingesteld op je instellingenpagina."
+
+#: src/Util/Onboarding.php:117
+msgid "In order to function properly, Download Monitor needs to create some pages in your WordPress website."
+msgstr "Om goed te kunnen werken, moet Download Monitor een aantal pagina's maken op je WordPress website."
+
+#: src/Util/Onboarding.php:115
+msgid "Let's Create Your Pages"
+msgstr "Laten we je pagina's maken"
+
+#: src/Util/Onboarding.php:110
+msgid "You decide if you want to offer you downloads for free or want to start selling them (or both!). Whatever you decide, you chose the right plugin for the job!"
+msgstr "Je beslist of je downloads gratis wilt aanbieden of wilt beginnen met de verkoop (of beide!). Wat je ook kiest, je hebt de juiste plug-in voor de klus gekozen!"
+
+#: src/Util/Onboarding.php:107
+msgid "On top of that, Download Monitor allows you to sell your downloads, turning your WordPress website into fully featured e-commerce website out of the box."
+msgstr "Bovendien kan je met Download Monitor je downloads verkopen en je WordPress-website direct uit de verpakking omzetten in een volledig uitgeruste e-commerce website."
+
+#: src/Util/Onboarding.php:106
+msgid "With Download Monitor you can manage, track and offer downloads to your users using your WordPress website."
+msgstr "Met Download Monitor kan je je gebruikers beheren, volgen en downloads aanbieden via je WordPress website."
+
+#: src/Util/Onboarding.php:105
+msgid "Thank you for installing Download Monitor! We'd like to help you setup the plugin correctly so you can start sharing your files as quickly as possible."
+msgstr "Bedankt voor het installeren van Download Monitor! We willen je graag helpen bij het correct instellen van de plugin, zodat je jouw bestanden zo snel mogelijk kunt delen."
+
+#: src/Util/Onboarding.php:103
+msgid "Welcome to "
+msgstr "Welkom bij"
+
+#: src/Util/Onboarding.php:82
+msgid "Download Monitor is almost ready for use, %sclick here%s to finish the installation process."
+msgstr "Download Monitor is bijna klaar voor gebruik,%sklik hier%s om het installatieproces te voltooien."
+
+#: src/Util/Onboarding.php:71 src/Util/Onboarding.php:143
+#: src/Util/Onboarding.php:169 src/Util/Onboarding.php:194
+msgid "Create Page"
+msgstr "Pagina maken"
+
+#: src/Util/Onboarding.php:70 src/Util/Onboarding.php:137
+#: src/Util/Onboarding.php:163 src/Util/Onboarding.php:188
+msgid "Page Created"
+msgstr "Pagina aangemaakt"
+
+#: src/Util/Onboarding.php:69
+msgid "Creating"
+msgstr "Creëren"
+
+#: src/Ajax/CreatePage.php:56
+msgid "No page set"
+msgstr "Geen pagina ingesteld"
+
+#: src/Ajax/CreatePage.php:51
+msgid "Couldn't create page"
+msgstr "Kon pagina niet maken"
+
+#: src/Admin/Settings/Settings.php:577
+msgid "Check this to allow your customers to use this payment method to pay at your checkout page."
+msgstr "Vink dit aan om je klanten toe te staan om deze betaalmethode te gebruiken om te betalen op je afrekenpagina."
+
+#: src/Admin/Settings/Settings.php:576
+msgid "Enable Gateway"
+msgstr "Gateway inschakelen"
+
+#: src/Admin/Settings/Settings.php:575
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/Admin/Settings/Settings.php:557
+msgid "This payment method will be pre-selected on your checkout page."
+msgstr "Deze betaalmethode wordt vooraf geselecteerd op je betaalpagina."
+
+#: src/Admin/Settings/Settings.php:556
+msgid "Default Gateway"
+msgstr "Standaard gateway"
+
+#: src/Admin/Settings/Settings.php:549
+msgid "Check all payment methods you want to enable on your webshop."
+msgstr "Controleer alle betaalmethoden die je in jouw webshop wilt inschakelen."
+
+#: src/Admin/Settings/Settings.php:548
+msgid "Enabled Gateways"
+msgstr "Ingeschakelde gateways"
+
+#: src/Admin/Settings/Settings.php:543
+msgid "Overview"
+msgstr "Overzicht"
+
+#: src/Admin/Settings/Settings.php:383
+msgid "Payment Methods"
+msgstr "Betaalmethodes"
+
+#: src/Admin/Settings/Settings.php:374
+msgid "If checked, your customers will be send to your checkout page directly."
+msgstr "Indien aangevinkt, zullen je klanten direct naar je betaalpagina worden gestuurd."
+
+#: src/Admin/Settings/Settings.php:373
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: src/Admin/Settings/Settings.php:372
+msgid "Disable Cart"
+msgstr "Winkelwagen uitschakelen "
+
+#: src/Admin/Settings/Settings.php:367
+msgid "The thousand separator of displayed prices."
+msgstr "Het duizendtal scheidingsteken van de weergegeven prijzen."
+
+#: src/Admin/Settings/Settings.php:366
+msgid "Thousand Separator"
+msgstr "Duizendtalscheidingsteken"
+
+#: src/Admin/Settings/Settings.php:360
+msgid "The decimal separator of displayed prices."
+msgstr "Het decimaalteken van de weergegeven prijzen."
+
+#: src/Admin/Settings/Settings.php:359
+msgid "Decimal Separator"
+msgstr "Decimaalscheidingsteken"
+
+#: src/Admin/Settings/Settings.php:352
+msgid "Right with space (%s)"
+msgstr "Rechts met ruimte (%s)"
+
+#: src/Admin/Settings/Settings.php:351
+msgid "Left with space (%s)"
+msgstr "Links met ruimte (%s)"
+
+#: src/Admin/Settings/Settings.php:350
+msgid "Right (%s)"
+msgstr "Rechts (%s)"
+
+#: src/Admin/Settings/Settings.php:349
+msgid "Left (%s)"
+msgstr "Links (%s)"
+
+#: src/Admin/Settings/Settings.php:346
+msgid "The position of the currency symbol."
+msgstr "De positie van het valutasymbool."
+
+#: src/Admin/Settings/Settings.php:345
+msgid "Currency Position"
+msgstr "Valutapositie"
+
+#: src/Admin/Settings/Settings.php:338
+msgid "In what currency are you selling?"
+msgstr "In welke valuta verkoop je?"
+
+#: src/Admin/Settings/Settings.php:337
+msgid "Currency"
+msgstr "Valuta"
+
+#: src/Admin/Settings/Settings.php:330
+msgid "Where is your store located?"
+msgstr "Waar is je winkel gevestigd?"
+
+#: src/Admin/Settings/Settings.php:329
+msgid "Base Country"
+msgstr "Basisland"
+
+#: src/Admin/Settings/Settings.php:315
+msgid "Your checkout page, make sure it has the <code>[dlm_checkout]</code> shortcode."
+msgstr "Controleer op je afrekenpagina of deze <code>[dlm_checkout]</code> shortcode aanwezig is."
+
+#: src/Admin/Settings/Settings.php:314
+msgid "Checkout page"
+msgstr "Afrekenpagina"
+
+#: src/Admin/Settings/Settings.php:306
+msgid "Your cart page, make sure it has the <code>[dlm_cart]</code> shortcode."
+msgstr "Controleer op je winkelwagen pagina of het deze <code>[dlm_cart]</code> shortcode heeft."
+
+#: src/Admin/Settings/Settings.php:305
+msgid "Cart page"
+msgstr "Winkelwagen pagina"
+
+#: src/Admin/Settings/Settings.php:281
+msgid "Pages"
+msgstr "Pagina's"
+
+#: src/Shop/Helper/Currency.php:74
+msgid "Vietnamese Dong"
+msgstr "Vietnamese dong"
+
+#: src/Shop/Helper/Currency.php:73
+msgid "US Dollars"
+msgstr "Amerikaanse dollars"
+
+#: src/Shop/Helper/Currency.php:72
+msgid "United Arab Emirates Dirham"
+msgstr "Verenigde Arabische Emiraten Dirham"
+
+#: src/Shop/Helper/Currency.php:71
+msgid "Ugandan Shilling"
+msgstr "Oegandese Shilling"
+
+#: src/Shop/Helper/Currency.php:70
+msgid "Ukrainian Hryvnia"
+msgstr "Oekraïense hryvnia"
+
+#: src/Shop/Helper/Currency.php:69
+msgid "Tanzanian Shilling"
+msgstr "Tanzaniaanse shilling"
+
+#: src/Shop/Helper/Currency.php:68
+msgid "Taiwan New Dollars"
+msgstr "Taiwan nieuwe dollars"
+
+#: src/Shop/Helper/Currency.php:67
+msgid "Turkish Lira"
+msgstr "Turkse Lira"
+
+#: src/Shop/Helper/Currency.php:66
+msgid "Tunisian Dinar"
+msgstr "Tunesische dinar"
+
+#: src/Shop/Helper/Currency.php:65
+msgid "Thai Baht"
+msgstr "Thaise baht"
+
+#: src/Shop/Helper/Currency.php:64
+msgid "Swiss Franc"
+msgstr "Zwitserse frank"
+
+#: src/Shop/Helper/Currency.php:63
+msgid "Swedish Krona"
+msgstr "Zweedse kroon"
+
+#: src/Shop/Helper/Currency.php:62
+msgid "South African rand"
+msgstr "Zuid-Afrikaanse rand"
+
+#: src/Shop/Helper/Currency.php:61
+msgid "Singapore Dollar"
+msgstr "Singaporese dollar"
+
+#: src/Shop/Helper/Currency.php:60
+msgid "Rwandan Franc"
+msgstr "Rwandese frank"
+
+#: src/Shop/Helper/Currency.php:59
+msgid "Russian Ruble"
+msgstr "Russische roebel"
+
+#: src/Shop/Helper/Currency.php:58
+msgid "Romanian Leu"
+msgstr "Roemeense leu"
+
+#: src/Shop/Helper/Currency.php:57
+msgid "Pounds Sterling"
+msgstr "Pond sterling"
+
+#: src/Shop/Helper/Currency.php:56
+msgid "Paraguayan Guaraní"
+msgstr "Paraguayaanse guaraní"
+
+#: src/Shop/Helper/Currency.php:55
+msgid "Polish Zloty"
+msgstr "Poolse zloty"
+
+#: src/Shop/Helper/Currency.php:54
+msgid "Pakistani Rupee"
+msgstr "Pakistaanse roepie"
+
+#: src/Shop/Helper/Currency.php:53
+msgid "Philippine Pesos"
+msgstr "Filipijnse peso"
+
+#: src/Shop/Helper/Currency.php:52
+msgid "New Zealand Dollar"
+msgstr "Nieuw-Zeelandse dollar"
+
+#: src/Shop/Helper/Currency.php:51
+msgid "Nepali Rupee"
+msgstr "Nepalse roepie"
+
+#: src/Shop/Helper/Currency.php:50
+msgid "Norwegian Krone"
+msgstr "Noorse kroon"
+
+#: src/Shop/Helper/Currency.php:49
+msgid "Nigerian Naira"
+msgstr "Nigeriaanse naira"
+
+#: src/Shop/Helper/Currency.php:48
+msgid "Mexican Peso"
+msgstr "Mexicaanse peso"
+
+#: src/Shop/Helper/Currency.php:47
+msgid "Malaysian Ringgits"
+msgstr "Maleisische ringgit"
+
+#: src/Shop/Helper/Currency.php:46
+msgid "South Korean Won"
+msgstr "Zuid-Koreaanse won"
+
+#: src/Shop/Helper/Currency.php:45
+msgid "Lao Kip"
+msgstr "Lao kip"
+
+#: src/Shop/Helper/Currency.php:44
+msgid "Kenyan Shilling"
+msgstr "Keniaanse shilling"
+
+#: src/Shop/Helper/Currency.php:43
+msgid "Japanese Yen"
+msgstr "Japanse yen"
+
+#: src/Shop/Helper/Currency.php:42
+msgid "Iranian rial"
+msgstr "Iraanse rial"
+
+#: src/Shop/Helper/Currency.php:41
+msgid "Israeli Shekel"
+msgstr "Israëlische sjekel"
+
+#: src/Shop/Helper/Currency.php:40
+msgid "Indian Rupee"
+msgstr "Indiase roepie"
+
+#: src/Shop/Helper/Currency.php:39
+msgid "Indonesia Rupiah"
+msgstr "Indonesië rupiah"
+
+#: src/Shop/Helper/Currency.php:38
+msgid "Icelandic krona"
+msgstr "IJslandse kroon"
+
+#: src/Shop/Helper/Currency.php:37
+msgid "Hungarian Forint"
+msgstr "Hongaarse forint"
+
+#: src/Shop/Helper/Currency.php:36
+msgid "Croatia kuna"
+msgstr "Kroaatse kuna"
+
+#: src/Shop/Helper/Currency.php:35
+msgid "Hong Kong Dollar"
+msgstr "Hongkongse dollar"
+
+#: src/Shop/Helper/Currency.php:34
+msgid "Ghanaian Cedi"
+msgstr "Ghanese cedi"
+
+#: src/Shop/Helper/Currency.php:33
+msgid "Euros"
+msgstr "Euro's"
+
+#: src/Shop/Helper/Currency.php:32
+msgid "Egyptian Pound"
+msgstr "Egyptische pond"
+
+#: src/Shop/Helper/Currency.php:31
+msgid "Ethiopian Birr"
+msgstr "Ethiopische birr"
+
+#: src/Shop/Helper/Currency.php:30
+msgid "Dominican Peso"
+msgstr "Dominicaanse peso"
+
+#: src/Shop/Helper/Currency.php:29
+msgid "Danish Krone"
+msgstr "Deense kroon"
+
+#: src/Shop/Helper/Currency.php:28
+msgid "Djiboutian Franc"
+msgstr "Djiboutiaanse frank"
+
+#: src/Shop/Helper/Currency.php:27
+msgid "Czech Koruna"
+msgstr "Tsjechische kroon"
+
+#: src/Shop/Helper/Currency.php:26
+msgid "Colombian Peso"
+msgstr "Colombiaanse peso"
+
+#: src/Shop/Helper/Currency.php:25
+msgid "Chinese Yuan"
+msgstr "Chinese yuan"
+
+#: src/Shop/Helper/Currency.php:24
+msgid "Chilean Peso"
+msgstr "Chileense peso"
+
+#: src/Shop/Helper/Currency.php:23
+msgid "CFA Franc"
+msgstr "CFA frank"
+
+#: src/Shop/Helper/Currency.php:22
+msgid "Canadian Dollars"
+msgstr "Canadese dollars"
+
+#: src/Shop/Helper/Currency.php:21
+msgid "Burundian Franc"
+msgstr "Burundische frank"
+
+#: src/Shop/Helper/Currency.php:20
+msgid "Bulgarian Lev"
+msgstr "Bulgaarse lev"
+
+#: src/Shop/Helper/Currency.php:19
+msgid "Brazilian Real"
+msgstr "Braziliaanse real"
+
+#: src/Shop/Helper/Currency.php:18
+msgid "Bangladeshi Taka"
+msgstr "Bengaalse taka"
+
+#: src/Shop/Helper/Currency.php:17
+msgid "Australian Dollars"
+msgstr "Australische dollars"
+
+#: src/Shop/Helper/Currency.php:16
+msgid "Argentine Peso"
+msgstr "Argentijnse peso"
+
+#: src/Shop/Helper/Country.php:257
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: src/Shop/Helper/Country.php:256
+msgid "Zambia"
+msgstr "Zambia"
+
+#: src/Shop/Helper/Country.php:255
+msgid "Yemen"
+msgstr "Jemen"
+
+#: src/Shop/Helper/Country.php:254
+msgid "Samoa"
+msgstr "Samoa"
+
+#: src/Shop/Helper/Country.php:253
+msgid "Western Sahara"
+msgstr "Westelijke Sahara"
+
+#: src/Shop/Helper/Country.php:252
+msgid "Wallis and Futuna"
+msgstr "Wallis en Futuna"
+
+#: src/Shop/Helper/Country.php:251
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: src/Shop/Helper/Country.php:250
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: src/Shop/Helper/Country.php:249
+msgid "Vatican"
+msgstr "Vaticaanstad"
+
+#: src/Shop/Helper/Country.php:248
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: src/Shop/Helper/Country.php:247
+msgid "Uzbekistan"
+msgstr "Oezbekistan"
+
+#: src/Shop/Helper/Country.php:246
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: src/Shop/Helper/Country.php:245
+msgid "United States (US) Virgin Islands"
+msgstr "Amerikaanse Maagdeneilanden"
+
+#: src/Shop/Helper/Country.php:244
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Kleine afgelegen eilanden van de Verenigde Staten (VS)"
+
+#: src/Shop/Helper/Country.php:243
+msgid "United States (US)"
+msgstr "Verenigde Staten (VS)"
+
+#: src/Shop/Helper/Country.php:242
+msgid "United Kingdom (UK)"
+msgstr "Verenigd Koninkrijk (VK)"
+
+#: src/Shop/Helper/Country.php:241
+msgid "United Arab Emirates"
+msgstr "Verenigde Arabische Emiraten"
+
+#: src/Shop/Helper/Country.php:240
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+#: src/Shop/Helper/Country.php:239
+msgid "Uganda"
+msgstr "Oeganda"
+
+#: src/Shop/Helper/Country.php:238
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: src/Shop/Helper/Country.php:237
+msgid "Turks and Caicos Islands"
+msgstr "Turks- en Caicoseilanden"
+
+#: src/Shop/Helper/Country.php:236
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: src/Shop/Helper/Country.php:235
+msgid "Turkey"
+msgstr "Turkije"
+
+#: src/Shop/Helper/Country.php:234
+msgid "Tunisia"
+msgstr "Tunesië"
+
+#: src/Shop/Helper/Country.php:233
+msgid "Trinidad and Tobago"
+msgstr "Trinidad en Tobago"
+
+#: src/Shop/Helper/Country.php:232
+msgid "Tonga"
+msgstr "Tonga"
+
+#: src/Shop/Helper/Country.php:231
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: src/Shop/Helper/Country.php:230
+msgid "Togo"
+msgstr "Togo"
+
+#: src/Shop/Helper/Country.php:229
+msgid "Timor-Leste"
+msgstr "Oost-Timor"
+
+#: src/Shop/Helper/Country.php:228
+msgid "Thailand"
+msgstr "Thailand"
+
+#: src/Shop/Helper/Country.php:227
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: src/Shop/Helper/Country.php:226
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: src/Shop/Helper/Country.php:225
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: src/Shop/Helper/Country.php:224
+msgid "Syria"
+msgstr "Syrië"
+
+#: src/Shop/Helper/Country.php:223
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+#: src/Shop/Helper/Country.php:222
+msgid "Sweden"
+msgstr "Zweden"
+
+#: src/Shop/Helper/Country.php:221
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: src/Shop/Helper/Country.php:220
+msgid "Svalbard and Jan Mayen"
+msgstr "Spitsbergen en Jan Mayen"
+
+#: src/Shop/Helper/Country.php:219
+msgid "Suriname"
+msgstr "Suriname"
+
+#: src/Shop/Helper/Country.php:218
+msgid "Sudan"
+msgstr "Soedan"
+
+#: src/Shop/Helper/Country.php:217
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: src/Shop/Helper/Country.php:216
+msgid "Spain"
+msgstr "Spanje"
+
+#: src/Shop/Helper/Country.php:215
+msgid "South Sudan"
+msgstr "Zuid Soedan"
+
+#: src/Shop/Helper/Country.php:214
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+#: src/Shop/Helper/Country.php:213
+msgid "South Georgia/Sandwich Islands"
+msgstr "Zuid-Georgië/Sandwich eilanden"
+
+#: src/Shop/Helper/Country.php:212
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+#: src/Shop/Helper/Country.php:211
+msgid "Somalia"
+msgstr "Somalië"
+
+#: src/Shop/Helper/Country.php:210
+msgid "Solomon Islands"
+msgstr "Salomonseilanden"
+
+#: src/Shop/Helper/Country.php:209
+msgid "Slovenia"
+msgstr "Slovenië"
+
+#: src/Shop/Helper/Country.php:208
+msgid "Slovakia"
+msgstr "Slowakije"
+
+#: src/Shop/Helper/Country.php:207
+msgid "Singapore"
+msgstr "Singapore"
+
+#: src/Shop/Helper/Country.php:206
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: src/Shop/Helper/Country.php:205
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: src/Shop/Helper/Country.php:204
+msgid "Serbia"
+msgstr "Servië"
+
+#: src/Shop/Helper/Country.php:203
+msgid "Senegal"
+msgstr "Senegal"
+
+#: src/Shop/Helper/Country.php:202
+msgid "Saudi Arabia"
+msgstr "Saoedi-Arabië"
+
+#: src/Shop/Helper/Country.php:201
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; en Pr&iacute;ncipe"
+
+#: src/Shop/Helper/Country.php:200
+msgid "San Marino"
+msgstr "San Marino"
+
+#: src/Shop/Helper/Country.php:199
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent en de Grenadines"
+
+#: src/Shop/Helper/Country.php:198
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre en Miquelon"
+
+#: src/Shop/Helper/Country.php:197
+msgid "Saint Martin (Dutch part)"
+msgstr "Sint Maarten (Nederlands deel)"
+
+#: src/Shop/Helper/Country.php:196
+msgid "Saint Martin (French part)"
+msgstr "Sint Maarten (Frans deel)"
+
+#: src/Shop/Helper/Country.php:195
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: src/Shop/Helper/Country.php:194
+msgid "Saint Kitts and Nevis"
+msgstr "Sint Kitts en Nevis"
+
+#: src/Shop/Helper/Country.php:193
+msgid "Saint Helena"
+msgstr "Sint-Helena"
+
+#: src/Shop/Helper/Country.php:192
+msgid "Saint Barth&eacute;lemy"
+msgstr "Sint-Bartholomeus"
+
+#: src/Shop/Helper/Country.php:191
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: src/Shop/Helper/Country.php:190
+msgid "Russia"
+msgstr "Rusland"
+
+#: src/Shop/Helper/Country.php:189
+msgid "Romania"
+msgstr "Roemenië"
+
+#: src/Shop/Helper/Country.php:188
+msgid "Reunion"
+msgstr "Réunion"
+
+#: src/Shop/Helper/Country.php:187
+msgid "Qatar"
+msgstr "Qatar"
+
+#: src/Shop/Helper/Country.php:186
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: src/Shop/Helper/Country.php:185
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/Shop/Helper/Country.php:184
+msgid "Poland"
+msgstr "Polen"
+
+#: src/Shop/Helper/Country.php:183
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: src/Shop/Helper/Country.php:182
+msgid "Philippines"
+msgstr "Filippijnen"
+
+#: src/Shop/Helper/Country.php:181
+msgid "Peru"
+msgstr "Peru"
+
+#: src/Shop/Helper/Country.php:180
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: src/Shop/Helper/Country.php:179
+msgid "Papua New Guinea"
+msgstr "Papoea-Nieuw-Guinea"
+
+#: src/Shop/Helper/Country.php:178
+msgid "Panama"
+msgstr "Panama"
+
+#: src/Shop/Helper/Country.php:177
+msgid "Palestinian Territory"
+msgstr "Palestijns gebied"
+
+#: src/Shop/Helper/Country.php:176
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: src/Shop/Helper/Country.php:175
+msgid "Oman"
+msgstr "Oman"
+
+#: src/Shop/Helper/Country.php:174
+msgid "Norway"
+msgstr "Noorwegen"
+
+#: src/Shop/Helper/Country.php:173
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+#: src/Shop/Helper/Country.php:172
+msgid "Northern Mariana Islands"
+msgstr "Noordelijke Marianen"
+
+#: src/Shop/Helper/Country.php:171
+msgid "Norfolk Island"
+msgstr "Territorium Norfolkeiland"
+
+#: src/Shop/Helper/Country.php:170
+msgid "Niue"
+msgstr "Niue"
+
+#: src/Shop/Helper/Country.php:169
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: src/Shop/Helper/Country.php:168
+msgid "Niger"
+msgstr "Niger"
+
+#: src/Shop/Helper/Country.php:167
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: src/Shop/Helper/Country.php:166
+msgid "New Zealand"
+msgstr "Nieuw-Zeeland"
+
+#: src/Shop/Helper/Country.php:165
+msgid "New Caledonia"
+msgstr "Nieuw-Caledonië"
+
+#: src/Shop/Helper/Country.php:164
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: src/Shop/Helper/Country.php:163
+msgid "Nepal"
+msgstr "Nepal"
+
+#: src/Shop/Helper/Country.php:162
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/Shop/Helper/Country.php:161
+msgid "Namibia"
+msgstr "Namibië"
+
+#: src/Shop/Helper/Country.php:160
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: src/Shop/Helper/Country.php:159
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: src/Shop/Helper/Country.php:158
+msgid "Morocco"
+msgstr "Marokko"
+
+#: src/Shop/Helper/Country.php:157
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: src/Shop/Helper/Country.php:156
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: src/Shop/Helper/Country.php:155
+msgid "Mongolia"
+msgstr "Mongolië"
+
+#: src/Shop/Helper/Country.php:154
+msgid "Monaco"
+msgstr "Monaco"
+
+#: src/Shop/Helper/Country.php:153
+msgid "Moldova"
+msgstr "Moldavië"
+
+#: src/Shop/Helper/Country.php:152
+msgid "Micronesia"
+msgstr "Micronesië"
+
+#: src/Shop/Helper/Country.php:151
+msgid "Mexico"
+msgstr "Mexico"
+
+#: src/Shop/Helper/Country.php:150
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: src/Shop/Helper/Country.php:149
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: src/Shop/Helper/Country.php:148
+msgid "Mauritania"
+msgstr "Mauritanië"
+
+#: src/Shop/Helper/Country.php:147
+msgid "Martinique"
+msgstr "Martinique"
+
+#: src/Shop/Helper/Country.php:146
+msgid "Marshall Islands"
+msgstr "Marshalleilanden"
+
+#: src/Shop/Helper/Country.php:145
+msgid "Malta"
+msgstr "Malta"
+
+#: src/Shop/Helper/Country.php:144
+msgid "Mali"
+msgstr "Mali"
+
+#: src/Shop/Helper/Country.php:143
+msgid "Maldives"
+msgstr "Malediven"
+
+#: src/Shop/Helper/Country.php:142
+msgid "Malaysia"
+msgstr "Maleisië"
+
+#: src/Shop/Helper/Country.php:141
+msgid "Malawi"
+msgstr "Malawi"
+
+#: src/Shop/Helper/Country.php:140
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: src/Shop/Helper/Country.php:139
+msgid "Macedonia"
+msgstr "Macedonië"
+
+#: src/Shop/Helper/Country.php:138
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., China"
+
+#: src/Shop/Helper/Country.php:137
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: src/Shop/Helper/Country.php:136
+msgid "Lithuania"
+msgstr "Litouwen"
+
+#: src/Shop/Helper/Country.php:135
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: src/Shop/Helper/Country.php:134
+msgid "Libya"
+msgstr "Libië"
+
+#: src/Shop/Helper/Country.php:133
+msgid "Liberia"
+msgstr "Liberia"
+
+#: src/Shop/Helper/Country.php:132
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: src/Shop/Helper/Country.php:131
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: src/Shop/Helper/Country.php:130
+msgid "Latvia"
+msgstr "Letland"
+
+#: src/Shop/Helper/Country.php:129
+msgid "Laos"
+msgstr "Laos"
+
+#: src/Shop/Helper/Country.php:128
+msgid "Kyrgyzstan"
+msgstr "Kirgizië"
+
+#: src/Shop/Helper/Country.php:127
+msgid "Kuwait"
+msgstr "Koeweit"
+
+#: src/Shop/Helper/Country.php:126
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: src/Shop/Helper/Country.php:125
+msgid "Kenya"
+msgstr "Kenia"
+
+#: src/Shop/Helper/Country.php:124
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: src/Shop/Helper/Country.php:123
+msgid "Jordan"
+msgstr "Jordanië"
+
+#: src/Shop/Helper/Country.php:122
+msgid "Jersey"
+msgstr "Jersey"
+
+#: src/Shop/Helper/Country.php:121
+msgid "Japan"
+msgstr "Japan"
+
+#: src/Shop/Helper/Country.php:120
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: src/Shop/Helper/Country.php:119
+msgid "Ivory Coast"
+msgstr "Ivoorkust"
+
+#: src/Shop/Helper/Country.php:118
+msgid "Italy"
+msgstr "Italië"
+
+#: src/Shop/Helper/Country.php:117
+msgid "Israel"
+msgstr "Israël"
+
+#: src/Shop/Helper/Country.php:116
+msgid "Isle of Man"
+msgstr "Man"
+
+#: src/Shop/Helper/Country.php:115
+msgid "Ireland"
+msgstr "Ierland"
+
+#: src/Shop/Helper/Country.php:114
+msgid "Iraq"
+msgstr "Irak"
+
+#: src/Shop/Helper/Country.php:113
+msgid "Iran"
+msgstr "Iran"
+
+#: src/Shop/Helper/Country.php:112
+msgid "Indonesia"
+msgstr "Indonesië"
+
+#: src/Shop/Helper/Country.php:111
+msgid "India"
+msgstr "India"
+
+#: src/Shop/Helper/Country.php:110
+msgid "Iceland"
+msgstr "IJsland"
+
+#: src/Shop/Helper/Country.php:109
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: src/Shop/Helper/Country.php:108
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: src/Shop/Helper/Country.php:107
+msgid "Honduras"
+msgstr "Honduras"
+
+#: src/Shop/Helper/Country.php:106
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard en McDonaldeilanden"
+
+#: src/Shop/Helper/Country.php:105
+msgid "Haiti"
+msgstr "Haïti"
+
+#: src/Shop/Helper/Country.php:104
+msgid "Guyana"
+msgstr "Guyana"
+
+#: src/Shop/Helper/Country.php:103
+msgid "Guinea-Bissau"
+msgstr "Guinee-Bissau"
+
+#: src/Shop/Helper/Country.php:102
+msgid "Guinea"
+msgstr "Guinea"
+
+#: src/Shop/Helper/Country.php:101
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/Shop/Helper/Country.php:100
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/Shop/Helper/Country.php:99
+msgid "Guam"
+msgstr "Guam"
+
+#: src/Shop/Helper/Country.php:98
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: src/Shop/Helper/Country.php:97
+msgid "Grenada"
+msgstr "Grenada"
+
+#: src/Shop/Helper/Country.php:96
+msgid "Greenland"
+msgstr "Groenland"
+
+#: src/Shop/Helper/Country.php:95
+msgid "Greece"
+msgstr "Griekenland"
+
+#: src/Shop/Helper/Country.php:94
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/Shop/Helper/Country.php:93
+msgid "Ghana"
+msgstr "Ghana"
+
+#: src/Shop/Helper/Country.php:92
+msgid "Germany"
+msgstr "Duitsland"
+
+#: src/Shop/Helper/Country.php:91
+msgid "Georgia"
+msgstr "Georgia"
+
+#: src/Shop/Helper/Country.php:90
+msgid "Gambia"
+msgstr "Gambia"
+
+#: src/Shop/Helper/Country.php:89
+msgid "Gabon"
+msgstr "Gabon"
+
+#: src/Shop/Helper/Country.php:88
+msgid "French Southern Territories"
+msgstr "Franse Zuidelijke en Antarctische Gebieden"
+
+#: src/Shop/Helper/Country.php:87
+msgid "French Polynesia"
+msgstr "Frans-Polynesië"
+
+#: src/Shop/Helper/Country.php:86
+msgid "French Guiana"
+msgstr "Frans-Guyana"
+
+#: src/Shop/Helper/Country.php:85
+msgid "France"
+msgstr "Frankrijk"
+
+#: src/Shop/Helper/Country.php:84
+msgid "Finland"
+msgstr "Finland"
+
+#: src/Shop/Helper/Country.php:83
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/Shop/Helper/Country.php:82
+msgid "Faroe Islands"
+msgstr "Faeröer"
+
+#: src/Shop/Helper/Country.php:81
+msgid "Falkland Islands"
+msgstr "Falkland eilanden"
+
+#: src/Shop/Helper/Country.php:80
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+#: src/Shop/Helper/Country.php:79
+msgid "Estonia"
+msgstr "Estland"
+
+#: src/Shop/Helper/Country.php:78
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: src/Shop/Helper/Country.php:77
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+#: src/Shop/Helper/Country.php:76
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/Shop/Helper/Country.php:75
+msgid "Egypt"
+msgstr "Egypte"
+
+#: src/Shop/Helper/Country.php:74
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: src/Shop/Helper/Country.php:73
+msgid "Dominican Republic"
+msgstr "Dominicaanse Republiek"
+
+#: src/Shop/Helper/Country.php:72
+msgid "Dominica"
+msgstr "Dominica"
+
+#: src/Shop/Helper/Country.php:71
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: src/Shop/Helper/Country.php:70
+msgid "Denmark"
+msgstr "Denemarken"
+
+#: src/Shop/Helper/Country.php:69
+msgid "Czech Republic"
+msgstr "Tsjechië"
+
+#: src/Shop/Helper/Country.php:68
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: src/Shop/Helper/Country.php:67
+msgid "Cura&ccedil;ao"
+msgstr "Cura&ccedil;ao"
+
+#: src/Shop/Helper/Country.php:66
+msgid "Cuba"
+msgstr "Cuba"
+
+#: src/Shop/Helper/Country.php:65
+msgid "Croatia"
+msgstr "Kroatië"
+
+#: src/Shop/Helper/Country.php:64
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/Shop/Helper/Country.php:63
+msgid "Cook Islands"
+msgstr "Cook eilanden"
+
+#: src/Shop/Helper/Country.php:62
+msgid "Congo (Kinshasa)"
+msgstr "Congo-Kinshasa (DRC)"
+
+#: src/Shop/Helper/Country.php:61
+msgid "Congo (Brazzaville)"
+msgstr "Congo-Brazzaville"
+
+#: src/Shop/Helper/Country.php:60
+msgid "Comoros"
+msgstr "Comoren"
+
+#: src/Shop/Helper/Country.php:59
+msgid "Colombia"
+msgstr "Colombia"
+
+#: src/Shop/Helper/Country.php:58
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocoseilanden"
+
+#: src/Shop/Helper/Country.php:57
+msgid "Christmas Island"
+msgstr "Christmaseiland"
+
+#: src/Shop/Helper/Country.php:56
+msgid "China"
+msgstr "China"
+
+#: src/Shop/Helper/Country.php:55
+msgid "Chile"
+msgstr "Chili"
+
+#: src/Shop/Helper/Country.php:54
+msgid "Chad"
+msgstr "Tsjaad"
+
+#: src/Shop/Helper/Country.php:53
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: src/Shop/Helper/Country.php:52
+msgid "Cayman Islands"
+msgstr "Kaaimaneilanden"
+
+#: src/Shop/Helper/Country.php:51
+msgid "Cape Verde"
+msgstr "Kaapverdië"
+
+#: src/Shop/Helper/Country.php:50
+msgid "Canada"
+msgstr "Canada"
+
+#: src/Shop/Helper/Country.php:49
+msgid "Cameroon"
+msgstr "Kameroen"
+
+#: src/Shop/Helper/Country.php:48
+msgid "Cambodia"
+msgstr "Cambodja"
+
+#: src/Shop/Helper/Country.php:47
+msgid "Burundi"
+msgstr "Burundi"
+
+#: src/Shop/Helper/Country.php:46
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: src/Shop/Helper/Country.php:45
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: src/Shop/Helper/Country.php:44
+msgid "Brunei"
+msgstr "Brunei"
+
+#: src/Shop/Helper/Country.php:43
+msgid "British Virgin Islands"
+msgstr "Britse Maagdeneilanden"
+
+#: src/Shop/Helper/Country.php:42
+msgid "British Indian Ocean Territory"
+msgstr "Brits Indische Oceaanterritorium"
+
+#: src/Shop/Helper/Country.php:41
+msgid "Brazil"
+msgstr "Brazilië"
+
+#: src/Shop/Helper/Country.php:40
+msgid "Bouvet Island"
+msgstr "Bouveteiland"
+
+#: src/Shop/Helper/Country.php:39
+msgid "Botswana"
+msgstr "Botswana"
+
+#: src/Shop/Helper/Country.php:38
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië en Herzegovina"
+
+#: src/Shop/Helper/Country.php:37
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius en Saba"
+
+#: src/Shop/Helper/Country.php:36
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: src/Shop/Helper/Country.php:35
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: src/Shop/Helper/Country.php:34
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: src/Shop/Helper/Country.php:33
+msgid "Benin"
+msgstr "Benin"
+
+#: src/Shop/Helper/Country.php:32
+msgid "Belize"
+msgstr "Belize"
+
+#: src/Shop/Helper/Country.php:31
+msgid "Belau"
+msgstr "Belau"
+
+#: src/Shop/Helper/Country.php:30
+msgid "Belgium"
+msgstr "België"
+
+#: src/Shop/Helper/Country.php:29
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+#: src/Shop/Helper/Country.php:28
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/Shop/Helper/Country.php:27
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: src/Shop/Helper/Country.php:26
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: src/Shop/Helper/Country.php:25
+msgid "Bahamas"
+msgstr "Bahama's"
+
+#: src/Shop/Helper/Country.php:24
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+#: src/Shop/Helper/Country.php:23
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: src/Shop/Helper/Country.php:22
+msgid "Australia"
+msgstr "Australië"
+
+#: src/Shop/Helper/Country.php:21
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/Shop/Helper/Country.php:20
+msgid "Armenia"
+msgstr "Armenië"
+
+#: src/Shop/Helper/Country.php:19
+msgid "Argentina"
+msgstr "Argentinië"
+
+#: src/Shop/Helper/Country.php:18
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+#: src/Shop/Helper/Country.php:17
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: src/Shop/Helper/Country.php:16
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: src/Shop/Helper/Country.php:15
+msgid "Angola"
+msgstr "Angola"
+
+#: src/Shop/Helper/Country.php:14
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/Shop/Helper/Country.php:13
+msgid "American Samoa"
+msgstr "Amerikaans-Samoa"
+
+#: src/Shop/Helper/Country.php:12
+msgid "Algeria"
+msgstr "Algerije"
+
+#: src/Shop/Helper/Country.php:11
+msgid "Albania"
+msgstr "Albanië"
+
+#: src/Shop/Helper/Country.php:10
+msgid "&#197;land Islands"
+msgstr "&#197;land eilanden"
+
+#: src/Shop/Helper/Country.php:9
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: src/Shop/Checkout/Field.php:87
+msgid "Country"
+msgstr "Land"
+
+#: src/Shop/Checkout/Field.php:77
+msgid "City"
+msgstr "Stad"
+
+#: src/Shop/Checkout/Field.php:68
+msgid "Postcode / ZIP"
+msgstr "Postcode"
+
+#: src/Shop/Checkout/Field.php:59
+msgid "Address"
+msgstr "Adres"
+
+#: src/Shop/Checkout/Field.php:50
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: src/Shop/Checkout/Field.php:41
+msgid "Company name"
+msgstr "Bedrijfsnaam:"
+
+#: src/Shop/Checkout/Field.php:32
+msgid "Last name"
+msgstr "Achternaam"
+
+#: src/Shop/Checkout/Field.php:22
+msgid "First name"
+msgstr "Voornaam"
+
+#: src/Shop/Checkout/PaymentGateway/Test/TestGateway.php:17
+msgid "Test payments are not real payments, used for testing your website."
+msgstr "Testbetalingen zijn geen echte betalingen, gebruikt voor het testen van je website."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:163
+msgid "Your application sandbox client secret."
+msgstr "Het sandbox-clientgeheim van je toepassing."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:162
+msgid "Sandbox Client Secret"
+msgstr "Sandbox-clientgeheim"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:156
+msgid "Your application sandbox client ID."
+msgstr "Je applicatie sandbox client ID"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:155
+msgid "Sandbox Client ID"
+msgstr "Sandbox Client ID"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:148
+msgid "Enable Sandbox"
+msgstr "Sandbox inschakelen"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:147
+msgid "Check to enable PayPal sandbox mode. This allows you to test your PayPal integration."
+msgstr "Vink aan om de PayPal-sandbox-modus in te schakelen. Hiermee kan je jouw PayPal-integratie testen."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:146
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:136
+msgid "Test Settings"
+msgstr "Test instellingen"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:131
+msgid "Your application client secret."
+msgstr "Je applicatie client geheim."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:130
+msgid "Application Client Secret"
+msgstr "Applicatie client geheim"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:124
+msgid "Your application client ID."
+msgstr "Jw applicatie client-ID."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:123
+msgid "Application Client ID"
+msgstr "Applicatie client ID"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:112
+msgid "Application Details"
+msgstr "Applicatie details"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:107
+msgid "This prefix is added to the paypal invoice ID. If you run multiple stores with the same PayPal account, enter an unique prefix per store here."
+msgstr "Dit voorvoegsel wordt toegevoegd aan de PayPal-factuur-ID. Als je meerdere winkels met hetzelfde PayPal-account beheert, voer je hier een uniek voorvoegsel per winkel in."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:106
+msgid "Invoice Prefix"
+msgstr "Voorvoegsel factuur"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:99
+msgid "Click here to read more on how to set this up"
+msgstr "Klik hier voor meer informatie over het instellen hiervan"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:98
+msgid "The same fields from your PayPal application but from the \"sandbox\" mode."
+msgstr "Dezelfde velden van je PayPal-applicatie maar van de \"sandbox\"-modus."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:96
+msgid "Click here to read the full documentation page"
+msgstr "Klik hier om de volledige documentatiepagina te lezen"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:94
+msgid "Click here to create a new PayPal application"
+msgstr "Klik hier om een nieuwe PayPal-applicatie aan te maken"
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:92
+msgid "In order to allow users to pay via PayPal on your website, you need to create an application in PayPal's developer portal. After you've done so, please copy the Client ID and Secret and set them here."
+msgstr "Om gebruikers toe te staan om via PayPal te betalen op je website, moet je een toepassing maken in de ontwikkelaarportal van PayPal. Nadat je dit hebt gedaan, kopieer je de client- en Secret-ID en stel je deze hier in."
+
+#: src/Shop/Checkout/PaymentGateway/PayPal/PayPalGateway.php:21
+msgid "Pay with PayPal"
+msgstr "Betaal met PayPal"
+
+#: src/Shop/Shortcode/Checkout.php:71
+msgid "Your payment failed, please try again."
+msgstr "Je betaling is mislukt. Probeer het opnieuw."
+
+#: src/Shop/Util/Assets.php:42
+msgid "Please complete the fields highlighted in red"
+msgstr "Vul de in rood gemarkeerde velden in"
+
+#: src/Shop/Util/Assets.php:41
+msgid "Please wait while we process your order"
+msgstr "Even geduld terwijl we je bestelling verwerken"
+
+#: src/Shop/Util/Assets.php:40
+msgid "Placing your order"
+msgstr "Bestelling plaatsen"
+
+#: src/Shop/Util/Page.php:110
+msgid "no page"
+msgstr "geen pagina"
+
+#: src/Shop/Ajax/AdminChangeOrderStatus.php:28
+msgid "You are not allowed to do this."
+msgstr "Je hebt geen toestemming om dit te doen."
+
+#: src/Shop/Ajax/PlaceOrder.php:163
+msgid "Payment gateway error: %s"
+msgstr "Fout betalingsgateway: %s"
+
+#: src/Shop/Ajax/PlaceOrder.php:90
+msgid "Invalid Payment Gateway"
+msgstr "Ongeldige betalingsgateway"
+
+#: src/Shop/Ajax/PlaceOrder.php:84
+msgid "Not all required fields are set"
+msgstr "Niet alle vereiste velden zijn ingesteld"
+
+#: src/Shop/Email/VarParser.php:133
+msgid "Payment Gateway"
+msgstr "Payment gateway"
+
+#: src/Shop/Email/VarParser.php:126
+msgid "Order Total"
+msgstr "Bestellingstotaal"
+
+#: src/Shop/Email/VarParser.php:122
+#: templates/shop/checkout/order-complete.php:33
+msgid "Order Date"
+msgstr "Besteldatum"
+
+#: src/Shop/Email/VarParser.php:118
+#: templates/shop/checkout/order-complete.php:25
+msgid "Order ID"
+msgstr "Bestel ID"
+
+#: src/Shop/Email/VarParser.php:65
+#: templates/shop/checkout/order-complete.php:84
+msgid "Download is no longer available"
+msgstr "Download is niet langer beschikbaar"
+
+#: src/Shop/Email/Handler.php:25
+msgid "%s: New order"
+msgstr "%s: nieuwe bestelling"
+
+#: src/Shop/Email/Handler.php:14
+msgid "Your %s order"
+msgstr "Je %s bestelling"
+
+#: src/Shop/Order/Transaction/Factory.php:42
+msgid "Success"
+msgstr "Gelukt"
+
+#: src/Shop/Order/Transaction/Factory.php:39
+msgid "Pending"
+msgstr "In behandeling"
+
+#: src/Shop/Order/Status/Factory.php:33
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: src/Shop/Order/Status/Factory.php:30
+msgid "Refunded"
+msgstr "Terugbetaald"
+
+#: src/Shop/Order/Status/Factory.php:21
+msgid "Pending Payment"
+msgstr "In afwachting van betaling"
+
+#: src/Shop/Util/PostType.php:18 src/Admin/Settings/Settings.php:321
+msgid "Shop"
+msgstr "Winkel"
+
+#: src/Shop/Admin/OrderTable.php:291
+msgid "Empty Trash"
+msgstr "Prullenbak leegmaken"
+
+#: src/Shop/Admin/OrderTable.php:200
+msgid "All"
+msgstr "Alles"
+
+#: src/Shop/Admin/OrderTable.php:190
+msgid "Orders deleted"
+msgstr "Bestellingen verwijderd"
+
+#: src/Shop/Admin/OrderTable.php:155
+#: assets/views/order/page-order-details.php:28
+#: assets/views/order/page-order-details.php:47
+#: templates/shop/cart/totals.php:25 templates/shop/cart.php:22
+#: templates/shop/checkout/order-review.php:17
+#: templates/shop/checkout/order-review.php:38
+msgid "Total"
+msgstr "Totaal"
+
+#: src/Shop/Admin/OrderTable.php:62
+msgid "Trashed orders have been permanently deleted."
+msgstr "Bestellingen in prullenbak zijn permanent verwijderd."
+
+#: src/Shop/Admin/Pages/Orders.php:65
+msgid "Order with that ID could not be found"
+msgstr "Bestelling met ID kon niet worden gevonden"
+
+#: src/Shop/Admin/Pages/Orders.php:22
+#: assets/views/order/page-order-overview.php:15
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: src/DownloadPreview/Preview.php:84
+msgid "Select a download first"
+msgstr "Selecteer eerst een download"
+
+#: src/Gutenberg.php:50
+msgid "Default from settings"
+msgstr "Standaardinstellingen"
+
+#: src/Admin/Settings/Settings.php:218 src/Admin/Settings/Settings.php:240
+msgid "IP Address Logging"
+msgstr "IP-adresregistratie"
+
+#: src/Admin/Settings/Settings.php:219
+msgid "Define if and how you like to store IP addresses of users that download your files in your logs."
+msgstr "Bepaal of en hoe IP-adressen op te slaan in je logbestanden van gebruikers die je bestanden downloaden"
+
+#: src/Admin/Settings/Settings.php:222 src/Admin/Settings/Settings.php:240
+msgid "Store full IP address"
+msgstr "Bewaar het volledige IP-adres"
+
+#: src/Admin/Settings/Settings.php:223
+msgid "Store anonymized IP address (remove last 3 digits)"
+msgstr "Geanonimiseerd IP-adres opslaan (laatste 3 cijfers verwijderen)"
+
+#: src/Admin/Settings/Settings.php:224
+msgid "Store no IP address"
+msgstr "Bewaar geen IP-adres"
+
+#: src/Admin/Settings/Settings.php:230
+msgid "User Agent Logging"
+msgstr "User-agent (browser) logboek"
+
+#: src/Admin/Settings/Settings.php:232
+msgid "If enabled, the user agent (browser) the user uses to download the file will be stored in your logs."
+msgstr "Indien ingeschakeld, wordt de user-agent (browser) die de gebruiker gebruikt om het bestand te downloaden, opgeslagen in uw logbestanden."
+
+#: src/Admin/Settings/Settings.php:240
+msgid "If enabled, the counter for each download will only increment and create a log entry once per IP address. Note that this option only works if %s is set to %s."
+msgstr "Indien ingeschakeld, zal de teller voor elke download alleen maar toenemen en een logboekinvoer maken eenmaal per IP-adres. Merk op dat deze optie alleen werkt als %s is ingesteld op %s."
+
+#: src/LegacyUpgrader/Page.php:48
+msgid "I'm sure I want to run the upgrader anyway"
+msgstr "Ik weet zeker dat ik de upgrader toch wil uitvoeren"
+
+#: src/LegacyUpgrader/Page.php:46
+msgid "WARNING: We don't think your database needs upgrading. Only continue if you're 100% sure what you're doing!"
+msgstr "WAARSCHUWING: We denken niet dat je database moet worden bijgewerkt. Ga alleen verder als je 100% zeker weet wat je doet!"
+
+#: templates/content-download-no-version.php:13
+msgid "has no version set!"
+msgstr "heeft geen versie ingesteld!"
+
+#: templates/content-download-no-version.php:12
+msgid "Please set a version in your WordPress admin"
+msgstr "Stel een versie in je WordPress beheerder backend"
+
+#: src/TaxonomyManager.php:61
+msgid "Download Tags"
+msgstr "Download tags"
+
+#: src/TaxonomyManager.php:29
+msgid "Download Categories"
+msgstr "Download categorieën"
+
+#: src/PostTypeManager.php:86
+msgid "Parent Download Version"
+msgstr "Downloadversie ouder"
+
+#: src/PostTypeManager.php:85
+msgid "No Download Versions found in trash"
+msgstr "Geen downloadversies gevonden in de prullenbak"
+
+#: src/PostTypeManager.php:84
+msgid "No Download Versions found"
+msgstr "Geen downloadversies gevonden"
+
+#: src/PostTypeManager.php:83
+msgid "Search Download Versions"
+msgstr "Zoeken downloadversies"
+
+#: src/PostTypeManager.php:81 src/PostTypeManager.php:82
+msgid "View Download Version"
+msgstr "Bekijk de downloadversie"
+
+#: src/PostTypeManager.php:80
+msgid "New Download Version"
+msgstr "Nieuwe downloadversie"
+
+#: src/PostTypeManager.php:79
+msgid "Edit Download Version"
+msgstr "Bewerk downloadversie"
+
+#: src/PostTypeManager.php:77
+msgid "Add Download Version"
+msgstr "Toevoegen downloadversie"
+
+#: src/PostTypeManager.php:75
+msgid "Download Version"
+msgstr "Downloadversie"
+
+#: src/PostTypeManager.php:74
+msgid "Download Versions"
+msgstr "Downloadversies"
+
+#: src/PostTypeManager.php:73
+msgid "All Download Versions"
+msgstr "Alle downloadversies"
+
+#: src/Logs/LoggingListTable.php:298
+msgid "Select a User"
+msgstr "Selecteer een gebruiker"
+
+#: src/Logs/LogPage.php:83
+msgid "Are you sure you want to delete ALL log items?"
+msgstr "Weet je zeker dat je ALLE log-items wilt verwijderen?"
+
+#: src/Logs/LogExportCSV.php:78
+msgid "Meta Data"
+msgstr "Meta data"
+
+#: src/LegacyUpgrader/Page.php:42
+msgid "Welcome to the Download Monitor Legacy Upgrader. On this page we will upgrade your old Download Monitor (legacy) data so it will work with the latest version. If you're on this page, it should mean that you updated to this version from Download Monitor %s. If you're unsure if this is correct, or you want to read more about the legacy upgrade, we've setup a page that will explain this process in a lot more detail. %sClick here%s if to view that page."
+msgstr "Welkom bij de upgrade voor oudere versies van Download Monitor. Op deze pagina zullen we je oude Download Monitor (legacy) gegevens upgraden zodat deze met de nieuwste versie werkt. Als je op deze pagina bent, zou dit moeten betekenen dat je vanuit Download Monitor %s naar deze versie hebt geüpdate. Als je niet zeker weet of dit correct is, of als je meer wil lezen over de oude upgrade, hebben we een pagina ingesteld die dit proces veel gedetailleerder uitlegt. %sKlik hier%s als je die pagina wilt bekijken."
+
+#: src/LegacyUpgrader/Page.php:41
+msgid "Download Monitor - Legacy Upgrade"
+msgstr "Download Monitor - Legacy Upgrade"
+
+#: src/LegacyUpgrader/Page.php:17
+msgid "Legacy Upgrader"
+msgstr "Legacy Upgrader"
+
+#: src/DLM.php:260
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: src/Admin/WritePanels.php:99
+msgid "No download information for new downloads."
+msgstr "Geen downloadinformatie voor nieuwe downloads."
+
+#: src/Admin/Settings/Settings.php:406
+msgid "Remove all Download Monitor transients, this can solve version caching issues."
+msgstr "Verwijder alle Download Monitor transiënten, dit kan problemen met versiecache oplossen."
+
+#: src/Admin/Settings/Settings.php:405
+msgid "Clear all transients"
+msgstr "Wis alle transiënten"
+
+#: src/Admin/Settings/Settings.php:399
+msgid "Check this box if you would like to completely remove all Download Monitor data when the plugin is deleted."
+msgstr "Schakel dit selectievakje in als je alle gegevens van de Downloadmonitor volledig wilt verwijderen wanneer de plug-in is verwijderd."
+
+#: src/Admin/Settings/Settings.php:397
+msgid "Remove Data on Uninstall?"
+msgstr "Gegevens verwijderen bij verwijderen?"
+
+#: src/Admin/Settings/Settings.php:390
+msgid "Misc"
+msgstr "Varia"
+
+#: src/Admin/Settings/Settings.php:272
+msgid "List browser user agents to blacklist, 1 per line.  Partial matches are sufficient. Regex matching is allowed by surrounding the pattern with forward slashes, e.g. <code>/^Mozilla.+Googlebot/</code>"
+msgstr "Maak een lijst van browser user agents naar de zwarte lijst, 1 per regel.  Gedeeltelijke overeenkomsten zijn voldoende. Regex-matching is toegestaan door het patroon met voorwaartse slashes te omringen, b.v. <code>/ ^Mozilla.+Googlebot/</code>"
+
+#: src/Admin/Settings/Settings.php:186
+msgid "Generate SHA256 hash for uploaded files"
+msgstr "Genereer SHA256 hash voor geüploade bestanden"
+
+#: src/Admin/Settings/Settings.php:185
+msgid "SHA256 hashes"
+msgstr "SHA256 hashes"
+
+#: src/Admin/Settings/Settings.php:163
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files. %sYou can read more about hashes here%s"
+msgstr "Hashes kunnen optioneel worden uitgevoerd via shortcodes, maar kunnen prestatieproblemen veroorzaken bij grote bestanden. %sJe kunt hier meer over hashes lezen%s"
+
+#: src/Admin/Settings/Settings.php:121
+msgid "If enabled, downloads will be included in the site's internal search results."
+msgstr "Indien ingeschakeld, zullen downloads worden opgenomen in de interne zoekresultaten van de site."
+
+#: src/Admin/Settings/Settings.php:119
+msgid "Include in Search"
+msgstr "Opnemen in zoeken"
+
+#: src/Admin/Settings/Page.php:67
+msgid "Download Monitor Transients successfully cleared!"
+msgstr "Download Monitor transiënten met succes gewist!"
+
+#: src/Admin/Reports/Page.php:180
+msgid "Download Reports"
+msgstr "Download rapporten"
+
+#: src/Admin/Reports/Page.php:141
+msgid "Month"
+msgstr "Maand"
+
+#: src/Admin/Reports/Page.php:140
+msgid "Per Day"
+msgstr "Per dag"
+
+#: src/Admin/Reports/Page.php:115
+msgid "Switch to %s"
+msgstr "Schakel over naar %s"
+
+#: src/Admin/Reports/Page.php:23
+msgid "Reports"
+msgstr "Rapporten"
+
+#: src/Admin/MediaInsert.php:161
+msgid "Search download"
+msgstr "Zoek download"
+
+#: assets/views/notice-lu-upgrade.php:11
+msgid "hide notice"
+msgstr "verberg melding"
+
+#: assets/views/notice-lu-upgrade.php:10
+msgid "Take me to the Upgrade Tool"
+msgstr "Breng me naar de Upgrade Tool"
+
+#: assets/views/notice-lu-upgrade.php:9
+msgid "We've created an upgrading tool that will do all the work for you. You can read more about this tool on %sour website (click here)%s or start the upgrade now."
+msgstr "We hebben een upgradetool gemaakt dat al het werk voor je zal doen. Je kunt meer over deze tool lezen op %sonze website (klik hier)%s of start de upgrade nu."
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "upgrade your downloads"
+msgstr "upgrade je downloads"
+
+#: assets/views/notice-lu-upgrade.php:8
+msgid "Currently your downloads don't work like they should, we need to %s before they'll work again."
+msgstr "Momenteel werken je downloads niet zoals het hoort, we moeten %s voordat ze weer werken."
+
+#: assets/views/notice-lu-upgrade.php:7
+msgid "It looks like you upgraded to the latest version of Download Monitor from a legacy version (3.x)"
+msgstr "Het lijkt erop dat je een upgrade hebt uitgevoerd naar de nieuwste versie van Download Monitor van een oudere versie (3.x)"
+
+#: src/Admin/Settings/Fields/LazySelect.php:41
+msgid "Loading"
+msgstr "Laden"
+
+#: src/Admin/Settings/Settings.php:113
+msgid "If enabled, Download Monitor will use the X_FORWARDED_FOR HTTP header set by proxies as the IP address. Note that anyone can set this header, making it less secure."
+msgstr "Indien ingeschakeld, gebruikt Download Monitor de X_FORWARDED_FOR HTTP-header die is ingesteld door proxy's als het IP-adres. Merk op dat iedereen deze header kan instellen, waardoor deze minder veilig is."
+
+#: src/Admin/Settings/Settings.php:111
+msgid "Allow Proxy IP Override"
+msgstr "Proxy-IP-overschrijving toestaan"
+
+#: src/Product/Product.php:430
+msgid "<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension to receive access to automatic upgrades and support. Need a license key? <a href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr "<a href=\"%s\">Registreer je exemplaar</a> van de extensie <strong>%s</strong> om toegang te krijgen tot automatische upgrades en ondersteuning. Een licentiesleutel nodig? <a href=\"%s\" target=\"_blank\">Koop er nu een</a>."
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr "(v%s bestaat niet meer)"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr " (v%s)"
+
+#: templates/content-download-version-list.php:24
+#: templates/content-download-button.php:14
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "% keer gedownload"
+msgstr[1] "%d keer gedownload"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "Download &ldquo;%s&rdquo;"
+
+#: src/Shop/Email/VarParser.php:70 templates/content-download-box.php:29
+#: templates/shop/checkout/order-complete.php:89
+msgid "Download File"
+msgstr "Download Bestand"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17 templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "1 download"
+msgstr[1] "%d downloads"
+
+#: src/Widgets/Downloads.php:239
+msgid "Show only members only downloads"
+msgstr "Toon enkel 'Enkel leden' downloads"
+
+#: src/Widgets/Downloads.php:232
+msgid "Show only featured downloads"
+msgstr "Toon enkel uitgelichte downloads"
+
+#: src/Widgets/Downloads.php:224
+msgid "DESC"
+msgstr "Aflopend"
+
+#: src/Widgets/Downloads.php:222
+msgid "ASC"
+msgstr "Oplopend"
+
+#: src/Shop/Admin/OrderTable.php:152 src/Widgets/Downloads.php:217
+msgid "Order"
+msgstr "Sorteren"
+
+#: src/Widgets/Downloads.php:210
+msgid "Date modified"
+msgstr "Datum aangepast"
+
+#: src/Widgets/Downloads.php:208
+msgid "Date added"
+msgstr "Datum toegevoegd"
+
+#: src/Widgets/Downloads.php:204
+msgid "Random"
+msgstr "Willekeurig"
+
+#: src/Widgets/Downloads.php:197
+msgid "Order by"
+msgstr "Sorteren o"
+
+#: src/Widgets/Downloads.php:193
+msgid "Default template"
+msgstr "Standaard template"
+
+#: src/Widgets/Downloads.php:188
+msgid "Output template"
+msgstr "Output template"
+
+#: src/Widgets/Downloads.php:180
+msgid "Limit"
+msgstr "Limiet"
+
+#: src/Widgets/Downloads.php:55 src/Widgets/Downloads.php:162
+msgid "Featured Downloads"
+msgstr "Uitgelichte Downloads"
+
+#: src/Widgets/Downloads.php:30
+msgid "Downloads List"
+msgstr "Download Lijst"
+
+#: src/Widgets/Downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "Toon een lijst met uw downloads."
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr "Licentie succesvol geactiveerd."
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "Nieuwe Download Tag Naam"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "Nieuwe Download Tag Toevoegen"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "Download Tag Opslaan"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "Bewerk Download Tag"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "Parent Download Tag"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "Alle Download Tags"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "Zoek Download Tags"
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "Download Tag"
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "Nieuwe Download Categorie Naam"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "Nieuwe Download Categorie Toevoegen"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "Download Categorie Opslaan"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "Bewerk Download Categorie"
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "Parent Download Categorie"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "Alle Download Categoriën"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "Zoek Download Categoriën "
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "Download Categorie"
+
+#: src/Shortcodes.php:142 src/Shortcodes.php:261
+msgid "Download not found"
+msgstr "Download niet gevonden"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "Dit is waar u downloads kunt aanmaken en beheren voor uw website."
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "Parent Download"
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "Geen Downloads gevonden in prullenbak"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "Geen Downloads gevonden"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "Zoek Downloads"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "Bekijk Download"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "Nieuwe Download"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "Bewerk Download"
+
+#: src/Shop/Util/PostType.php:22 src/PostTypeManager.php:26
+#: src/PostTypeManager.php:78
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "Download toevoegen"
+
+#: src/PostTypeManager.php:24 src/PostTypeManager.php:76
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: src/PostTypeManager.php:22 assets/views/meta-box/product-information.php:13
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "Alle Downloads"
+
+#: src/Util/Onboarding.php:125 src/Util/PageCreator.php:14
+msgid "No Access"
+msgstr "Geen Toegang"
+
+#: src/DownloadHandler.php:557 src/DownloadHandler.php:559
+msgid "File not found."
+msgstr " Bestand niet gevonden."
+
+#: src/DownloadHandler.php:552
+msgid "Redirected to remote file."
+msgstr "Doorgestuurd naar extern bestand."
+
+#: src/DownloadHandler.php:481 src/DownloadHandler.php:499
+#: src/DownloadHandler.php:506 src/DownloadHandler.php:513
+msgid "Redirected to file"
+msgstr "Doorgestuurd naar bestand"
+
+#: src/DownloadHandler.php:397 src/DownloadHandler.php:405
+msgid "No file paths defined."
+msgstr "Geen bestandspad gedefinieerd."
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:445
+#: src/DownloadHandler.php:559
+msgid "Download Error"
+msgstr "Download Fout"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:559
+msgid "Go to homepage &rarr;"
+msgstr "Ga naar de homepage &rarr;"
+
+#: src/DownloadHandler.php:320
+msgid "Download does not exist."
+msgstr "Download bestaat niet."
+
+#: src/DownloadHandler.php:314
+msgid "Password Required"
+msgstr "Wachtwoord Verplicht"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "m"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "h"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "Bestandsdatum"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "Blader naar bestand"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "Vul bestand URL in"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "Kies een bestand"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "Upload bestand"
+
+#: assets/views/meta-box/version.php:31
+msgid "Enter one file path/URL per line - multiple files will be used as mirrors (chosen at random)."
+msgstr "Vul 1 bestandspad/URL per lijn in - meerdere bestanden zullen gebruikt worden als mirrors (willekeurig gekozen)."
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "Bestand URL(s)"
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "%s keer gedownload"
+msgstr[1] "%s keer gedownload"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "n/a"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "Versie <span class=\"version\">%s</span> (%s)"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "Klik om te wisselen"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "Verwijder"
+
+#: src/Shop/Admin/OrderTable.php:285 src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "Filter"
+
+#: src/Shop/Admin/OrderTable.php:280 src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "Toon allen"
+
+#: src/Shop/Admin/OrderTable.php:278 src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "200 per pagina"
+
+#: src/Shop/Admin/OrderTable.php:276 src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "100 per pagina"
+
+#: src/Shop/Admin/OrderTable.php:274 src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "50 per pagina"
+
+#: src/Shop/Admin/OrderTable.php:272 src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "25 per pagina"
+
+#: src/Shop/Admin/OrderTable.php:264 src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Shop/Admin/OrderTable.php:250 src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "Toon alle datums"
+
+#: src/Shop/Order/Status/Factory.php:24 src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "Afgerond"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "Redirected"
+
+#: src/Shop/Order/Status/Factory.php:27
+#: src/Shop/Order/Transaction/Factory.php:45 src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "Mislukt"
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "Allen statussen"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr "Logbestanden verwijderd"
+
+#: src/Logs/LoggingListTable.php:198
+#: assets/views/order/page-order-details.php:165
+msgid "IP Address"
+msgstr "IP Adres"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "Gebruiker"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "Geen lid"
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "Download #%d (bestaat niet meer)"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "Download Compleet"
+
+#: src/Shop/Admin/OrderTable.php:99 src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/Admin/Admin.php:290
+msgid "If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge thank you from us in advance!"
+msgstr "Als u %sDownload Monitor%s met plezier gebruikt, geef ons dan een %s★★★★★%s review! Alvast enorm bedankt van ons!"
+
+#: src/Shop/Admin/OrderTable.php:154 src/Logs/LogExportCSV.php:77
+#: assets/views/order/page-order-details.php:69
+msgid "Status"
+msgstr "Status"
+
+#: src/Shop/Admin/OrderTable.php:153 src/Shop/Admin/ProductTableColumns.php:35
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+#: assets/views/order/page-order-details.php:68
+msgid "Date"
+msgstr "Datum"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "Gebruiker Agent"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "Gebruiker IP"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "Gebruiker Emai"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "Gebruiker Login"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "Gebruiker ID"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "Versie ID"
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "Verwijder Logs"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "Exporteer CSV"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "Download Logs"
+
+#: src/Admin/Settings/Page.php:178
+msgid "Save Changes"
+msgstr "Wijzingen Opslaan"
+
+#: src/Admin/Settings/Page.php:101
+msgid "Settings successfully saved"
+msgstr "Instellingen succesvol opgeslagen"
+
+#: src/Admin/Settings/Page.php:204
+msgid "Please add the following rules to your nginx config to disable direct file access: %s"
+msgstr "Voeg de volgende regel toe aan je nginx configuratie om directe bestandstoegang uit te schakelen: %s"
+
+#: src/Admin/Settings/Page.php:203
+msgid "Because your server is running on nginx, our .htaccess file can't protect your downloads."
+msgstr "Omdat je server op nginx draait, kan ons .htaccess bestand je downloads niet beschermen."
+
+#: src/Admin/Admin.php:240 src/DLM.php:259 src/Util/Onboarding.php:205
+msgid "Extensions"
+msgstr "Extensies"
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:258
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "Logs"
+
+#: src/Admin/Settings/Settings.php:271
+msgid "Blacklist user agents"
+msgstr "Blacklist user agents"
+
+#: src/Admin/Settings/Settings.php:264
+msgid "List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for ranges. IPv4 examples: <code>198.51.100.1</code> or <code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or <code>2001:db8::/32</code>."
+msgstr "Lijst IP-adressen voor zwarte lijst, één per lijn. Gebruik IP/CIDR netmasker formaat voor bereiken. IPv4 voorbeelden: <code>198.51.100.1</code> of <code>198.51.100.0/24</code>. IPv6 voorbeelden: <code>2001:db8::1</code> of <code>2001:db8::/32</code>."
+
+#: src/Admin/Settings/Settings.php:263
+msgid "Blacklist IPs"
+msgstr "Blacklist IPs"
+
+#: src/Admin/Settings/Settings.php:257
+msgid "The message that will be displayed to visitors when they don't have access to a file."
+msgstr "De melding die getoond wordt wanneer de bezoeker geen toegang heeft tot een bestand."
+
+#: src/Admin/Settings/Settings.php:256
+msgid "No access message"
+msgstr "Geen toegang melding"
+
+#: src/Installer.php:38 src/Admin/Settings/Settings.php:254
+#: src/UpgradeManager.php:56
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr "U heeft geen toegang tot deze download. %sGa naar homepage%s"
+
+#: src/Admin/Settings/Settings.php:289
+msgid "Choose what page is displayed when the user has no access to a file. Don't forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr "Kies welke pagina wordt weergegeven wanneer de gebruiker geen toegang heeft tot het bestand. Vergeet niet om de <code>[dlm_no_access]</code> shortcode aan de pagina toe te voegen. "
+
+#: src/Admin/Settings/Settings.php:288
+msgid "No Access Page"
+msgstr "Geen toegang pagina"
+
+#: src/Admin/Settings/Settings.php:248
+msgid "Access"
+msgstr "Toegang"
+
+#: src/Admin/Settings/Settings.php:238
+msgid "Count unique IPs only"
+msgstr "Tel alleen de unieke IP-adressen"
+
+#: src/Admin/Settings/Settings.php:212
+msgid "Log download attempts, IP addresses and more."
+msgstr "Log download pogingen, IP addressen en meer."
+
+#: src/Admin/Settings/Settings.php:211
+msgid "Download Log"
+msgstr "Download Log"
+
+#: src/Admin/Settings/Settings.php:203
+msgid "Logging"
+msgstr "Logging"
+
+#: src/Admin/Settings/Settings.php:187 src/Admin/Settings/Settings.php:195
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files."
+msgstr "Hashes kunnen optioneel getoond worden via shortcodes maar kunnen performance problemen geven bij grote bestanden."
+
+#: src/Admin/Settings/Settings.php:194
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "Genereer een CRC32B hash voor bestanden"
+
+#: src/Admin/Settings/Settings.php:193
+msgid "CRC32B hashes"
+msgstr "CRC32B hashes"
+
+#: src/Admin/Settings/Settings.php:178
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "Genereer een SHA1 hash voor bestanden"
+
+#: src/Admin/Settings/Settings.php:177
+msgid "SHA1 hashes"
+msgstr "SHA1 hashes"
+
+#: src/Admin/Settings/Settings.php:170
+msgid "Generate MD5 hash for uploaded files"
+msgstr "Genereer een MD5 hash voor bestanden"
+
+#: src/Admin/Settings/Settings.php:169
+msgid "MD5 hashes"
+msgstr "MD5 hashes"
+
+#: src/Admin/Settings/Settings.php:157
+msgid "Hashes"
+msgstr "Hashes"
+
+#: src/Admin/Settings/Settings.php:149
+msgid "Download slug"
+msgstr "Download slug"
+
+#: src/Admin/Settings/Settings.php:148 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "Download ID"
+
+#: src/Admin/Settings/Settings.php:145
+msgid "Define what unique value should be used on the end of your endpoint to identify the downloadable file. e.g. ID would give a link like <code>%s</code>"
+msgstr "Kies welke unieke waarde gebruikt moet worden achter het endpoint of de download te identificeren. ID geeft bijvoorbeeld een link zoals <code>%s</code>"
+
+#: src/Admin/Settings/Settings.php:144
+msgid "Endpoint Value"
+msgstr "Endpoint Waarde"
+
+#: src/Admin/Settings/Settings.php:139
+msgid "Define what endpoint should be used for download links. By default this will be <code>%s</code>."
+msgstr "Kies welk endpoint gebruikt moet worden voor download links. Standaar is dit <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:138
+msgid "Download Endpoint"
+msgstr "Download Endpoint"
+
+#: src/Admin/Settings/Settings.php:137 assets/blocks/src/blocks.js:22
+msgid "download"
+msgstr "download"
+
+#: src/Admin/Settings/Settings.php:129
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/Admin/Settings/Settings.php:105
+msgid "If enabled, the download handler will check the PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "Wanneer aangezet zal de download handler checken of in PHP de referer gelijk is aan uw website and wanneer dit niet het geval is de gebruiker doorsturen naar uw homepage."
+
+#: src/Admin/Settings/Settings.php:103
+msgid "Prevent hotlinking"
+msgstr "Voorkom hotlinking"
+
+#: src/Admin/Settings/Settings.php:97
+msgid "If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be used to serve downloads instead of PHP (server requires <code>mod_xsendfile</code>)."
+msgstr "Wanneer ondersteund kan <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> gebruikt worden om downloads te verzenden in plaats van PHP (server vereist <code>mod_xsendfile</code>)."
+
+#: src/Admin/Settings/Settings.php:96 src/Admin/Settings/Settings.php:104
+#: src/Admin/Settings/Settings.php:112 src/Admin/Settings/Settings.php:120
+#: src/Admin/Settings/Settings.php:209 src/Admin/Settings/Settings.php:231
+#: src/Admin/Settings/Settings.php:239 src/Admin/Settings/Settings.php:398
+msgid "Enable"
+msgstr "Aanzetten"
+
+#: src/Admin/Settings/Settings.php:95
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:82
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>button</code>, the <code>content-download-button.php</code> template will be used instead. You can add custom templates inside your theme folder."
+msgstr "Het standaard bestand <code>content-download.php</code> wordt gebruikt als je dit leeg laat. Als je bijvoorbeeld <code>knop</code> invult dan wordt <code>content-download-knop.php</code> gebruikt. Je kunt afwijkende templates in je themamap plaatsen."
+
+#: src/Admin/Settings/Settings.php:81 assets/blocks/src/blocks.js:75
+msgid "Custom Template"
+msgstr "Afwijkende template"
+
+#: src/TemplateHandler.php:22
+msgid "Custom template"
+msgstr "Afwijkende template"
+
+#: src/TemplateHandler.php:21
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "Versie lijst - Lijst met alle download versies"
+
+#: src/TemplateHandler.php:20
+msgid "Title - Shows download title only"
+msgstr "Titel - Toont enkel download titel"
+
+#: src/TemplateHandler.php:19
+msgid "Filename - Filename and download count"
+msgstr "Bestandsnaam - Bestandsnaam en download aantal"
+
+#: src/TemplateHandler.php:18
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "Box - Box welke de afbeelding, titel, aantal, bestandsnaam en bestandsgrootte toont."
+
+#: src/TemplateHandler.php:17
+msgid "Button - CSS styled button showing title and count"
+msgstr "Knop - CSS opgemaakte knop welke titel en aantal toont. "
+
+#: src/TemplateHandler.php:16
+msgid "Default - Title and count"
+msgstr "Standaard - Titel en aantal"
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Choose which template is used for <code>[download]</code> shortcodes by default (this can be overridden by the <code>format</code> argument)."
+msgstr "Kies welke template standaard gebruikt wordt voor <code>download</code> shortcodes (dit kan overschreven worden door het <code>format</code> argument)."
+
+#: src/Admin/Settings/Settings.php:72
+msgid "Default Template"
+msgstr "Standaad Template"
+
+#: src/Admin/Settings/Settings.php:65 src/Admin/Settings/Settings.php:324
+msgid "General"
+msgstr "Algemeen"
+
+#: src/Admin/Settings/Settings.php:484
+msgid "Select Page"
+msgstr "Selecteer pagina"
+
+#: src/Admin/WritePanels.php:188
+msgid "Expand all"
+msgstr "Open allen"
+
+#: src/Admin/WritePanels.php:187
+msgid "Close all"
+msgstr "Sluit allen"
+
+#: src/Admin/WritePanels.php:186
+msgid "Add file"
+msgstr "Bestand toevoegen"
+
+#: src/Admin/WritePanels.php:142
+msgid "Don't force download. If the <code>dlm_uploads</code> folder is protected you may need to move your file."
+msgstr "Forceer de download niet. Als de <code>dlm_uploads</code> map is beveiligd moet je de bestanden misschien verplaatsen. "
+
+#: src/Admin/WritePanels.php:136
+msgid "Only logged in users will be able to access the file via a download link if this is enabled."
+msgstr "Alleen ingelogde gebruikers hebben toegang tot het bestand wanneer ingeschakeld."
+
+#: src/Admin/WritePanels.php:130
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "Markeer deze download as uitgelicht. Gebruikt door shortcodes en widgets."
+
+#: src/Admin/WritePanels.php:91
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: src/Admin/WritePanels.php:85
+msgid "URL"
+msgstr "URL"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "Korte Omschrijving"
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "Downloadbare Bestanden/Versies"
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "Download Opties"
+
+#: src/Admin/WritePanels.php:32 assets/blocks/src/blocks.js:56
+msgid "Download Information"
+msgstr "Download Informatie"
+
+#: src/Admin/AdminScripts.php:206
+msgid "Are you sure you want to delete this file ? "
+msgstr "Weet u zeker dat u dit bestand wilt verwijderen?"
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "Even wachten..."
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "Toegestane Bestanden"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "Bewaar Download"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "Optioneel versie nummer"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "Verplicht titel"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "Download Titel"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "Verplicht URL"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "Download URL"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "Voeg URL handmatig in"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "Selecteer bestand"
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "of"
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "Sleep bestand hier"
+
+#: src/Admin/MediaInsert.php:198
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>image</code>, the <code>content-download-image.php</code> template will be used instead."
+msgstr "Het standaard bestand <code>content-download.php</code> wordt gebruikt als u dit leeg laat. Als u bijvoorbeeld <code>image</code> invult dan wordt <code>content-download-image.php</code> gebruikt."
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "Template Naam"
+
+#: src/Admin/MediaInsert.php:194 assets/blocks/src/blocks.js:68
+#: assets/blocks/src/blocks.js:70
+msgid "Template"
+msgstr "Template"
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "Kies een download"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "Foutmelding: Download is niet aangemaakt"
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "Download succesvol aangemaakt"
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "Foutmelding: Bestand is niet aangemaakt"
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "Voor download snel toe"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "Voeg shortcode in"
+
+#: src/Admin/MediaInsert.php:36 src/Admin/MediaInsert.php:55
+#: src/Admin/AdminScripts.php:201
+msgid "Insert Download"
+msgstr "Voeg download in"
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "Geen bestanden gevonden"
+
+#: src/Admin/MediaBrowser.php:34 src/Admin/AdminScripts.php:207
+msgid "Browse for a file"
+msgstr "Bladeren naar bestand"
+
+#: src/Admin/Extensions.php:67
+msgid "Extend Download Monitor with its powerful free and paid extensions. %sClick here to browse all extensions%s"
+msgstr "Breid Download Monitor uit met haar krachtige gratis en betaalde extensies. %sKlik hier om alle extensies te zien%s."
+
+#: src/Admin/Admin.php:240 src/Admin/Extensions.php:34
+msgid "Download Monitor Extensions"
+msgstr "Download Monitor Extensies"
+
+#: src/Admin/Dashboard.php:73 src/PostTypeManager.php:23
+#: src/Logs/LoggingListTable.php:195 assets/blocks/src/blocks.js:58
+msgid "Download"
+msgstr "Download"
+
+#: src/Admin/Dashboard.php:60
+msgid "There are no stats available yet!"
+msgstr "Er zijn nog geen statistieken beschikbaar!"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "Populaire downloads"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:141
+msgid "Redirect to file"
+msgstr "Redirect naar bestand"
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:129
+msgid "Featured download"
+msgstr "Uitgelichte Download"
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr "Download Monitor gegevens"
+
+#: src/Admin/CustomColumns.php:90 src/Admin/CustomColumns.php:97
+#: src/Admin/CustomColumns.php:104
+msgid "Yes"
+msgstr "Ja"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "Datum geplaatst"
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "Enkel redirect"
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:135
+msgid "Members only"
+msgstr "Enkel leden"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: src/Admin/CustomColumns.php:31 src/Admin/Dashboard.php:74
+#: src/Widgets/Downloads.php:212 assets/views/meta-box/version.php:64
+msgid "Download count"
+msgstr "Downloads aantal"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "Tags"
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "Categorieën"
+
+#: src/Admin/MediaInsert.php:241 src/Admin/CustomColumns.php:28
+#: assets/views/meta-box/version.php:22
+#: templates/shop/email/elements/downloads-table.php:16
+#: assets/blocks/src/blocks.js:63
+msgid "Version"
+msgstr "Versie"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "Bestand"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/Downloads.php:206 assets/views/order/page-order-details.php:67
+msgid "ID"
+msgstr "ID"
+
+#: src/Shop/Admin/ProductTableColumns.php:33 src/Admin/CustomColumns.php:25
+#: src/Widgets/Downloads.php:172 src/Widgets/Downloads.php:202
+msgid "Title"
+msgstr "Titel"
+
+#: src/Shop/Admin/ProductTableColumns.php:32 src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "Afbeelding"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "Download concept geüpdatet."
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "Download geplandt voor: <strong>%1$s</strong>."
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "Download verstuurd."
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "Download opgeslagen."
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "Download gepubliceerd."
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr "Download hersteld naar revisie van %s"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "Custom field verwijderd."
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "Custom field geüpdatet."
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "Download geüpdatet."
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "Download titel"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "Kies een categorie"

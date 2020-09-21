@@ -1,0 +1,57 @@
+/*
+ Theme Name:   astra Child theme
+ Theme URI:    http://isoe.dk/portfolio/
+ Description:  astra Child Theme based on the parrent theme astra
+ Author:       Nikolai Hansen
+ Author URI:   http://isoe.dk
+ Template:     astra
+ Version:      1.2.3
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astachild
+*/
+
+.main-header-bar-wrap {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.foto_icon {
+top: -50px;
+}
+
+.foto_text {
+bottom: -50px;
+}
+
+.foto_hide {
+  opacity:0; position:relative; transition:all .5s ease-in-out  }
+
+.foto_box:hover .foto_icon {
+top: 0px;
+}
+
+.foto_box:hover .foto_text {
+bottom: 0px;
+}
+
+.foto_box:hover .foto_hide {
+opacity: 1;
+}
+
+.bg_box{ position:absolute; top:0; left:0;right:0; bottom:0; 
+background-size:cover; background-position:center;
+opacity:0 ;transition:all .5s ease-in-out
+}
+
+.bg_main{ background-image:url("https://isoe.dk/wp-content/uploads/2020/09/niko-portfolio.jpg"); opacity:1 }
+
+.bg1{ background-image:url("https://isoe.dk/wp-content/uploads/2020/09/nikolai-foto-baggrund.jpg");}
+.bg2{ background-image:url("https://isoe.dk/wp-content/uploads/2020/09/webdesign-nikolai.jpg");}
+.bg3{ background-image:url("https://isoe.dk/wp-content/uploads/2020/09/nikolai-foto.jpg");}
+
+.shown {opacity:1;}
+
+

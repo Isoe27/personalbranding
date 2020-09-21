@@ -1,0 +1,1003 @@
+# Translation of Plugins - Download Monitor - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Download Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-06 15:58:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Download Monitor - Stable (latest release)\n"
+
+#: src/Product/Product.php:430
+msgid "<a href=\"%s\">Register your copy</a> of the <strong>%s</strong> extension to receive access to automatic upgrades and support. Need a license key? <a href=\"%s\" target=\"_blank\">Purchase one now</a>."
+msgstr "<a href=\"%s\">Rekisteröidy</a> <strong>%s</strong> -laajennuksen käyttäjäksi, jotta saat automaattiset päivitykset ja käyttäjätukea. Tarvitsetko lisenssin? <a href=\"%s\" target=\"_blank\">Osta lisenssi nyt</a>."
+
+#: src/Logs/LoggingListTable.php:125
+msgid " (v%s no longer exists)"
+msgstr " (v%s ei ole enää olemassa)"
+
+#: src/Logs/LoggingListTable.php:123
+msgid " (v%s)"
+msgstr " (v%s)"
+
+#: src/Shop/Util/PostType.php:22 src/PostTypeManager.php:26
+#: src/PostTypeManager.php:78
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/Shop/Admin/OrderTable.php:99 src/Logs/LoggingListTable.php:67
+msgid "Delete"
+msgstr "Poista"
+
+#: src/Logs/LogExportCSV.php:73
+msgid "User Email"
+msgstr "Käyttäjän sähköposti"
+
+#: src/Shop/Admin/OrderTable.php:154 src/Logs/LogExportCSV.php:77
+#: assets/views/order/page-order-details.php:69
+msgid "Status"
+msgstr "Tila"
+
+#: src/Logs/LoggingListTable.php:198
+#: assets/views/order/page-order-details.php:165
+msgid "IP Address"
+msgstr "IP osoite"
+
+#: src/Admin/Settings/Page.php:22 src/DLM.php:258
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/Shop/Admin/OrderTable.php:153 src/Shop/Admin/ProductTableColumns.php:35
+#: src/Logs/LogExportCSV.php:76 src/Logs/LoggingListTable.php:200
+#: assets/views/order/page-order-details.php:68
+msgid "Date"
+msgstr "Päiväys"
+
+#: src/Admin/Settings/Page.php:178
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: src/Admin/Admin.php:240 src/DLM.php:259 src/Util/Onboarding.php:205
+msgid "Extensions"
+msgstr "Laajennukset"
+
+#: src/Shop/Admin/OrderTable.php:285 src/Logs/LoggingListTable.php:329
+msgid "Filter"
+msgstr "Suodata"
+
+#: assets/views/meta-box/version.php:10 assets/views/meta-box/version.php:24
+msgid "n/a"
+msgstr "ei saatavilla"
+
+#: src/Shop/Admin/OrderTable.php:250 src/Logs/LoggingListTable.php:277
+msgid "Show all dates"
+msgstr "Näytä kaikki päivät"
+
+#: src/PostTypeManager.php:24 src/PostTypeManager.php:76
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: src/Shop/Order/Status/Factory.php:27
+#: src/Shop/Order/Transaction/Factory.php:45 src/Logs/LoggingListTable.php:255
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#: assets/views/meta-box/version.php:9
+msgid "Click to toggle"
+msgstr "Klikkaa vaihtaaksesi arvon tilaa"
+
+#: src/Shop/Admin/OrderTable.php:264 src/Logs/LoggingListTable.php:291
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: src/Shop/Admin/OrderTable.php:152 src/Widgets/Downloads.php:217
+msgid "Order"
+msgstr "Järjestys"
+
+#: src/Logs/LogExportCSV.php:75 src/Logs/LoggingListTable.php:199
+msgid "User Agent"
+msgstr "Selain"
+
+#: assets/views/meta-box/version.php:8
+msgid "Remove"
+msgstr "Poista"
+
+#. Author URI of the plugin
+msgid "https://www.never5.com"
+msgstr "https://www.never5.com"
+
+#. Author of the plugin
+msgid "Never5"
+msgstr "Never5"
+
+#. Plugin URI of the plugin
+msgid "https://www.download-monitor.com"
+msgstr "https://www.download-monitor.com"
+
+#. Plugin Name of the plugin
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#: templates/content-download-version-list.php:24
+#: templates/content-download-button.php:14
+msgid "Downloaded 1 time"
+msgid_plural "Downloaded %d times"
+msgstr[0] "Ladattu kerran"
+msgstr[1] "Ladatty %d kertaa"
+
+#: templates/content-download-button.php:13
+msgid "Download &ldquo;%s&rdquo;"
+msgstr "Lataa &ldquo;%s&rdquo;"
+
+#: src/Shop/Email/VarParser.php:70 templates/content-download-box.php:29
+#: templates/shop/checkout/order-complete.php:89
+msgid "Download File"
+msgstr "Lataa tiedosto"
+
+#: templates/content-download-box.php:27
+#: templates/content-download-filename.php:14
+#: templates/content-download-title.php:13 templates/content-download.php:13
+msgid "Version %s"
+msgstr "Versio %s"
+
+#: templates/content-download-box.php:18
+#: templates/content-download-filename.php:17 templates/content-download.php:16
+msgid "1 download"
+msgid_plural "%d downloads"
+msgstr[0] "1 lataus"
+msgstr[1] "%d latausta"
+
+#: src/Widgets/Downloads.php:239
+msgid "Show only members only downloads"
+msgstr "Näytä vain jäsenille tarkoitetut lataukset"
+
+#: src/Widgets/Downloads.php:232
+msgid "Show only featured downloads"
+msgstr "Näytä vain valitut lataukset"
+
+#: src/Widgets/Downloads.php:224
+msgid "DESC"
+msgstr "laskeva"
+
+#: src/Widgets/Downloads.php:222
+msgid "ASC"
+msgstr "nouseva"
+
+#: src/Widgets/Downloads.php:204
+msgid "Random"
+msgstr "Satunnainen"
+
+#: src/Widgets/Downloads.php:197
+msgid "Order by"
+msgstr "Järjestys"
+
+#: src/Widgets/Downloads.php:193
+msgid "Default template"
+msgstr "Oletussivupohja"
+
+#: src/Widgets/Downloads.php:188
+msgid "Output template"
+msgstr "Tulostussivupohja"
+
+#: src/Widgets/Downloads.php:210
+msgid "Date modified"
+msgstr "Muokkauspäivämäärä"
+
+#: src/Widgets/Downloads.php:208
+msgid "Date added"
+msgstr "Lisäyspäivämäärä"
+
+#: src/Widgets/Downloads.php:180
+msgid "Limit"
+msgstr "Lukumäärä"
+
+#: src/Logs/LoggingListTable.php:197
+msgid "User"
+msgstr "Käyttäjä"
+
+#: src/Widgets/Downloads.php:30
+msgid "Downloads List"
+msgstr "Lataukset lista"
+
+#: src/Product/Product.php:188
+msgid "License successfully activated."
+msgstr "Lisenssi aktivoitu onnistuneesti."
+
+#: src/TaxonomyManager.php:39
+msgid "New Download Category Name"
+msgstr "Uusi latauskategorian nimi"
+
+#: src/TaxonomyManager.php:38
+msgid "Add New Download Category"
+msgstr "Lisää uusi latauskategoria"
+
+#: src/TaxonomyManager.php:37
+msgid "Update Download Category"
+msgstr "Päivitä latauskateogoria"
+
+#: src/PostTypeManager.php:36
+msgid "This is where you can create and manage downloads for your site."
+msgstr "Täällä voit luoda ja muokata latauksia sivuillasi."
+
+#: src/PostTypeManager.php:33
+msgid "No Downloads found in trash"
+msgstr "Roskakorista ei löytynyt latauksia"
+
+#: src/PostTypeManager.php:32
+msgid "No Downloads found"
+msgstr "Latauksia ei löytynyt"
+
+#: src/PostTypeManager.php:31
+msgid "Search Downloads"
+msgstr "Etsi latauksia"
+
+#: src/PostTypeManager.php:29 src/PostTypeManager.php:30
+msgid "View Download"
+msgstr "Katso latausta"
+
+#: src/PostTypeManager.php:28
+msgid "New Download"
+msgstr "Uusi lataus"
+
+#: src/PostTypeManager.php:27
+msgid "Edit Download"
+msgstr "Muokkaa latausta"
+
+#: src/PostTypeManager.php:25
+msgid "Add Download"
+msgstr "Lisää lataus"
+
+#: src/PostTypeManager.php:22 assets/views/meta-box/product-information.php:13
+msgid "Downloads"
+msgstr "Lataukset"
+
+#: src/PostTypeManager.php:21
+msgid "All Downloads"
+msgstr "Kaikki lataukset"
+
+#: src/Util/Onboarding.php:125 src/Util/PageCreator.php:14
+msgid "No Access"
+msgstr "Ei pääsyä"
+
+#: src/DownloadHandler.php:557 src/DownloadHandler.php:559
+msgid "File not found."
+msgstr "Tiedostoa ei löytynyt."
+
+#: src/Shop/Admin/OrderTable.php:280 src/Logs/LoggingListTable.php:325
+msgid "Show All"
+msgstr "Näytä kaikki"
+
+#: src/Shop/Admin/OrderTable.php:278 src/Logs/LoggingListTable.php:323
+msgid "200 per page"
+msgstr "200 per sivu"
+
+#: src/Shop/Admin/OrderTable.php:276 src/Logs/LoggingListTable.php:321
+msgid "100 per page"
+msgstr "100 per sivu"
+
+#: src/Shop/Admin/OrderTable.php:274 src/Logs/LoggingListTable.php:319
+msgid "50 per page"
+msgstr "50 per sivu"
+
+#: src/Shop/Admin/OrderTable.php:272 src/Logs/LoggingListTable.php:317
+msgid "25 per page"
+msgstr "25 per sivu"
+
+#: src/Shop/Order/Status/Factory.php:24 src/Logs/LoggingListTable.php:259
+msgid "Completed"
+msgstr "Suoritettu"
+
+#: src/Logs/LoggingListTable.php:257
+msgid "Redirected"
+msgstr "Uudelleenohjattu"
+
+#: src/Logs/LoggingListTable.php:129
+msgid "Download #%d (no longer exists)"
+msgstr "Latausta #%d (ei ole olemassa)"
+
+#: src/Widgets/Downloads.php:55 src/Widgets/Downloads.php:162
+msgid "Featured Downloads"
+msgstr "Nostetut ladattavat tiedostot"
+
+#: src/Widgets/Downloads.php:28
+msgid "Display a list of your downloads."
+msgstr "Näytää listan latauksistasi."
+
+#: src/TaxonomyManager.php:71
+msgid "New Download Tag Name"
+msgstr "Uuden latausten avainsanan nimi"
+
+#: src/TaxonomyManager.php:70
+msgid "Add New Download Tag"
+msgstr "Lisää uusi latausten avainsana"
+
+#: src/TaxonomyManager.php:69
+msgid "Update Download Tag"
+msgstr "Päivitä latausten avainsana"
+
+#: src/TaxonomyManager.php:68
+msgid "Edit Download Tag"
+msgstr "Muokkaa latausten avainsanaa"
+
+#: src/TaxonomyManager.php:66 src/TaxonomyManager.php:67
+msgid "Parent Download Tag"
+msgstr "Ylempi latausten avainsana"
+
+#: src/TaxonomyManager.php:65
+msgid "All Download Tags"
+msgstr "Kaikki latausten avainsanat"
+
+#: src/TaxonomyManager.php:64
+msgid "Search Download Tags"
+msgstr "Etsi latausten avainsanoja"
+
+#: src/TaxonomyManager.php:63
+msgid "Download Tag"
+msgstr "Latausten avainsana"
+
+#: src/TaxonomyManager.php:36
+msgid "Edit Download Category"
+msgstr "Muokkaa latauskategoriaa"
+
+#: src/TaxonomyManager.php:34 src/TaxonomyManager.php:35
+msgid "Parent Download Category"
+msgstr "Ylempi latauskategoria"
+
+#: src/TaxonomyManager.php:33
+msgid "All Download Categories"
+msgstr "Kaikki latauskategoriat"
+
+#: src/TaxonomyManager.php:32
+msgid "Search Download Categories"
+msgstr "Etsi latauskategorioita"
+
+#: src/TaxonomyManager.php:31
+msgid "Download Category"
+msgstr "Latauskategoria"
+
+#: src/Shortcodes.php:142 src/Shortcodes.php:261
+msgid "Download not found"
+msgstr "Latausta ei löytynyt"
+
+#: src/PostTypeManager.php:34
+msgid "Parent Download"
+msgstr "Ylempi ladattava tiedosto"
+
+#: src/DownloadHandler.php:552
+msgid "Redirected to remote file."
+msgstr "Uudelleenohjattu ulkoiseen tiedostoon."
+
+#: src/DownloadHandler.php:481 src/DownloadHandler.php:499
+#: src/DownloadHandler.php:506 src/DownloadHandler.php:513
+msgid "Redirected to file"
+msgstr "Uudelleenohjaa tiedostoon"
+
+#: src/DownloadHandler.php:397 src/DownloadHandler.php:405
+msgid "No file paths defined."
+msgstr "Tiedostopolkuja ei ole määritetty."
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:445
+#: src/DownloadHandler.php:559
+msgid "Download Error"
+msgstr "Virhe latauksessa"
+
+#: src/DownloadHandler.php:320 src/DownloadHandler.php:397
+#: src/DownloadHandler.php:405 src/DownloadHandler.php:559
+msgid "Go to homepage &rarr;"
+msgstr "Siirry etusivulle &rarr;"
+
+#: src/DownloadHandler.php:320
+msgid "Download does not exist."
+msgstr "Latausta ei löydy."
+
+#: src/DownloadHandler.php:314
+msgid "Password Required"
+msgstr "Vaatii salasanan"
+
+#: assets/views/meta-box/version.php:77
+msgid "m"
+msgstr "i"
+
+#: assets/views/meta-box/version.php:74
+msgid "h"
+msgstr "H"
+
+#: assets/views/meta-box/version.php:71
+msgid "File Date"
+msgstr "Tiedoston päivämäärä"
+
+#: assets/views/meta-box/version.php:44
+msgid "Browse for file"
+msgstr "Selaa tiedostoja"
+
+#: assets/views/meta-box/version.php:40
+msgid "Insert file URL"
+msgstr "Lisää tiedoston URL-osoite"
+
+#: assets/views/meta-box/version.php:39
+msgid "Choose a file"
+msgstr "Valitse tiedosto"
+
+#: assets/views/meta-box/version.php:37
+msgid "Upload file"
+msgstr "Lataa tiedosto"
+
+#: assets/views/meta-box/version.php:31
+msgid "Enter one file path/URL per line - multiple files will be used as mirrors (chosen at random)."
+msgstr "Lisää yksi tiedostopolku/URL-osoite per rivi - useitatiedostoja käytetään kopioina (mirror), joista valitaan sattumanvaraisesti."
+
+#: assets/views/meta-box/version.php:28
+msgid "File URL(s)"
+msgstr "Tiedostojen URL-osoitteet"
+
+#: assets/views/meta-box/version.php:10
+msgid "Downloaded %s time"
+msgid_plural "Downloaded %s times"
+msgstr[0] "Ladattu %s kerran"
+msgstr[1] "Ladattu %s kertaa"
+
+#: assets/views/meta-box/version.php:10
+msgid "Version <span class=\"version\">%s</span> (%s)"
+msgstr "Versio <span class=\"version\">%s</span> (%s)"
+
+#: src/Logs/LoggingListTable.php:253
+msgid "Any status"
+msgstr "Mikä tahansa tila"
+
+#: src/Logs/LoggingListTable.php:236
+msgid "Log entries deleted"
+msgstr "Loki tyhjennetty"
+
+#: src/Logs/LoggingListTable.php:163
+msgid "Non-member"
+msgstr "Ei-jäsen"
+
+#: src/Logs/LoggingListTable.php:102
+msgid "%s ago"
+msgstr "%s sitten"
+
+#: src/Logs/LoggingListTable.php:94
+msgid "Download Complete"
+msgstr "Lataus valmis"
+
+#: src/Admin/Admin.php:290
+msgid "If you like %sDownload Monitor%s please leave us a %s★★★★★%s rating. A huge thank you from us in advance!"
+msgstr "Jos pidät lisäosasta %sDownload Monitor%s, anna meille %s★★★★★%s-arvostelu. Suuri kiitos jo etukäteen!"
+
+#: src/Logs/LogExportCSV.php:74
+msgid "User IP"
+msgstr "Käyttäjän IP-osoite"
+
+#: src/Logs/LogExportCSV.php:72
+msgid "User Login"
+msgstr "Käyttäjänimi"
+
+#: src/Logs/LogExportCSV.php:71
+msgid "User ID"
+msgstr "Käyttäjän ID"
+
+#: src/Logs/LogExportCSV.php:70
+msgid "Filename"
+msgstr "Tiedostonimi"
+
+#: src/Logs/LogExportCSV.php:69
+msgid "Version ID"
+msgstr "Version ID"
+
+#: src/Logs/LogPage.php:84
+msgid "Delete Logs"
+msgstr "Poista lokitiedot"
+
+#: src/Logs/LogPage.php:82
+msgid "Export CSV"
+msgstr "Lataa CSV-muodossa"
+
+#: src/Logs/LogPage.php:80
+msgid "Download Logs"
+msgstr "Latausten lokit"
+
+#: src/Admin/Settings/Page.php:101
+msgid "Settings successfully saved"
+msgstr "Asetukset tallennettu"
+
+#: src/Admin/Settings/Page.php:204
+msgid "Please add the following rules to your nginx config to disable direct file access: %s"
+msgstr "Lisää seuraavat säännöt Nginx-konfiguraatioosi, jotta suora pääsy tiedostoihin pystytään estämään: %s"
+
+#: src/Admin/Settings/Page.php:203
+msgid "Because your server is running on nginx, our .htaccess file can't protect your downloads."
+msgstr "Koska palvelimesi käyttää Nginx:ää, käyttämämme .htaccess-tiedosto ei pysty suojaamaan ladattavia tiedostojasi."
+
+#: src/Logs/LogPage.php:23
+msgid "Logs"
+msgstr "Lokit"
+
+#: src/Admin/Settings/Settings.php:271
+msgid "Blacklist user agents"
+msgstr "Kiellettyjen user agenttien listaus"
+
+#: src/Admin/Settings/Settings.php:264
+msgid "List IP Addresses to blacklist, 1 per line. Use IP/CIDR netmask format for ranges. IPv4 examples: <code>198.51.100.1</code> or <code>198.51.100.0/24</code>. IPv6 examples: <code>2001:db8::1</code> or <code>2001:db8::/32</code>."
+msgstr "Listaa IP-osoitteet, jotka haluat estää (1 per rivi). Käytä formaattina IP/CIDR-netmaskia väleihin. IPv4-esimerkit: <code>198.51.100.1</code> tai <code>198.51.100.0/24</code>. IPv6-esimerkit: <code>2001:db8::1</code> tai <code>2001:db8::/32</code>."
+
+#: src/Shop/Admin/ProductTableColumns.php:33 src/Admin/CustomColumns.php:25
+#: src/Widgets/Downloads.php:172 src/Widgets/Downloads.php:202
+msgid "Title"
+msgstr "Otsikko"
+
+#: src/Admin/CustomColumns.php:26 src/Admin/WritePanels.php:79
+#: src/Widgets/Downloads.php:206 assets/views/order/page-order-details.php:67
+msgid "ID"
+msgstr "ID/tunnus"
+
+#: src/Admin/CustomColumns.php:90 src/Admin/CustomColumns.php:97
+#: src/Admin/CustomColumns.php:104
+msgid "Yes"
+msgstr "Kyllä"
+
+#: src/Admin/WritePanels.php:91
+msgid "Shortcode"
+msgstr "Lyhytkoodi"
+
+#: src/Admin/CustomLabels.php:45
+msgid "Custom field updated."
+msgstr "Mukautettu kenttä päivitetty."
+
+#: src/Admin/MediaInsert.php:241 src/Admin/CustomColumns.php:28
+#: assets/views/meta-box/version.php:22
+#: templates/shop/email/elements/downloads-table.php:16
+#: assets/blocks/src/blocks.js:63
+msgid "Version"
+msgstr "Versio"
+
+#: src/Admin/Settings/Settings.php:96 src/Admin/Settings/Settings.php:104
+#: src/Admin/Settings/Settings.php:112 src/Admin/Settings/Settings.php:120
+#: src/Admin/Settings/Settings.php:209 src/Admin/Settings/Settings.php:231
+#: src/Admin/Settings/Settings.php:239 src/Admin/Settings/Settings.php:398
+msgid "Enable"
+msgstr "Käytä"
+
+#: src/Admin/Dashboard.php:73 src/PostTypeManager.php:23
+#: src/Logs/LoggingListTable.php:195 assets/blocks/src/blocks.js:58
+msgid "Download"
+msgstr "Lataa"
+
+#: src/Admin/WritePanels.php:52
+msgid "Short Description"
+msgstr "Lyhyt kuvaus"
+
+#: src/Admin/WritePanels.php:85
+msgid "URL"
+msgstr "URL"
+
+#: src/Shop/Admin/ProductTableColumns.php:32 src/Admin/CustomColumns.php:24
+msgid "Image"
+msgstr "Kuva"
+
+#: src/Admin/CustomLabels.php:46
+msgid "Custom field deleted."
+msgstr "Mukautettu kenttä poistettu."
+
+#: src/Admin/CustomLabels.php:53
+msgid "M j, Y @ G:i"
+msgstr "j.n.Y @ G:i"
+
+#: src/Admin/Settings/Settings.php:203
+msgid "Logging"
+msgstr "Kirjaaminen"
+
+#: src/Admin/Settings/Settings.php:65 src/Admin/Settings/Settings.php:324
+msgid "General"
+msgstr "Yleistä"
+
+#: src/Admin/MediaInsert.php:354
+msgid "Please wait..."
+msgstr "Odota, ole hyvä..."
+
+#: src/Admin/CustomColumns.php:29 src/TaxonomyManager.php:27
+#: src/TaxonomyManager.php:30
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: src/Admin/Settings/Settings.php:484
+msgid "Select Page"
+msgstr "Valitse sivu"
+
+#: src/Admin/Settings/Settings.php:263
+msgid "Blacklist IPs"
+msgstr "Kielletyt IP-osoitteet"
+
+#: src/Admin/Settings/Settings.php:257
+msgid "The message that will be displayed to visitors when they don't have access to a file."
+msgstr "Viesti, joka näkyy käyttäjille joilla ei ole pääsyä tiedostoon."
+
+#: src/Admin/Settings/Settings.php:256
+msgid "No access message"
+msgstr "Ei pääsyä -viesti"
+
+#: src/Installer.php:38 src/Admin/Settings/Settings.php:254
+#: src/UpgradeManager.php:56
+msgid "You do not have permission to access this download. %sGo to homepage%s"
+msgstr "Sinulla ei ole oikeutta ladata tätä tiedostoa. %sSiirry etusivulle%s"
+
+#: src/Admin/Settings/Settings.php:289
+msgid "Choose what page is displayed when the user has no access to a file. Don't forget to add the <code>[dlm_no_access]</code> shortcode to the page."
+msgstr "Valitse sivu, joka näytetään jos käyttäjällä ei ole oiketta ladata tiedostoa. Muista lisätä <code>[dlm_no_access]</code>-lyhytkoodi tälle sivulle."
+
+#: src/Admin/Settings/Settings.php:288
+msgid "No Access Page"
+msgstr "Ei pääsyä -sivu"
+
+#: src/Admin/Settings/Settings.php:248
+msgid "Access"
+msgstr "Pääsy"
+
+#: src/Admin/Settings/Settings.php:238
+msgid "Count unique IPs only"
+msgstr "Laske vain uniikit IP-osoitteet"
+
+#: src/Admin/Settings/Settings.php:212
+msgid "Log download attempts, IP addresses and more."
+msgstr "Pidä lokia latausyrityksistä, IP-osoitteista ym."
+
+#: src/Admin/Settings/Settings.php:211
+msgid "Download Log"
+msgstr "Latausten loki"
+
+#: src/Admin/Settings/Settings.php:187 src/Admin/Settings/Settings.php:195
+msgid "Hashes can optionally be output via shortcodes, but may cause performance issues with large files."
+msgstr "Hash-arvoja voidaan valinnaisesti käyttää lyhytkoodeilla, mutta tämä voi aiheuttaa suorituskykyongelmia suurilla tiedostoilla."
+
+#: src/Admin/Settings/Settings.php:194
+msgid "Generate CRC32B hash for uploaded files"
+msgstr "Generoi CRC32B-hash ladatuille tiedostoille"
+
+#: src/Admin/Settings/Settings.php:193
+msgid "CRC32B hashes"
+msgstr "CRC32B-hashit"
+
+#: src/Admin/Settings/Settings.php:178
+msgid "Generate SHA1 hash for uploaded files"
+msgstr "Generoi SHA1-hash ladatuille tiedostoille"
+
+#: src/Admin/Settings/Settings.php:177
+msgid "SHA1 hashes"
+msgstr "SHA1-hashit"
+
+#: src/Admin/Settings/Settings.php:170
+msgid "Generate MD5 hash for uploaded files"
+msgstr "Generoi MD5-hash ladatuille tiedostoille"
+
+#: src/Admin/Settings/Settings.php:169
+msgid "MD5 hashes"
+msgstr "MD5-hashit"
+
+#: src/Admin/Settings/Settings.php:157
+msgid "Hashes"
+msgstr "Hashit"
+
+#: src/Admin/Settings/Settings.php:149
+msgid "Download slug"
+msgstr "Latauksen polkutunnus"
+
+#: src/Admin/Settings/Settings.php:148 src/Logs/LogExportCSV.php:67
+msgid "Download ID"
+msgstr "Latauksen ID"
+
+#: src/Admin/Settings/Settings.php:145
+msgid "Define what unique value should be used on the end of your endpoint to identify the downloadable file. e.g. ID would give a link like <code>%s</code>"
+msgstr "Määritä uniikki arvo, jota käytetään valitsemasi latauksen polkutunnuksessa yksilöimään ladattava tiedosto. Esimerkiksi ID tuottaa tällaisen linkin <code>%s</code>"
+
+#: src/Admin/Settings/Settings.php:144
+msgid "Endpoint Value"
+msgstr "Polkutunnus"
+
+#: src/Admin/Settings/Settings.php:139
+msgid "Define what endpoint should be used for download links. By default this will be <code>%s</code>."
+msgstr "Määritä polkutunnus, jota käytetään latauslinkeissä. Oletuksena se on <code>%s</code>."
+
+#: src/Admin/Settings/Settings.php:138
+msgid "Download Endpoint"
+msgstr "Latausten polkutunnus"
+
+#: src/Admin/Settings/Settings.php:137 assets/blocks/src/blocks.js:22
+msgid "download"
+msgstr "lataa"
+
+#: src/Admin/Settings/Settings.php:129
+msgid "Endpoint"
+msgstr "Polkutunnus"
+
+#: src/Admin/Settings/Settings.php:105
+msgid "If enabled, the download handler will check the PHP referer to see if it originated from your site and if not, redirect them to the homepage."
+msgstr "Jos otat tämän asetuksen käyttöön, tarkastetaan, että PHP-referer on peräisin sivustoltasi ja jos se ei ole, käyttäjä ohjataan etusivulle."
+
+#: src/Admin/Settings/Settings.php:103
+msgid "Prevent hotlinking"
+msgstr "Estä hotlinkkaus"
+
+#: src/Admin/Settings/Settings.php:97
+msgid "If supported, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> can be used to serve downloads instead of PHP (server requires <code>mod_xsendfile</code>)."
+msgstr "Jos tämä on tuettu, <code>X-Accel-Redirect</code> / <code>X-Sendfile</code> voidaan käyttää tarjoilemaan ladattavia tiedostoja PHP:n sijaan (vaatii palvelimelta <code>mod_xsendfile</code>)."
+
+#: src/Admin/Settings/Settings.php:95
+msgid "X-Accel-Redirect / X-Sendfile"
+msgstr "X-Accel-Redirect / X-Sendfile"
+
+#: src/Admin/Settings/Settings.php:82
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>button</code>, the <code>content-download-button.php</code> template will be used instead. You can add custom templates inside your theme folder."
+msgstr "Jos jätät tämän tyhjäksi, käytetään oletuspohjaa <code>content-download.php</code>. Jos laitat tähän esimerkiksi <code>button</code>, käytetään pohjaa <code>content-download-button.php</code>. Voit lisätä omia mukautettuja pohjia teemasi hakemistoon."
+
+#: src/Admin/Settings/Settings.php:81 assets/blocks/src/blocks.js:75
+msgid "Custom Template"
+msgstr "Mukautettu pohja"
+
+#: src/TemplateHandler.php:22
+msgid "Custom template"
+msgstr "Mukautettu pohja"
+
+#: src/TemplateHandler.php:21
+msgid "Version list - Lists all download versions in an unordered list"
+msgstr "Listaa versiot - Listaa kaikki latauksen versiot"
+
+#: src/TemplateHandler.php:20
+msgid "Title - Shows download title only"
+msgstr "Otsikko - Näyttää pelkän latauksen otsikon"
+
+#: src/TemplateHandler.php:19
+msgid "Filename - Filename and download count"
+msgstr "Tiedostonimi - Tiedoston nimi ja latausmäärä"
+
+#: src/TemplateHandler.php:18
+msgid "Box - Box showing thumbnail, title, count, filename and filesize."
+msgstr "Laatikko - Näyttää pienoiskuvan, otsikon, latausmäärän, tiedostonimen ja tiedostokoon laatikossa."
+
+#: src/TemplateHandler.php:17
+msgid "Button - CSS styled button showing title and count"
+msgstr "Nappula - Tyylikäs nappula, joka näyttää otsikon ja latausmäärän"
+
+#: src/TemplateHandler.php:16
+msgid "Default - Title and count"
+msgstr "Oletus - Otsikko ja latausmäärä"
+
+#: src/Admin/Settings/Settings.php:73
+msgid "Choose which template is used for <code>[download]</code> shortcodes by default (this can be overridden by the <code>format</code> argument)."
+msgstr "Valitse mitä pohjaa käytetään oletuksena <code>[download]</code>-lyhytkoodissa (tämä voidaan yliajaa <code>format</code>-argumentilla)."
+
+#: src/Admin/Settings/Settings.php:72
+msgid "Default Template"
+msgstr "Oletuspohja"
+
+#: src/Admin/WritePanels.php:188
+msgid "Expand all"
+msgstr "Laajenna kaikki"
+
+#: src/Admin/WritePanels.php:187
+msgid "Close all"
+msgstr "Sulje kaikki"
+
+#: src/Admin/WritePanels.php:186
+msgid "Add file"
+msgstr "Lisää tiedosto"
+
+#: src/Admin/WritePanels.php:142
+msgid "Don't force download. If the <code>dlm_uploads</code> folder is protected you may need to move your file."
+msgstr "Älä pakota latausta. Jos hakemisto <code>dlm_uploads</code> folder on suojattu, voit joutua siirtämään tiedostoasi."
+
+#: src/Admin/WritePanels.php:136
+msgid "Only logged in users will be able to access the file via a download link if this is enabled."
+msgstr "Vain kirjautuneet käyttäjät pääsevät lataamaan tämän tiedoston, jos valitset tämän."
+
+#: src/Admin/WritePanels.php:130
+msgid "Mark this download as featured. Used by shortcodes and widgets."
+msgstr "Lisää tämä lataus nostoihin. Lyhytkoodit ja vimpaimet voivat näyttää nostoja."
+
+#: src/Admin/WritePanels.php:44
+msgid "Downloadable Files/Versions"
+msgstr "Ladattavat tiedostot/versiot"
+
+#: src/Admin/WritePanels.php:38
+msgid "Download Options"
+msgstr "Latauksen asetukset"
+
+#: src/Admin/WritePanels.php:32 assets/blocks/src/blocks.js:56
+msgid "Download Information"
+msgstr "Latauksen tiedot"
+
+#: src/Admin/AdminScripts.php:206
+msgid "Are you sure you want to delete this file ? "
+msgstr "Oletko varma, että haluat poistaa tämän tiedoston?"
+
+#: src/Admin/MediaInsert.php:304
+msgid "Allowed Files"
+msgstr "Sallitut tiedostot"
+
+#: src/Admin/MediaInsert.php:248
+msgid "Save Download"
+msgstr "Tallenna lataus"
+
+#: src/Admin/MediaInsert.php:243
+msgid "Optional version number"
+msgstr "Vapaaehtoinen versionumero"
+
+#: src/Admin/MediaInsert.php:237
+msgid "Required title"
+msgstr "Pakollinen otsikko"
+
+#: src/Admin/MediaInsert.php:235 src/Logs/LogExportCSV.php:68
+msgid "Download Title"
+msgstr "Latauksen otsikko"
+
+#: src/Admin/MediaInsert.php:231
+msgid "Required URL"
+msgstr "Pakollinen URL-osoite"
+
+#: src/Admin/MediaInsert.php:229
+msgid "Download URL"
+msgstr "Latauksen URL-osoite"
+
+#: src/Admin/MediaInsert.php:224
+msgid "Enter URL manually"
+msgstr "Lisää URL-osoite manuaalisesti"
+
+#: src/Admin/MediaInsert.php:220
+msgid "Select File"
+msgstr "Valitse tiedosto"
+
+#: src/Admin/MediaInsert.php:217
+msgctxt "Drop file here *or* select file"
+msgid "or"
+msgstr "tai"
+
+#: src/Admin/MediaInsert.php:215
+msgid "Drop file here"
+msgstr "Pudota tiedosto tähän"
+
+#: src/Admin/MediaInsert.php:198
+msgid "Leaving this blank will use the default <code>content-download.php</code> template file. If you enter, for example, <code>image</code>, the <code>content-download-image.php</code> template will be used instead."
+msgstr "Jos jätät tämän tyhjäksi, käytetään oletuspohjaa <code>content-download.php</code>. Jos lisäät esimerkiksi <code>image</code>, käytetään pohjaa <code>content-download-image.php</code>."
+
+#: src/Admin/MediaInsert.php:196
+msgid "Template Name"
+msgstr "Pohjan nimi"
+
+#: src/Admin/MediaInsert.php:194 assets/blocks/src/blocks.js:68
+#: assets/blocks/src/blocks.js:70
+msgid "Template"
+msgstr "Pohja"
+
+#: src/Admin/MediaInsert.php:169
+msgid "Choose a download"
+msgstr "Valitse ladattava tiedosto"
+
+#: src/Admin/MediaInsert.php:137
+msgid "Error: Download was not created."
+msgstr "Virhe: Latausta ei luotu."
+
+#: src/Admin/MediaInsert.php:134
+msgid "Download successfully created."
+msgstr "Lataus on onnistuneesti luotu."
+
+#: src/Admin/MediaInsert.php:114
+msgid "Error: File was not created."
+msgstr "Virhe: Tiedostoa ei luotu."
+
+#: src/Admin/MediaInsert.php:67
+msgid "Quick-add download"
+msgstr "Latauksen pikalisäys"
+
+#: src/Admin/MediaInsert.php:66 src/Admin/MediaInsert.php:204
+msgid "Insert Shortcode"
+msgstr "Lisää lyhytkoodi"
+
+#: src/Admin/MediaInsert.php:36 src/Admin/MediaInsert.php:55
+#: src/Admin/AdminScripts.php:201
+msgid "Insert Download"
+msgstr "Lisää lataus"
+
+#: src/Admin/MediaBrowser.php:108
+msgid "No files found"
+msgstr "Tiedostoja ei löytynyt"
+
+#: src/Admin/MediaBrowser.php:34 src/Admin/AdminScripts.php:207
+msgid "Browse for a file"
+msgstr "Selaa tiedostoja"
+
+#: src/Admin/Extensions.php:67
+msgid "Extend Download Monitor with its powerful free and paid extensions. %sClick here to browse all extensions%s"
+msgstr "Laajenna lisäosaa Download Monitor mahtavilla ilmaisilla ja maksullisilla laajennuksilla. %sSelaa laajennuksia täältä%s"
+
+#: src/Admin/Admin.php:240 src/Admin/Extensions.php:34
+msgid "Download Monitor Extensions"
+msgstr "Download Monitor -laajennukset"
+
+#: src/Admin/Dashboard.php:60
+msgid "There are no stats available yet!"
+msgstr "Tilastoja ei ole vielä saatavilla!"
+
+#: src/Admin/Dashboard.php:23
+msgid "Popular Downloads"
+msgstr "Suositut lataukset"
+
+#: src/Admin/CustomActions.php:213 src/Admin/WritePanels.php:141
+msgid "Redirect to file"
+msgstr "Uudelleenohjaa tiedostoon"
+
+#: src/Admin/CustomActions.php:209 src/Admin/WritePanels.php:129
+msgid "Featured download"
+msgstr "Nostetut lataukset"
+
+#: src/Admin/CustomActions.php:207
+msgid "Download Monitor Data"
+msgstr "Download Monitorin data"
+
+#: src/Admin/CustomColumns.php:35
+msgid "Date posted"
+msgstr "Lisäyspäivä"
+
+#: src/Admin/CustomColumns.php:34
+msgid "Redirect only"
+msgstr "Pelkkä uudelleenohjaus"
+
+#: src/Admin/CustomActions.php:211 src/Admin/CustomColumns.php:33
+#: src/Admin/WritePanels.php:135
+msgid "Members only"
+msgstr "Vain jäsenille"
+
+#: src/Admin/CustomColumns.php:32
+msgid "Featured"
+msgstr "Nostettu"
+
+#: src/Admin/CustomColumns.php:31 src/Admin/Dashboard.php:74
+#: src/Widgets/Downloads.php:212 assets/views/meta-box/version.php:64
+msgid "Download count"
+msgstr "Latausmäärä"
+
+#: src/Admin/CustomColumns.php:27 src/Logs/LoggingListTable.php:196
+msgid "File"
+msgstr "Tiedosto"
+
+#: src/Admin/CustomLabels.php:54
+msgid "Download draft updated."
+msgstr "Latauksen luonnos päivitetty."
+
+#: src/Admin/CustomLabels.php:52
+msgid "Download scheduled for: <strong>%1$s</strong>."
+msgstr "Lataus ajastettu: <strong>%1$s</strong>."
+
+#: src/Admin/CustomLabels.php:51
+msgid "Download submitted."
+msgstr "Lataus lähetetty."
+
+#: src/Admin/CustomLabels.php:50
+msgid "Download saved."
+msgstr "Lataus tallennettu."
+
+#: src/Admin/CustomLabels.php:49
+msgid "Download published."
+msgstr "Lataus julkaistu."
+
+#: src/Admin/CustomLabels.php:48
+msgid "Download restored to revision from %s"
+msgstr "Lataus palautettu versiosta %s"
+
+#: src/Admin/CustomLabels.php:44 src/Admin/CustomLabels.php:47
+msgid "Download updated."
+msgstr "Lataus päivitetty."
+
+#: src/Admin/CustomLabels.php:24
+msgid "Download title"
+msgstr "Latauksen otsikko"
+
+#: src/Admin/CustomActions.php:61
+msgid "Select a category"
+msgstr "Valitse latauskategoria"
+
+#: src/Admin/CustomColumns.php:30 src/TaxonomyManager.php:59
+#: src/TaxonomyManager.php:62
+msgid "Tags"
+msgstr "Avainsanat"
